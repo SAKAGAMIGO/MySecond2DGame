@@ -1,0 +1,8 @@
+[user]
+	name = ごう\\go008
+	email = go00882244go@gmail.com
+[difftool "sourcetree"]
+	cmd = "'' "
+[mergetool "sourcetree"]
+	cmd = "'' "
+	trustExitCode = true
