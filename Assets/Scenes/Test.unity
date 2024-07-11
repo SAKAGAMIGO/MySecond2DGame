@@ -787,6 +787,10 @@ PrefabInstance:
       value: GameController
       objectReference: {fileID: 0}
     - target: {fileID: 9144336409178921205, guid: 093607934f72dcf468544786fb5e6547, type: 3}
+      propertyPath: isCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9144336409178921205, guid: 093607934f72dcf468544786fb5e6547, type: 3}
       propertyPath: EnemyText
       value: 
       objectReference: {fileID: 481341243}
@@ -794,6 +798,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 481341244}
+    - target: {fileID: 9144336409178921205, guid: 093607934f72dcf468544786fb5e6547, type: 3}
+      propertyPath: isGameOver
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9144336409178921205, guid: 093607934f72dcf468544786fb5e6547, type: 3}
       propertyPath: FinishButtom
       value: 
@@ -816,7 +824,7 @@ PrefabInstance:
       objectReference: {fileID: 1262849023}
     - target: {fileID: 9144336409178921205, guid: 093607934f72dcf468544786fb5e6547, type: 3}
       propertyPath: _playerPrefabs.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9144336409178921205, guid: 093607934f72dcf468544786fb5e6547, type: 3}
       propertyPath: _playerPrefabs.Array.data[0]
@@ -825,13 +833,17 @@ PrefabInstance:
     - target: {fileID: 9144336409178921205, guid: 093607934f72dcf468544786fb5e6547, type: 3}
       propertyPath: _playerPrefabs.Array.data[1]
       value: 
-      objectReference: {fileID: 527253544840398890, guid: 679e722702acc894dbb874c4762497e1, type: 3}
+      objectReference: {fileID: 7527296772004821567, guid: 4aa4e2434dfdab14fba5f8f54849e9b7, type: 3}
     - target: {fileID: 9144336409178921205, guid: 093607934f72dcf468544786fb5e6547, type: 3}
       propertyPath: _playerPrefabs.Array.data[2]
       value: 
-      objectReference: {fileID: 4942768768570048910, guid: 6af1c0005c7551a4283054ac8e6ff889, type: 3}
+      objectReference: {fileID: 7527296772004821567, guid: 4aa4e2434dfdab14fba5f8f54849e9b7, type: 3}
     - target: {fileID: 9144336409178921205, guid: 093607934f72dcf468544786fb5e6547, type: 3}
       propertyPath: _playerPrefabs.Array.data[3]
+      value: 
+      objectReference: {fileID: 1821701653685162291, guid: 8fcca21fb4ceac3478797c7119b76f82, type: 3}
+    - target: {fileID: 9144336409178921205, guid: 093607934f72dcf468544786fb5e6547, type: 3}
+      propertyPath: _playerPrefabs.Array.data[4]
       value: 
       objectReference: {fileID: 1821701653685162291, guid: 8fcca21fb4ceac3478797c7119b76f82, type: 3}
     m_RemovedComponents: []
