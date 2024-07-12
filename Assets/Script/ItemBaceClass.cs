@@ -33,7 +33,7 @@ public class ItemBaceClass : MonoBehaviour
                 // コライダーを無効にする
                 GetComponent<Collider2D>().enabled = false;
                 //GameControllerにアイテムを渡す
-                collision.gameObject.GetComponent<Player>().GetItem(this);
+                FindObjectOfType<GameController>().GetItem(this);
                 Debug.Log("GameControllerにアイテムを渡す");
             }
         }
@@ -46,12 +46,6 @@ public class ItemBaceClass : MonoBehaviour
     {
         Debug.LogError("派生クラスでメソッドをオーバーライドしてください。");
     }
-
-    //    if (collision.gameObject.tag == "Player")
-    //    {
-            
-    //    } 
-    //}
 
     /// <summary>
     /// アイテムをいつアクティベートするか

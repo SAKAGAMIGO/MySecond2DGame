@@ -6,15 +6,15 @@ public class ItemAddForce : ItemBaceClass
 {
     [SerializeField] GameObject _player;
 
-    Player FlyAddForce;
+    Player _playerScript;
 
     public void Start()
     {
-        FlyAddForce = _player.GetComponent<Player>();
+        _playerScript = _player.GetComponent<Player>();
     }
 
     public override void Activate()
     {
-        FlyAddForce.AddFlyForce();
+        _playerScript.AddFlyForce();
     }
 }

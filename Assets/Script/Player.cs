@@ -19,7 +19,7 @@ public class Player : MonoBehaviour
     public float FlyForce = 8;
 
     /// <summary>飛んだ判定</summary>
-    public bool _isFly = false;
+    public bool IsFly = false;
 
     int _dotCount = 5;
 
@@ -35,8 +35,8 @@ public class Player : MonoBehaviour
     /// <summary>アニメーターを取得</summary>    
     private Animator _animator;
 
-    /// <summary>持っているアイテムのリスト</summary>
-    List<ItemBaceClass> _itemList = new List<ItemBaceClass>();
+    ///// <summary>持っているアイテムのリスト</summary>
+    //List<ItemBaceClass> _itemList = new List<ItemBaceClass>();
 
     void Start()
     {
@@ -58,43 +58,46 @@ public class Player : MonoBehaviour
             //引っ張る前は非表示
             _dotObject[i].SetActive(false);
         }
+        //PlayerMotionのアニメーションを格納
         _animator = GameObject.Find("Player Motion").GetComponent<Animator>();
+        //Player MotionのTransFormを取得
         GameObject.Find("Player Motion").GetComponent<Transform>();
     }
 
     void Update()
     {
-        // アイテムを使う
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            if (_itemList.Count > 0)
-            {
-                // リストの先頭にあるアイテムを使って、破棄する
-                ItemBaceClass item = _itemList[0];
-                _itemList.RemoveAt(0);
-                item.Activate();
-                Destroy(item.gameObject);
-                Debug.Log("アイテム使用");
-            }
-        }
+        //// アイテムを使う
+        //if (Input.GetKeyDown(KeyCode.Space))
+        //{
+        //    if (_itemList.Count > 0)
+        //    {
+        //        // リストの先頭にあるアイテムを使って、破棄する
+        //        ItemBaceClass item = _itemList[0];
+        //        _itemList.RemoveAt(0);
+        //        item.Activate();
+        //        Destroy(item.gameObject);
+        //        Debug.Log("アイテム使用");
+        //    }
+        //}
     }
 
-    /// <summary>
-    /// アイテムをアイテムリストに追加する
-    /// </summary>
-    /// <param name="item"></param>
-    public void GetItem(ItemBaceClass item)
-    {
-        _itemList.Add(item);
-        Debug.Log("アイテム取得");
-    }
+    ///// <summary>
+    ///// アイテムをアイテムリストに追加する
+    ///// </summary>
+    ///// <param name="item"></param>
+    //public void GetItem(ItemBaceClass item)
+    //{
+    //    _itemList.Add(item);
+    //    Debug.Log("アイテム取得");
+    //}
 
     //マウスクリックしながら移動する関数
     public void OnMouseDrag()
     {
         _animator.SetBool("Pull", true);
+
         //一度飛んだら処理を行えなくする
-        if (_isFly) return;
+        if (IsFly) return;
 
         //Mouseの位置を取得してPlayerの位置を同じにする
         Vector2 Position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -122,9 +125,12 @@ public class Player : MonoBehaviour
     //マウスを離した時の関数
     private void OnMouseUp()
     {
+        
+        //アニメーションのPullモーションを再生
         _animator.SetBool("Pull", false);
+
         //一度飛んだら処理を行えなくする
-        if (_isFly) return;
+        if (IsFly) return;
 
         //力を加えるベクトルに飛ばす力をかける
         var Force = ((_startPosition - (Vector2)transform.position) * FlyForce);
@@ -136,14 +142,13 @@ public class Player : MonoBehaviour
         //AddForce関数で力を加える
         RigidBody2D.AddForce(Force, ForceMode2D.Impulse);
 
-        //Invoke(nameof(NextPlayer), 1);
-
+        //
         for (int i = 0; i < _dotObject.Length; i++)
         {
             _dotObject[i].SetActive(false);
         }
 
-        _isFly = true;
+        IsFly = true;
     }
 
     /// <summary>
@@ -159,7 +164,7 @@ public class Player : MonoBehaviour
 
     private void OnDestroy()
     {
-        _gameController.isCount = true;
+        _gameController.IsPlayerCount = true;
         _gameController.Count();
         Detonate();
     }
@@ -170,7 +175,7 @@ public class Player : MonoBehaviour
     }
 
     /// <summary>ドットの表示を更新</summary>
-    private void UpdateDotObject()
+    public void UpdateDotObject()
     {
         //飛ばす力のベクトルを算出
         var Force = ((_startPosition - (Vector2)transform.position) * FlyForce) * (1 - _rb.gravityScale + 1);
