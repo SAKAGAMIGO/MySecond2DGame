@@ -1,0 +1,12 @@
+diff a/Assets/Scenes/Test.unity b/Assets/Scenes/Test.unity	(rejected hunks)
+@@ -786,6 +786,10 @@
+       propertyPath: m_Name
+       value: GameController
+       objectReference: {fileID: 0}
++    - target: {fileID: 9144336409178921205, guid: 093607934f72dcf468544786fb5e6547, type: 3}
++      propertyPath: isCount
++      value: 1
++      objectReference: {fileID: 0}
+     - target: {fileID: 9144336409178921205, guid: 093607934f72dcf468544786fb5e6547, type: 3}
+       propertyPath: EnemyText
+       value: 
