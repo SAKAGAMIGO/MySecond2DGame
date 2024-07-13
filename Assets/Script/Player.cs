@@ -5,18 +5,20 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    /// <summary>GameControllerスクリプト</summary>
     GameController _gameController;
 
+    /// <summary>Rigidbody2Dを取得</summary>
     Rigidbody2D _rb;
 
     /// <summary>開始位置</summary>
     private Vector2 _startPosition;
 
     /// <summary>引っ張れる最大距離</summary>
-    public float MaxPullDistance = 1;
+    private float MaxPullDistance = 1;
 
     /// <summary>飛ばす力</summary>
-    public float FlyForce = 8;
+    [SerializeField] static float FlyForce = 8;
 
     /// <summary>飛んだ判定</summary>
     public bool IsFly = false;
@@ -30,13 +32,10 @@ public class Player : MonoBehaviour
     public GameObject DotPrefab;
 
     /// <summary>ドットの描画間隔</summary>    
-    public float DotTimeInterval = 0.05f;
+    private float _dotTimeInterval = 0.05f;
 
     /// <summary>アニメーターを取得</summary>    
     private Animator _animator;
-
-    ///// <summary>持っているアイテムのリスト</summary>
-    //List<ItemBaceClass> _itemList = new List<ItemBaceClass>();
 
     void Start()
     {
@@ -64,33 +63,6 @@ public class Player : MonoBehaviour
         GameObject.Find("Player Motion").GetComponent<Transform>();
     }
 
-    void Update()
-    {
-        //// アイテムを使う
-        //if (Input.GetKeyDown(KeyCode.Space))
-        //{
-        //    if (_itemList.Count > 0)
-        //    {
-        //        // リストの先頭にあるアイテムを使って、破棄する
-        //        ItemBaceClass item = _itemList[0];
-        //        _itemList.RemoveAt(0);
-        //        item.Activate();
-        //        Destroy(item.gameObject);
-        //        Debug.Log("アイテム使用");
-        //    }
-        //}
-    }
-
-    ///// <summary>
-    ///// アイテムをアイテムリストに追加する
-    ///// </summary>
-    ///// <param name="item"></param>
-    //public void GetItem(ItemBaceClass item)
-    //{
-    //    _itemList.Add(item);
-    //    Debug.Log("アイテム取得");
-    //}
-
     //マウスクリックしながら移動する関数
     public void OnMouseDrag()
     {
@@ -101,8 +73,6 @@ public class Player : MonoBehaviour
 
         //Mouseの位置を取得してPlayerの位置を同じにする
         Vector2 Position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-
-        
 
         //マウスの位置が最大距離を超えた場合最大距離の位置になるように実装
         if (Vector2.Distance(_startPosition, Position) > MaxPullDistance)
@@ -155,14 +125,13 @@ public class Player : MonoBehaviour
     /// 衝突イベント
     /// </summary>
     /// <param name="collision"></param>
-    private void OnCollisionEnter2D(Collision2D collision)
+    public void OnCollisionEnter2D(Collision2D collision)
     {
-
         //3秒後に消える
         Destroy(gameObject, 3);
     }
 
-    private void OnDestroy()
+    public virtual void OnDestroy()
     {
         _gameController.IsPlayerCount = true;
         _gameController.Count();
@@ -180,7 +149,7 @@ public class Player : MonoBehaviour
         //飛ばす力のベクトルを算出
         var Force = ((_startPosition - (Vector2)transform.position) * FlyForce) * (1 - _rb.gravityScale + 1);
         //飛ばしてからの時間ごとのキャラクターの位置にドットを表示
-        var CurrentTime = DotTimeInterval;
+        var CurrentTime = _dotTimeInterval;
         for (int i = 0; i < _dotObject.Length; i++)
         {
             //アクティブにする
@@ -192,13 +161,13 @@ public class Player : MonoBehaviour
             Position.y = (transform.position.y + Force.y * CurrentTime) - (Physics2D.gravity.magnitude * CurrentTime * CurrentTime) / (1 + FlyForce / 10);
 
             _dotObject[i].transform.position = Position;
-            CurrentTime += DotTimeInterval;
+            CurrentTime += _dotTimeInterval;
         }
     }
 
     public void AddFlyForce()
     {
-        FlyForce += 5;
+        FlyForce += 3;
         Debug.Log("ステータスUP");
     }
 }

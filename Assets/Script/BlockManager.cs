@@ -21,7 +21,7 @@ public class BlockManager : MonoBehaviour
 
         if (DieVelocity <= 2.5f) 
         {
-            GetComponent<Renderer>().material.color = Color.red;
+           // GetComponent<Renderer>().material.color = Color.red;
         }
         if (collision.relativeVelocity.sqrMagnitude > DieVelocity)
         {
