@@ -4,18 +4,23 @@ using UnityEngine;
 
 public class Camera1 : MonoBehaviour
 {
-    private Vector3 diff; //カメラとプレイヤーの距離
-    private GameObject target; //追従するターゲットオブジェクト
-    public float followSpeed; //追従するスピード
+    [SerializeField]GameObject Player;
+
+    [SerializeField]Vector3 lastPlayerPos;
+
+    [SerializeField]float _moveSpeed;
+
 
     void Start()
     {
-        target = GameObject.Find("Player"); //名前がPlayerのオブジェクトを取得してターゲットに指定
-        diff = target.transform.position - this.transform.position; //カメラとプレイヤーの初期の距離を指定
+        lastPlayerPos = Player.transform.position;
     }
 
-    void LateUpdate()
+    // Update is called once per frame
+    void Update()
     {
-        transform.position = Vector3.Lerp(this.transform.position, target.transform.position - diff, Time.deltaTime * followSpeed); //線形補間関数によるカメラの移動
+        transform.Translate(new Vector2((Player.transform.position.x - lastPlayerPos.x) * _moveSpeed, 0));
+
+        lastPlayerPos = Player.transform.position;
     }
 }
