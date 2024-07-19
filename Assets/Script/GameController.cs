@@ -9,11 +9,6 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
-    /// <summary>プレイヤーPrefab</summary>
-    //[SerializeField] Player[] _playerPrefabs;
-
-    [SerializeField] List<Player> _playerList = new List<Player>();
-
     [SerializeField] Player _tntPlayer;
     bool _isTNT = false;
 
@@ -61,8 +56,11 @@ public class GameController : MonoBehaviour
     /// <summary>VacualCamera</summary>
     [SerializeField] CinemachineVirtualCamera _vCamera;
 
+    /// <summary>プレイヤーPrefab</summary>
+    [SerializeField] List<Player> _playerList = new List<Player>();
+
     /// <summary>持っているアイテムのリスト</summary>
-    List<ItemBaceClass> _itemList = new List<ItemBaceClass>();
+    [SerializeField] List<ItemBaceClass> _itemList = new List<ItemBaceClass>();
 
     public void Start()
     {
@@ -83,7 +81,7 @@ public class GameController : MonoBehaviour
         GameClear();
 
         //Playerのスポーン
-        PlayerSpawn();
+        GetPlayerSpawn();
 
         GameOver();
 
@@ -131,7 +129,7 @@ public class GameController : MonoBehaviour
 
     public void AddTNT()
     {
-        _playerList.Insert(1,_tntPlayer);
+        _playerList.Add(_tntPlayer);
     }
 
     public void SpawnCount()
@@ -159,6 +157,11 @@ public class GameController : MonoBehaviour
             Debug.LogWarning("GameOver");
             Debug.LogWarning(_playerList.Count + "to" + _playercount);
         }
+    }
+
+    private void GetPlayerSpawn()
+    {
+        Invoke(nameof(PlayerSpawn), 1f);
     }
 
     /// <summary>Scoreを加算</summary>
