@@ -51,7 +51,7 @@ public class TNT : MonoBehaviour
     {
         Detonate();
         Instantiate(explosion,transform.position,transform.rotation);
-        gameController.AddScore();
+        gameController.AddScore(800);
     }
 
     // ‚«”ò‚Î‚µ‚Ìˆ—

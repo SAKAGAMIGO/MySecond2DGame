@@ -66,6 +66,7 @@ public class Player : MonoBehaviour
     //マウスクリックしながら移動する関数
     public void OnMouseDrag()
     {
+        //Animation起動
         _animator.SetBool("Pull", true);
 
         //一度飛んだら処理を行えなくする
@@ -134,7 +135,7 @@ public class Player : MonoBehaviour
     public virtual void OnDestroy()
     {
         _gameController.IsPlayerCount = true;
-        _gameController.Count();
+        _gameController.SpawnCount();
         Detonate();
     }
 

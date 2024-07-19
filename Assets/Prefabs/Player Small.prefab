@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.5757375, y: -3.1239514, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -99,11 +99,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e353eda77756a53439607a4bdb65392c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxPullDistance: 1
-  FlyForce: 8
-  _isFly: 0
+  IsFly: 0
   DotPrefab: {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
-  DotTimeInterval: 0.05
 --- !u!58 &2908111219002740380
 CircleCollider2D:
   m_ObjectHideFlags: 0

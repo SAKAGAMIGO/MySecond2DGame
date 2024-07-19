@@ -1,6 +1,8 @@
+using Cinemachine;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -8,7 +10,12 @@ using UnityEngine.UI;
 public class GameController : MonoBehaviour
 {
     /// <summary>プレイヤーPrefab</summary>
-    [SerializeField] Player[] _playerPrefabs;
+    //[SerializeField] Player[] _playerPrefabs;
+
+    [SerializeField] List<Player> _playerList = new List<Player>();
+
+    [SerializeField] Player _tntPlayer;
+    bool _isTNT = false;
 
     /// <summary>Player出現カウント</summary>
     int _playercount = 0;
@@ -17,66 +24,72 @@ public class GameController : MonoBehaviour
     public bool IsPlayerCount = true;
 
     /// <summary>フィールド上にいるEnemyの数
-    [SerializeField] GameObject[] enemyBox;
+    [SerializeField] GameObject[] _enemyBox;
 
     /// <summary>スコアテキスト</summary>
-    [SerializeField] Text ScoreText;
+    [SerializeField] Text _ScoreText;
 
     /// <summary>スコア</summary>
     int _score;
 
     /// <summary>Enemyの残機テキスト</summary>
-    [SerializeField] Text EnemyText;
+    [SerializeField] Text _EnemyText;
 
     /// <summary>Enemyの残機</summary>
     int _enemyScore;
 
     /// <summary>Finish真偽</summary>
-    private bool isFinish = false;
+    private bool _isFinish = false;
 
     /// <summary>終わりボタン</summary>
-    [SerializeField] GameObject FinishButtom;
+    [SerializeField] GameObject _FinishButtom;
 
     /// <summary>GameOver真偽</summary>
-    private bool isGameOver = false;
+    private bool _isGameOver = false;
 
     /// <summary>GameOverボタン</summary>
-    [SerializeField] GameObject GameOverButton;
+    [SerializeField] GameObject _GameOverButton;
+
+    /// <summary>Zoomボタン</summary>
+    [SerializeField] GameObject _zoomButton;
+    [SerializeField] GameObject _outButton;
+
+    /// <summary>Zoom,Out真偽</summary>
+    bool _isZoom;
+    bool _isOut;
+
+    /// <summary>VacualCamera</summary>
+    [SerializeField] CinemachineVirtualCamera _vCamera;
 
     /// <summary>持っているアイテムのリスト</summary>
     List<ItemBaceClass> _itemList = new List<ItemBaceClass>();
 
-    private void Start()
+    public void Start()
     {
-        enemyBox = GameObject.FindGameObjectsWithTag("Enemy");
-        ScoreText.text = "SCORE:" + _score;
-        EnemyText.text = "ENEMY:" + _enemyScore + "/" + enemyBox.Length;
-        FinishButtom.SetActive(false);
-        GameOverButton.SetActive(false);
+        _enemyBox = GameObject.FindGameObjectsWithTag("Enemy");
+        _ScoreText.text = "SCORE:" + _score;
+        _EnemyText.text = "ENEMY:" + _enemyScore + "/" + _enemyBox.Length;
+        _FinishButtom.SetActive(false);
+        _GameOverButton.SetActive(false);
+        _zoomButton.SetActive(true);
+        _outButton.SetActive(false);
+        _isZoom = true;
+        _isOut = false;
     }
 
     private void Update()
     {
         //Enemyのカウントが0になったら実行
         GameClear();
+
         //Playerのスポーン
         PlayerSpawn();
 
         GameOver();
 
-        // アイテムを使う
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            if (_itemList.Count > 0)
-            {
-                // リストの先頭にあるアイテムを使って、破棄する
-                ItemBaceClass item = _itemList[0];
-                _itemList.RemoveAt(0);
-                item.Activate();
-                Destroy(item.gameObject);
-                Debug.Log("アイテム使用");
-            }
-        }
+        Zoom();
+        Out();
+
     }
 
     /// <summary>
@@ -89,7 +102,39 @@ public class GameController : MonoBehaviour
         Debug.Log(item);
     }
 
-    public void Count()
+    // アイテムを使う
+    public void UseItem()
+    {
+        if (_itemList.Count > 0)
+        {
+            // リストの先頭にあるアイテムを使って、破棄する
+            ItemBaceClass item = _itemList[0];
+            _itemList.RemoveAt(0);
+            item.Activate();
+            Destroy(item.gameObject);
+            Debug.Log("アイテム使用");
+        }
+    }
+
+    public void UseTNT()
+    {
+        if (_itemList.Count > 0)
+        {
+            // リストの先頭にあるアイテムを使って、破棄する
+            ItemBaceClass item = _itemList[0];
+            _itemList.RemoveAt(0);
+            item.Activate();
+            Destroy(item.gameObject);
+            Debug.Log("アイテム使用");
+        }
+    }
+
+    public void AddTNT()
+    {
+        _playerList.Insert(1,_tntPlayer);
+    }
+
+    public void SpawnCount()
     {
         if (IsPlayerCount = true)
         {
@@ -100,64 +145,106 @@ public class GameController : MonoBehaviour
     /// <summary>Playerのスポーン</summary>
     private void PlayerSpawn()
     {
-        if (_playerPrefabs.Length > _playercount)
+        if (_playerList.Count > _playercount)
         {
             if (IsPlayerCount == true)
             {
-                Instantiate(_playerPrefabs[_playercount], transform.position, Quaternion.identity);
-                IsPlayerCount = false; 
+                Instantiate(_playerList[_playercount], transform.position, Quaternion.identity);
+                IsPlayerCount = false;
             }
         }
-        else if (_playerPrefabs.Length <= _playercount)
+        else if (_playerList.Count <= _playercount)
         {
-            isGameOver = true;
+            _isGameOver = true;
             Debug.LogWarning("GameOver");
-            Debug.LogWarning(_playerPrefabs.Length + "to" + _playercount);
-        }   
+            Debug.LogWarning(_playerList.Count + "to" + _playercount);
+        }
     }
 
     /// <summary>Scoreを加算</summary>
-    public void AddScore()
+    public void AddScore(int Value)
     {
-        _score += 500;
-        ScoreText.text = "SCORE:" + _score;
+        _score += Value;
+        _ScoreText.text = "SCORE:" + _score;
     }
 
     /// <summary>Enemyの数</summary>
     public void EnemyScore()
     {
         _enemyScore += 1;
-        EnemyText.text = "ENEMY:" + _enemyScore + "/" + enemyBox.Length;
+        _EnemyText.text = "ENEMY:" + _enemyScore + "/" + _enemyBox.Length;
         /// <summary>スコアテキストがEnemyの数を上回ったら</summary>
-        if (_enemyScore >= enemyBox.Length)
+        if (_enemyScore >= _enemyBox.Length)
         {
-            isFinish = true;
+            _isFinish = true;
         }
     }
 
     /// <summary>FinishButtomを表示</summary>
     private void GameClear()
     {
-        if ( isFinish)
+        if (_isFinish)
         {
-            FinishButtom.SetActive(true);
+            _FinishButtom.SetActive(true);
         }
     }
 
     public void GameOver()
     {
-        if (isGameOver && isFinish == false)
+        if (_isGameOver && _isFinish == false)
         {
-            GameOverButton.SetActive(true);
+            _GameOverButton.SetActive(true);
         }
     }
+
+    //Zoomボタンアクティブ管理
+    public void Zoom()
+    {
+        if (_isZoom && _isOut == false)
+        {
+            _zoomButton.SetActive(true);
+        }
+        else
+        {
+            _zoomButton.SetActive(false);
+        }
+    }
+
+    //Outボタンアクティブ管理
+    public void Out()
+    {
+        if (_isOut && _isZoom == false)
+        {
+            _outButton.SetActive(true);
+        }
+        else
+        {
+            _outButton.SetActive(false);
+        }
+    }
+
+    //VCameraIdolの優先度変更
+    public void ZoomCamera()
+    {
+        _vCamera.Priority = 0;
+        _isZoom = false;
+        _isOut = true;
+    }
+    public void OutCamera()
+    {
+        _vCamera.Priority = 20;
+        _isOut = false;
+        _isZoom = true;
+    }
+
+
 
     /// <summary>リザルト画面へロード</summary>
     void Result()
     {
         SceneManager.LoadScene("Result");
     }
-        
+
     /// <summary>0.5秒後に作動</summary>
     public void GetStage1()
     {

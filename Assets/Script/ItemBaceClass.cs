@@ -1,10 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ItemBaceClass : MonoBehaviour
 {
     GameController gameController;
+
+    /// <summary>死ぬ速度</summary>
+    public float DieVelocity = 10;
 
     /// <summary>アイテムの効果をいつ発揮するか</summary>
     [Tooltip("Get を選ぶと、取った時に効果が発動する。Use を選ぶと、アイテムを使った時に発動する")]
@@ -18,7 +22,9 @@ public class ItemBaceClass : MonoBehaviour
     /// <summary>衝突イベント</summary><param name="collision"></param>
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        DieVelocity--;
+
+        if (collision.relativeVelocity.sqrMagnitude > DieVelocity)
         {
             // アイテム発動タイミングによって処理を分ける
             if (_whenActivated == ActivateTiming.Get)
