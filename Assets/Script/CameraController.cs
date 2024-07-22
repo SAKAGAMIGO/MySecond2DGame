@@ -1,3 +1,4 @@
+using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,13 +13,13 @@ public class CameraController : MonoBehaviour
 
     private Vector3 preMousePos;
 
-    Camera _camera;
+    CinemachineVirtualCamera _camera;
 
     Transform _myTransform;
 
     public void Start()
     {
-        _camera = GetComponent<Camera>();
+        _camera = GetComponent<CinemachineVirtualCamera>();
     }
 
     public void Update()
@@ -50,7 +51,7 @@ public class CameraController : MonoBehaviour
 
         if (scrollWheel != 0.0f)
         {
-            MouseWheel(scrollWheel);
+            _camera.m_Lens.OrthographicSize = MouseWheel(scrollWheel, _camera.m_Lens.OrthographicSize);
         }
 
         if (Input.GetMouseButtonDown(0) ||
@@ -60,19 +61,14 @@ public class CameraController : MonoBehaviour
             preMousePos = Input.mousePosition;
         }
 
-        if (_camera.orthographicSize > 5)
-        {
-            _camera.orthographicSize = 5;
-        }
-
         MouseDrag(Input.mousePosition);
     }
 
     /// <summary>マウスホイールイベント</summary><param name="delta"></param>
-    private void MouseWheel(float delta)
+    private float MouseWheel(float delta, float size)
     {
-        _camera.orthographicSize -= delta * wheelSpeed;
-        return;
+        size -= delta * wheelSpeed;
+        return Mathf.Clamp(size, 2, 5);
 
     }
 

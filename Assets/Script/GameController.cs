@@ -10,6 +10,7 @@ using UnityEngine.UI;
 public class GameController : MonoBehaviour
 {
     [SerializeField] Player _tntPlayer;
+
     bool _isTNT = false;
 
     /// <summary>Player出現カウント</summary>
@@ -21,14 +22,8 @@ public class GameController : MonoBehaviour
     /// <summary>フィールド上にいるEnemyの数
     [SerializeField] GameObject[] _enemyBox;
 
-    /// <summary>スコアテキスト</summary>
-    [SerializeField] Text _ScoreText;
-
-    /// <summary>スコア</summary>
-    int _score;
-
     /// <summary>Enemyの残機テキスト</summary>
-    [SerializeField] Text _EnemyText;
+    [SerializeField] Text _enemyText;
 
     /// <summary>Enemyの残機</summary>
     int _enemyScore;
@@ -37,13 +32,13 @@ public class GameController : MonoBehaviour
     private bool _isFinish = false;
 
     /// <summary>終わりボタン</summary>
-    [SerializeField] GameObject _FinishButtom;
+    [SerializeField] GameObject _finishButtom;
 
     /// <summary>GameOver真偽</summary>
     private bool _isGameOver = false;
 
     /// <summary>GameOverボタン</summary>
-    [SerializeField] GameObject _GameOverButton;
+    [SerializeField] GameObject _gameOverButton;
 
     /// <summary>Zoomボタン</summary>
     [SerializeField] GameObject _zoomButton;
@@ -65,10 +60,9 @@ public class GameController : MonoBehaviour
     public void Start()
     {
         _enemyBox = GameObject.FindGameObjectsWithTag("Enemy");
-        _ScoreText.text = "SCORE:" + _score;
-        _EnemyText.text = "ENEMY:" + _enemyScore + "/" + _enemyBox.Length;
-        _FinishButtom.SetActive(false);
-        _GameOverButton.SetActive(false);
+        _enemyText.text = "ENEMY:" + _enemyScore + "/" + _enemyBox.Length;
+        _finishButtom.SetActive(false);
+        _gameOverButton.SetActive(false);
         _zoomButton.SetActive(true);
         _outButton.SetActive(false);
         _isZoom = true;
@@ -87,7 +81,6 @@ public class GameController : MonoBehaviour
 
         Zoom();
         Out();
-
     }
 
     /// <summary>
@@ -113,7 +106,7 @@ public class GameController : MonoBehaviour
             Debug.Log("アイテム使用");
         }
     }
-
+    
     public void UseTNT()
     {
         if (_itemList.Count > 0)
@@ -164,18 +157,11 @@ public class GameController : MonoBehaviour
         Invoke(nameof(PlayerSpawn), 1f);
     }
 
-    /// <summary>Scoreを加算</summary>
-    public void AddScore(int Value)
-    {
-        _score += Value;
-        _ScoreText.text = "SCORE:" + _score;
-    }
-
     /// <summary>Enemyの数</summary>
     public void EnemyScore()
     {
         _enemyScore += 1;
-        _EnemyText.text = "ENEMY:" + _enemyScore + "/" + _enemyBox.Length;
+        _enemyText.text = "ENEMY:" + _enemyScore + "/" + _enemyBox.Length;
         /// <summary>スコアテキストがEnemyの数を上回ったら</summary>
         if (_enemyScore >= _enemyBox.Length)
         {
@@ -188,7 +174,7 @@ public class GameController : MonoBehaviour
     {
         if (_isFinish)
         {
-            _FinishButtom.SetActive(true);
+            _finishButtom.SetActive(true);
         }
     }
 
@@ -196,7 +182,7 @@ public class GameController : MonoBehaviour
     {
         if (_isGameOver && _isFinish == false)
         {
-            _GameOverButton.SetActive(true);
+            _gameOverButton.SetActive(true);
         }
     }
 
@@ -240,8 +226,6 @@ public class GameController : MonoBehaviour
         _isZoom = true;
     }
 
-
-
     /// <summary>リザルト画面へロード</summary>
     void Result()
     {
@@ -249,8 +233,8 @@ public class GameController : MonoBehaviour
     }
 
     /// <summary>0.5秒後に作動</summary>
-    public void GetStage1()
+    public void GetResult()
     {
-        Invoke(nameof(Result), 0.5f);
+        Invoke(nameof(Result), 2f);
     }
 }

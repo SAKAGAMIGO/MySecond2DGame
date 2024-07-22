@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BallonManager : MonoBehaviour
 {
-    GameController gameController;
+    ScoreManager _scoreManager;
 
     /// <summary>Ž€‚Ê‘¬“x</summary>
     public float DieVelocity = 8;
@@ -13,7 +13,7 @@ public class BallonManager : MonoBehaviour
 
     void Start()
     {
-        gameController = GameObject.FindObjectOfType<GameController>();
+        _scoreManager = GameObject.FindObjectOfType<ScoreManager>();
         _rb = GetComponent<Rigidbody2D>();
         _rb.isKinematic = true;
     }
@@ -43,6 +43,6 @@ public class BallonManager : MonoBehaviour
 
     private void OnDestroy()
     {
-        gameController.AddScore(100);
+        _scoreManager.AddScore(100);
     }
 }

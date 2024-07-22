@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class BlockManager : MonoBehaviour
 {
-    GameController gameController;
+    ScoreManager _scoreManager;
 
     /// <summary>死ぬ速度</summary>
     public float DieVelocity = 20;
 
     void Start()
     {
-        gameController = GameObject.FindObjectOfType<GameController>();
+        _scoreManager = GameObject.FindObjectOfType<ScoreManager>();
     }
 
     /// <summary>衝突イベント</summary><param name="collision"></param>
@@ -32,6 +32,6 @@ public class BlockManager : MonoBehaviour
 
     private void OnDestroy()
     {
-        gameController.AddScore(500);
+        _scoreManager.AddScore(500);
     }
 }

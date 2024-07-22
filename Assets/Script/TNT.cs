@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class TNT : MonoBehaviour
 {
-    GameController gameController;
+    ScoreManager _scoreManager;
 
     [SerializeField] GameObject explosion;
     [SerializeField] private float explosionForce; // ”š”­—Í
@@ -13,7 +13,7 @@ public class TNT : MonoBehaviour
 
     void Start()
     {
-        gameController = GameObject.FindObjectOfType<GameController>();
+        _scoreManager = GameObject.FindObjectOfType<ScoreManager>();
     }
 
     /// <summary>Õ“ËƒCƒxƒ“ƒg</summary><param name="collision"></param>
@@ -51,7 +51,7 @@ public class TNT : MonoBehaviour
     {
         Detonate();
         Instantiate(explosion,transform.position,transform.rotation);
-        gameController.AddScore(800);
+        _scoreManager.AddScore(800);
     }
 
     // ‚«”ò‚Î‚µ‚Ìˆ—
