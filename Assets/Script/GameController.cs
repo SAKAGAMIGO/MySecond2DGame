@@ -6,6 +6,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using static ScoreManager;
 
 public class GameController : MonoBehaviour
 {
@@ -54,8 +55,15 @@ public class GameController : MonoBehaviour
     /// <summary>プレイヤーPrefab</summary>
     [SerializeField] List<Player> _playerList = new List<Player>();
 
+    //現在出現していプレイヤーのプレファブ
+    [SerializeField] Player _currentPlayerPrefab;
+
+    //現在のプレイヤー
+    [SerializeField] Player _currentPlayer;
+
     /// <summary>持っているアイテムのリスト</summary>
-    [SerializeField] List<ItemBaceClass> _itemList = new List<ItemBaceClass>();
+    [SerializeField] Dictionary<ItemType, ItemBaceClass> _itemDic = new Dictionary<ItemType, ItemBaceClass>();
+    [SerializeField] Dictionary<ItemType, int> _itemCount = new Dictionary<ItemType, int>();
 
     public void Start()
     {
@@ -87,64 +95,70 @@ public class GameController : MonoBehaviour
     /// アイテムをアイテムリストに追加する
     /// </summary>
     /// <param name="item"></param>
-    public void GetItem(ItemBaceClass item)
+    public void GetItem(ItemType itemType, ItemBaceClass item)
     {
-        _itemList.Add(item);
-        Debug.Log(item);
+        //_itemDicがitemTypeだったら
+        if (_itemDic.ContainsKey(itemType))
+        {
+             _itemCount[itemType]++;
+            Debug.Log("アイテム取得" + _itemCount);
+        }
+
+        else
+        {
+            _itemDic.Add(itemType, item);
+            _itemCount.Add(itemType, 1);
+        }
     }
 
     // アイテムを使う
-    public void UseItem()
+    public void UseItem(ItemType itemType)
     {
-        if (_itemList.Count > 0)
+        if (_itemDic.Count > 0)
         {
-            // リストの先頭にあるアイテムを使って、破棄する
-            ItemBaceClass item = _itemList[0];
-            _itemList.RemoveAt(0);
+            if (_itemDic[itemType] == null || _itemCount.Count == 0)
+            {
+                return;
+            }
+
+            // itemに _itemDicを格納
+            ItemBaceClass item = _itemDic[itemType];
+
+
             item.Activate();
-            Destroy(item.gameObject);
-            Debug.Log("アイテム使用");
         }
-    }
-    
-    public void UseTNT()
-    {
-        if (_itemList.Count > 0)
-        {
-            // リストの先頭にあるアイテムを使って、破棄する
-            ItemBaceClass item = _itemList[0];
-            _itemList.RemoveAt(0);
-            item.Activate();
-            Destroy(item.gameObject);
-            Debug.Log("アイテム使用");
-        }
+            _itemCount[itemType]--;
+            Debug.Log("アイテム使用" + _itemCount);
     }
 
     public void AddTNT()
     {
-        _playerList.Add(_tntPlayer);
+        //現在出現していプレイヤーのプレファブを０番目に出現
+        _playerList.Insert(0, _currentPlayerPrefab);
+        //TNTプレイヤーを０番目に出現
+        _playerList.Insert(0, _tntPlayer);
+        //現在のプレイヤーを破棄
+        Destroy(_currentPlayer.gameObject);
     }
 
-    public void SpawnCount()
-    {
-        if (IsPlayerCount = true)
-        {
-            _playercount++;
-        }
-    }
 
     /// <summary>Playerのスポーン</summary>
     private void PlayerSpawn()
     {
-        if (_playerList.Count > _playercount)
+        if (_playerList.Count > 0)
         {
             if (IsPlayerCount == true)
             {
-                Instantiate(_playerList[_playercount], transform.position, Quaternion.identity);
+                //現在出現していプレイヤーのプレファブにプレイヤーリストの0番目を格納
+                _currentPlayerPrefab = _playerList[0];
+                GameObject obj = Instantiate(_playerList[0].gameObject, transform.position, Quaternion.identity);
+                _currentPlayer = obj.GetComponent<Player>();
+                //プレイヤーリストの0番目を破棄
+                _playerList.Remove(_playerList[0]);
                 IsPlayerCount = false;
             }
         }
-        else if (_playerList.Count <= _playercount)
+        else if (_currentPlayer = null)
         {
             _isGameOver = true;
             Debug.LogWarning("GameOver");
@@ -218,12 +232,14 @@ public class GameController : MonoBehaviour
         _vCamera.Priority = 0;
         _isZoom = false;
         _isOut = true;
+        Debug.Log("推された");
     }
     public void OutCamera()
     {
         _vCamera.Priority = 20;
         _isOut = false;
         _isZoom = true;
+        Debug.Log("推された");
     }
 
     /// <summary>リザルト画面へロード</summary>

@@ -37,14 +37,21 @@ public class Player : MonoBehaviour
     /// <summary>アニメーターを取得</summary>    
     private Animator _animator;
 
+    Muzzl _muzzle;
+    //撃ったときのエフェクト真偽
+    bool _isShoot = false;
+
+
     void Start()
     {
+        _muzzle = GameObject.FindAnyObjectByType<Muzzl>();
+        Debug.Log("Muzzle発見");
         _gameController = GameObject.Find("GameController").GetComponent<GameController>();
         //RigidBodyを取得
         _rb = GetComponent<Rigidbody2D>();
         ////引っ張るときは物理演算が必要ないのでOFFにする
         _rb.isKinematic = true;
-        //グラビティスケールを取得
+        //グラビティスケールを０にする
         _rb.gravityScale = 0.5f;
         //動かせない初期位置
         _startPosition = transform.position;
@@ -58,16 +65,16 @@ public class Player : MonoBehaviour
             _dotObject[i].SetActive(false);
         }
         //PlayerMotionのアニメーションを格納
-        _animator = GameObject.Find("Player Motion").GetComponent<Animator>();
+        _animator = GameObject.Find("Player_ShootStanding").GetComponent<Animator>();
         //Player MotionのTransFormを取得
-        GameObject.Find("Player Motion").GetComponent<Transform>();
+        GameObject.Find("Player_ShootStanding").GetComponent<Transform>();
     }
 
     //マウスクリックしながら移動する関数
     public void OnMouseDrag()
     {
-        //Animation起動
-        _animator.SetBool("Pull", true);
+        //Animationを再生
+        _animator.SetBool("Standing", true);
 
         //一度飛んだら処理を行えなくする
         if (IsFly) return;
@@ -79,7 +86,7 @@ public class Player : MonoBehaviour
         if (Vector2.Distance(_startPosition, Position) > MaxPullDistance)
         {
             Position = (Position - _startPosition).normalized * MaxPullDistance + _startPosition;
-            
+
         }
 
         //マウス位置のｘ座標が開始位置より右にあった場合開始位置のｘ座標にする
@@ -94,11 +101,12 @@ public class Player : MonoBehaviour
     }
 
     //マウスを離した時の関数
-    private void OnMouseUp()
+    public void OnMouseUp()
     {
-        
-        //アニメーションのPullモーションを再生
-        _animator.SetBool("Pull", false);
+
+        //アニメーションを再生
+        _animator.SetBool("Shoot", true);
+        _animator.SetBool("Standing", false);
 
         //一度飛んだら処理を行えなくする
         if (IsFly) return;
@@ -113,13 +121,29 @@ public class Player : MonoBehaviour
         //AddForce関数で力を加える
         RigidBody2D.AddForce(Force, ForceMode2D.Impulse);
 
-        //
+        //ドットオブジェクトをLengthの数分表示させる
         for (int i = 0; i < _dotObject.Length; i++)
         {
             _dotObject[i].SetActive(false);
         }
 
         IsFly = true;
+
+        _isShoot = true;
+    }
+
+    public void Shoot()
+    {
+        if (_isShoot == true)
+        {
+            _muzzle.ToShoot();
+            _isShoot = false;
+        }
+    }
+
+    private void Update()
+    {
+        Shoot();
     }
 
     /// <summary>
@@ -134,8 +158,8 @@ public class Player : MonoBehaviour
 
     public virtual void OnDestroy()
     {
+        _animator.SetBool("Shoot", false);
         _gameController.IsPlayerCount = true;
-        _gameController.SpawnCount();
         Detonate();
     }
 

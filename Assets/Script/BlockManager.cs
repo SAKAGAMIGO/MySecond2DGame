@@ -17,21 +17,32 @@ public class BlockManager : MonoBehaviour
     /// <summary>è’ìÀÉCÉxÉìÉg</summary><param name="collision"></param>
     private void OnCollisionEnter2D(Collision2D collision)
     {
-            DieVelocity--;
+        DieVelocity--;
 
-            if (DieVelocity <= 2.5f)
-            {
-                GetComponent<Renderer>().material.color = Color.red;
-            }
-            if (collision.relativeVelocity.sqrMagnitude > DieVelocity)
-            {
-                Debug.Log(collision.relativeVelocity.sqrMagnitude);
-                Destroy(this.gameObject);
-            }
+        if (DieVelocity <= 2.5f)
+        {
+            GetComponent<Renderer>().material.color = Color.red;
+        }
+        if (collision.relativeVelocity.sqrMagnitude > DieVelocity)
+        {
+            Debug.Log(collision.relativeVelocity.sqrMagnitude);
+            Destroy(this.gameObject);
+        }
+
+        if (collision.gameObject.CompareTag("Iron"))
+        {
+            AddDieVerocity();
+        }
+
     }
 
     private void OnDestroy()
     {
         _scoreManager.AddScore(500);
+    }
+
+    private void AddDieVerocity()
+    {
+        DieVelocity -= 30;
     }
 }

@@ -7,6 +7,7 @@ public class TNTPlayer : Player
     [SerializeField] GameObject explosion;
     [SerializeField] private float explosionForce; // ”š”­—Í
     [SerializeField] private float explosionRadius; // ”š”­”¼Œa
+    GameController _gameController;
 
     /// <summary>€‚Ê‘¬“x</summary>
     public float DieVelocity = 15;
@@ -45,7 +46,9 @@ public class TNTPlayer : Player
     public override void OnDestroy()
     {
         Detonate();
-        Instantiate(explosion, transform.position, transform.rotation); 
+        Instantiate(explosion, transform.position, transform.rotation);
+        _gameController = FindAnyObjectByType<GameController>();
+        _gameController.IsPlayerCount = true;
     }
 
     // ‚«”ò‚Î‚µ‚Ìˆ—

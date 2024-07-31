@@ -1,9 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
+using UnityEditorInternal.Profiling.Memory.Experimental;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class ItemBaceClass : MonoBehaviour
+
+
+public abstract class ItemBaceClass : MonoBehaviour
 {
     GameController gameController;
 
@@ -12,7 +16,7 @@ public class ItemBaceClass : MonoBehaviour
 
     /// <summary>アイテムの効果をいつ発揮するか</summary>
     [Tooltip("Get を選ぶと、取った時に効果が発動する。Use を選ぶと、アイテムを使った時に発動する")]
-    [SerializeField] ActivateTiming _whenActivated = ActivateTiming.Get;
+    [SerializeField] protected ActivateTiming _whenActivated = ActivateTiming.Get;
 
     void Start()
     {
@@ -24,6 +28,11 @@ public class ItemBaceClass : MonoBehaviour
     {
         DieVelocity--;
 
+        GetItem(collision);
+    }
+
+    public virtual void GetItem(Collision2D collision)
+    {
         if (collision.relativeVelocity.sqrMagnitude > DieVelocity)
         {
             // アイテム発動タイミングによって処理を分ける
@@ -39,7 +48,7 @@ public class ItemBaceClass : MonoBehaviour
                 // コライダーを無効にする
                 GetComponent<Collider2D>().enabled = false;
                 //GameControllerにアイテムを渡す
-                FindObjectOfType<GameController>().GetItem(this);
+                FindObjectOfType<GameController>().GetItem(ItemType.None, this);
                 Debug.Log("GameControllerにアイテムを渡す");
             }
         }
@@ -53,14 +62,22 @@ public class ItemBaceClass : MonoBehaviour
         Debug.LogError("派生クラスでメソッドをオーバーライドしてください。");
     }
 
+
     /// <summary>
     /// アイテムをいつアクティベートするか
     /// </summary>
-    enum ActivateTiming
+    public enum ActivateTiming
     {
         /// <summary>取った時にすぐ使う</summary>
         Get,
         /// <summary>「使う」コマンドで使う</summary>
         Use,
     }
+}
+
+public enum ItemType
+{
+    None,
+    Fly,
+    TNT
 }

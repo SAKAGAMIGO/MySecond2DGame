@@ -99,11 +99,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e11f79f96480b348b22fa90265ba502, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxPullDistance: 1
-  FlyForce: 8
   IsFly: 0
   DotPrefab: {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
-  DotTimeInterval: 0.05
+  _shootEffect: {fileID: 1951793539, guid: f00913f059228b9489bdf618b742ce2f, type: 3}
+  _muzzl: {fileID: 0}
 --- !u!58 &3508183381457867112
 CircleCollider2D:
   m_ObjectHideFlags: 0

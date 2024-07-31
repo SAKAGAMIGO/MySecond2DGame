@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] GameObject _shootEffect;
+
+    Player _playerCom;
+
     void Start()
     {
-        
+        _playerCom = GameObject.FindAnyObjectByType<Player>();
     }
 
     // Update is called once per frame
     void Update()
     {
         
+        //ShootEffectÇèoåª
+        Instantiate(_shootEffect, transform.position, transform.rotation);
     }
 }
