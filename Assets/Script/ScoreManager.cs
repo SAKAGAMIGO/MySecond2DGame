@@ -39,7 +39,7 @@ public class ScoreManager : MonoBehaviour
         {SceneKind.Stage6, "Stage6" }
     };
 
-    void Start()
+    public void Start()
     {
         _scoreText.text = "SCORE" + _score;
     }
@@ -50,6 +50,12 @@ public class ScoreManager : MonoBehaviour
         _score += Value;
         _scoreText.text = "SCORE" + _score;
     }
+
+    public int GetCurrentScore()
+    {
+        return _score;
+    }
+
     private void Result()
     {
         SceneManager.LoadScene(SceneNames[SceneKind.Result]);

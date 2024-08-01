@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BlockManager : MonoBehaviour
 {
-    ScoreManager _scoreManager;
+    public ScoreManager _scoreManager;
 
     /// <summary>Ž€‚Ê‘¬“x</summary>
     public float DieVelocity = 20;
@@ -33,12 +33,12 @@ public class BlockManager : MonoBehaviour
         {
             AddDieVerocity();
         }
-
     }
 
-    private void OnDestroy()
+    public void OnDestroy()
     {
         _scoreManager.AddScore(500);
+        int _score = _scoreManager.GetCurrentScore();
     }
 
     private void AddDieVerocity()

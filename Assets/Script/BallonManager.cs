@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BallonManager : MonoBehaviour
 {
-    ScoreManager _scoreManager;
+    public ScoreManager _scoreManager;
 
     /// <summary>Ž€‚Ê‘¬“x</summary>
     public float DieVelocity = 8;
@@ -41,8 +41,10 @@ public class BallonManager : MonoBehaviour
         }
     }
 
-    private void OnDestroy()
+    public void OnDestroy()
     {
         _scoreManager.AddScore(100);
+
+        int _score = _scoreManager.GetCurrentScore();
     }
 }
