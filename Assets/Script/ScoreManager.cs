@@ -41,14 +41,14 @@ public class ScoreManager : MonoBehaviour
 
     void Start()
     {
-        _scoreText.text = $"SCORE:{_score}";
+        _scoreText.text = "SCORE" + _score;
     }
 
     /// <summary>Score‚ð‰ÁŽZ</summary>
     public void AddScore(int Value)
     {
         _score += Value;
-        _scoreText.text = $"SCORE:{_score}";
+        _scoreText.text = "SCORE" + _score;
     }
     private void Result()
     {

@@ -8,6 +8,7 @@ TagManager:
   - Wood
   - Enemy
   - Iron
+  - DoorRotation
   layers:
   - Default
   - TransparentFX

@@ -45,7 +45,6 @@ public class Player : MonoBehaviour
     void Start()
     {
         _muzzle = GameObject.FindAnyObjectByType<Muzzl>();
-        Debug.Log("Muzzle”­Œ©");
         _gameController = GameObject.Find("GameController").GetComponent<GameController>();
         //RigidBody‚ðŽæ“¾
         _rb = GetComponent<Rigidbody2D>();

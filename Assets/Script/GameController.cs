@@ -20,8 +20,6 @@ public class GameController : MonoBehaviour
     /// <summary>Player出現真偽</summary>
     public bool IsPlayerCount = true;
 
-    /// <summary>フィールド上にいるEnemyの数
-    [SerializeField] GameObject[] _enemyBox;
 
     /// <summary>Enemyの残機テキスト</summary>
     [SerializeField] Text _enemyText;
@@ -41,16 +39,8 @@ public class GameController : MonoBehaviour
     /// <summary>GameOverボタン</summary>
     [SerializeField] GameObject _gameOverButton;
 
-    /// <summary>Zoomボタン</summary>
-    [SerializeField] GameObject _zoomButton;
-    [SerializeField] GameObject _outButton;
-
-    /// <summary>Zoom,Out真偽</summary>
-    bool _isZoom;
-    bool _isOut;
-
-    /// <summary>VacualCamera</summary>
-    [SerializeField] CinemachineVirtualCamera _vCamera;
+    /// <summary>フィールド上にいるEnemyの数
+    [SerializeField] GameObject[] _enemyBox;
 
     /// <summary>プレイヤーPrefab</summary>
     [SerializeField] List<Player> _playerList = new List<Player>();
@@ -61,8 +51,9 @@ public class GameController : MonoBehaviour
     //現在のプレイヤー
     [SerializeField] Player _currentPlayer;
 
-    /// <summary>持っているアイテムのリスト</summary>
+    /// <summary>キーがItemType, 値がItemBaceClass</summary>
     [SerializeField] Dictionary<ItemType, ItemBaceClass> _itemDic = new Dictionary<ItemType, ItemBaceClass>();
+    /// <summary>キーがItemType, 値がInt</summary>
     [SerializeField] Dictionary<ItemType, int> _itemCount = new Dictionary<ItemType, int>();
 
     public void Start()
@@ -71,10 +62,6 @@ public class GameController : MonoBehaviour
         _enemyText.text = "ENEMY:" + _enemyScore + "/" + _enemyBox.Length;
         _finishButtom.SetActive(false);
         _gameOverButton.SetActive(false);
-        _zoomButton.SetActive(true);
-        _outButton.SetActive(false);
-        _isZoom = true;
-        _isOut = false;
     }
 
     private void Update()
@@ -86,9 +73,6 @@ public class GameController : MonoBehaviour
         GetPlayerSpawn();
 
         GameOver();
-
-        Zoom();
-        Out();
     }
 
     /// <summary>
@@ -97,7 +81,7 @@ public class GameController : MonoBehaviour
     /// <param name="item"></param>
     public void GetItem(ItemType itemType, ItemBaceClass item)
     {
-        //_itemDicがitemTypeだったら
+        //_itemDicがitemTypeだったら(ContainsKey = bool型)
         if (_itemDic.ContainsKey(itemType))
         {
              _itemCount[itemType]++;
@@ -123,7 +107,6 @@ public class GameController : MonoBehaviour
 
             // itemに _itemDicを格納
             ItemBaceClass item = _itemDic[itemType];
-
 
             item.Activate();
         }
@@ -198,48 +181,6 @@ public class GameController : MonoBehaviour
         {
             _gameOverButton.SetActive(true);
         }
-    }
-
-    //Zoomボタンアクティブ管理
-    public void Zoom()
-    {
-        if (_isZoom && _isOut == false)
-        {
-            _zoomButton.SetActive(true);
-        }
-        else
-        {
-            _zoomButton.SetActive(false);
-        }
-    }
-
-    //Outボタンアクティブ管理
-    public void Out()
-    {
-        if (_isOut && _isZoom == false)
-        {
-            _outButton.SetActive(true);
-        }
-        else
-        {
-            _outButton.SetActive(false);
-        }
-    }
-
-    //VCameraIdolの優先度変更
-    public void ZoomCamera()
-    {
-        _vCamera.Priority = 0;
-        _isZoom = false;
-        _isOut = true;
-        Debug.Log("推された");
-    }
-    public void OutCamera()
-    {
-        _vCamera.Priority = 20;
-        _isOut = false;
-        _isZoom = true;
-        Debug.Log("推された");
     }
 
     /// <summary>リザルト画面へロード</summary>

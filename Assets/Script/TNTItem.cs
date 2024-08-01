@@ -7,8 +7,6 @@ public class TNTItem : ItemBaceClass
 {
     [SerializeField] GameController _gameController;
 
-
-
     public override void Activate()
     {
         _gameController.AddTNT();

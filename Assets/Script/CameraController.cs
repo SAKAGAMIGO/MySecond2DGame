@@ -5,89 +5,70 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    [SerializeField, Range(0.1f, 10f)]
-    private float wheelSpeed = 1f;
+    /// <summary>Zoomボタン</summary>
+    [SerializeField] GameObject _zoomButton;
+    [SerializeField] GameObject _outButton;
 
-    [SerializeField, Range(0.1f, 10f)]
-    private float moveSpeed = 0.3f;
+    /// <summary>Zoom,Out真偽</summary>
+    bool _isZoom;
+    bool _isOut;
 
-    private Vector3 preMousePos;
-
-    CinemachineVirtualCamera _camera;
-
-    Transform _myTransform;
+    /// <summary>VacualCamera</summary>
+    [SerializeField] CinemachineVirtualCamera _defaltCamera;
 
     public void Start()
     {
-        _camera = GetComponent<CinemachineVirtualCamera>();
+        _zoomButton.SetActive(true);
+        _outButton.SetActive(false);
+        _isZoom = true;
+        _isOut = false;
     }
 
     public void Update()
     {
-        MouseUpdate();
-
-        Transform _myTransForm = this.transform;
-
-        Vector2 worldPos = _myTransForm.position;
-        float x = worldPos.x;    // ワールド座標を基準にした、x座標が入っている変数
-        float y = worldPos.y;
-        Debug.Log(worldPos);
-
-        if (worldPos.x < 0 && worldPos.x > 0)
-        {
-            worldPos.x = 0;
-        }
-        if (worldPos.y < 0 && worldPos.y > 0)
-        {
-            worldPos.y = 0;
-        }
-
-        return;
+        Zoom();
+        Out();
     }
 
-    private void MouseUpdate()
+        //Zoomボタンアクティブ管理
+    public void Zoom()
     {
-        float scrollWheel = Input.GetAxis("Mouse ScrollWheel");
-
-        if (scrollWheel != 0.0f)
+        if (_isZoom && _isOut == false)
         {
-            _camera.m_Lens.OrthographicSize = MouseWheel(scrollWheel, _camera.m_Lens.OrthographicSize);
+            _zoomButton.SetActive(true);
         }
-
-        if (Input.GetMouseButtonDown(0) ||
-           Input.GetMouseButtonDown(1) ||
-           Input.GetMouseButtonDown(2))
+        else
         {
-            preMousePos = Input.mousePosition;
+            _zoomButton.SetActive(false);
         }
-
-        MouseDrag(Input.mousePosition);
     }
 
-    /// <summary>マウスホイールイベント</summary><param name="delta"></param>
-    private float MouseWheel(float delta, float size)
+    //Outボタンアクティブ管理
+    public void Out()
     {
-        size -= delta * wheelSpeed;
-        return Mathf.Clamp(size, 2, 5);
-
+        if (_isOut && _isZoom == false)
+        {
+            _outButton.SetActive(true);
+        }
+        else
+        {
+            _outButton.SetActive(false);
+        }
     }
 
-    /// <summary>マウスドラックイベント</summary>
-    /// <param name="mousePos"></param>
-    private void MouseDrag(Vector3 mousePos)
+    //VCameraIdolの優先度変更
+    public void ZoomCamera()
     {
-        Vector3 diff = mousePos - preMousePos;
-
-        if (diff.magnitude < Vector3.kEpsilon)
-        {
-            return;
-        }
-
-        if (Input.GetMouseButton(1))
-        {
-            transform.Translate(-diff * Time.deltaTime * moveSpeed);
-        }
-
-        preMousePos = mousePos;
+        _defaltCamera.Priority = 0;
+        _isZoom = false;
+        _isOut = true;
+        Debug.Log("推された");
+    }
+    public void OutCamera()
+    {
+        _defaltCamera.Priority = 20;
+        _isOut = false;
+        _isZoom = true;
+        Debug.Log("推された");
     }
 }
