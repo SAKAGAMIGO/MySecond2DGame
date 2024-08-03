@@ -1,6 +1,7 @@
 using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class BossManager : EnemyManager
@@ -26,5 +27,10 @@ public class BossManager : EnemyManager
         _bossHealthGauge.TakeDamageBoss(damage);
         var impulseSource = GetComponent<CinemachineImpulseSource>();
         impulseSource.GenerateImpulse();
+    }
+
+    private void Update()
+    {
+        AddDamageBoss()
     }
 }
