@@ -41,6 +41,8 @@ public class Player : MonoBehaviour
     //撃ったときのエフェクト真偽
     bool _isShoot = false;
 
+    PlayerHealth _playerHealth;
+
 
     void Start()
     {
@@ -67,6 +69,7 @@ public class Player : MonoBehaviour
         _animator = GameObject.Find("Player_ShootStanding").GetComponent<Animator>();
         //Player MotionのTransFormを取得
         GameObject.Find("Player_ShootStanding").GetComponent<Transform>();
+        _playerHealth = GameObject.Find("Player").GetComponent<PlayerHealth>();
     }
 
     //マウスクリックしながら移動する関数
@@ -160,6 +163,7 @@ public class Player : MonoBehaviour
         _animator.SetBool("Shoot", false);
         _gameController.IsPlayerCount = true;
         Detonate();
+        _playerHealth.AddDamage(10);
     }
 
     public virtual void Detonate()

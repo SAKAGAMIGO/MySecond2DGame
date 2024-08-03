@@ -546,51 +546,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &381152258
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 381152259}
-  - component: {fileID: 381152260}
-  m_Layer: 0
-  m_Name: Muzzle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &381152259
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 381152258}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.93, y: 2.61, z: -29.667719}
-  m_LocalScale: {x: 5, y: 5, z: 5}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 801722732}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &381152260
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 381152258}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35e14846b147fcf4f8f5a863259f415e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _shootEffect: {fileID: 1951793539, guid: f00913f059228b9489bdf618b742ce2f, type: 3}
 --- !u!1 &473327711 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7148686346862559675, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
@@ -1145,11 +1100,6 @@ Transform:
   - {fileID: 355171075}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &801722732 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 905561780725260452, guid: 83e9f2af704d5a04cbf51ad1a05d26cf, type: 3}
-  m_PrefabInstance: {fileID: 988085891}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &852525984
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1663,10 +1613,6 @@ PrefabInstance:
       propertyPath: m_LocalRotation.y
       value: 0.0000000012864098
       objectReference: {fileID: 0}
-    - target: {fileID: 1769375137621534707, guid: 83e9f2af704d5a04cbf51ad1a05d26cf, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.9922445
-      objectReference: {fileID: 0}
     - target: {fileID: 2042710568976513223, guid: 83e9f2af704d5a04cbf51ad1a05d26cf, type: 3}
       propertyPath: m_Name
       value: Player_ShootStanding
@@ -1801,10 +1747,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 905561780725260452, guid: 83e9f2af704d5a04cbf51ad1a05d26cf, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 381152259}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83e9f2af704d5a04cbf51ad1a05d26cf, type: 3}
 --- !u!1001 &1036399339

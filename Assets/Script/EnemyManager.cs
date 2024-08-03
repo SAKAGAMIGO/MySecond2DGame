@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class EnemyManager : MonoBehaviour
 {
-
     /// <summary>死ぬ速度</summary>
-    public float DieVelocity = 10;
+    [SerializeField] float DieVelocity = 10;
 
     GameController gameController;
 
@@ -18,6 +17,8 @@ public class EnemyManager : MonoBehaviour
     /// <summary>衝突イベント</summary><param name="collision"></param>
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        DieVelocity -= collision.relativeVelocity.sqrMagnitude;
+
         if(collision.relativeVelocity.sqrMagnitude > DieVelocity)
         {
             Debug.Log(collision.relativeVelocity.sqrMagnitude);

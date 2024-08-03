@@ -17,7 +17,7 @@ public class BlockManager : MonoBehaviour
     /// <summary>Õ“ËƒCƒxƒ“ƒg</summary><param name="collision"></param>
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        DieVelocity--;
+        DieVelocity -= collision.relativeVelocity.sqrMagnitude;
 
         if (DieVelocity <= 2.5f)
         {
