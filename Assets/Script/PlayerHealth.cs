@@ -25,7 +25,7 @@ public class PlayerHealth : MonoBehaviour
         _health -= damage;
         _healthGuage.TakeDamage(damage);
         var impulseSource = GetComponent<CinemachineImpulseSource>();
-        impulseSource.GenerateImpulse();
+        //impulseSource.GenerateImpulse();
     }
 
     // Update is called once per frame

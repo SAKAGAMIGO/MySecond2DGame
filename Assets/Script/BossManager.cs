@@ -7,7 +7,7 @@ using UnityEngine;
 public class BossManager : EnemyManager
 {
     //Player‚ÌÅ‘åHP
-    float _health = 100f;
+    float _health = 500f;
     public float HP => _health;
 
     //Player‚Ì‘Ì—Í
@@ -25,12 +25,14 @@ public class BossManager : EnemyManager
     {
         _health -= damage;
         _bossHealthGauge.TakeDamageBoss(damage);
+        //CinemaChine‚Ìƒpƒ‰ƒ[ƒ^‚ğimpulseSource‚ÉŠi”[
         var impulseSource = GetComponent<CinemachineImpulseSource>();
+        //—h‚ç‚·ˆ—‚ğ‹N“®
         impulseSource.GenerateImpulse();
     }
 
-    private void Update()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        AddDamageBoss()
+        _health -= collision.relativeVelocity.sqrMagnitude;
     }
 }

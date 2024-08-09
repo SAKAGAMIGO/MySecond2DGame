@@ -8,9 +8,9 @@ using DG.Tweening;
 public class BossHealthGauge : MonoBehaviour
 {
     //緑色のバー
-    [SerializeField] private Image _health;
+    [SerializeField] private Image _healthImage;
     //赤色のバー
-    [SerializeField] private Image _burn;
+    [SerializeField] private Image _burnImage;
     //HPが減る時間
     public float _duration = 0.5f;
     //最大HP
@@ -30,16 +30,17 @@ public class BossHealthGauge : MonoBehaviour
         _maxHp = hp;
     }
 
+    //HealthGaugeを指定したパラメータまで減らす
     public void SetGuageBoss(float targetRate)
     {
-        _health.DOFillAmount(targetRate, _duration).OnComplete(() =>
+        _healthImage.DOFillAmount(targetRate, _duration).OnComplete(() =>
         {
-            _burn.DOFillAmount(targetRate, _duration * 0.5f).SetDelay(0.5f);
+            _burnImage.DOFillAmount(targetRate, _duration * 0.5f).SetDelay(0.5f);
         });
         transform.DOShakePosition(_duration * 0.5f, _strength, _vibrate);
     }
 
-    //HPが減るプログラム
+    //HPが減
     public void TakeDamageBoss(float rate)
     {
         SetGuageBoss((_currentHP - rate) / _maxHp);

@@ -19,7 +19,7 @@ public class BlockManager : MonoBehaviour
     {
         DieVelocity -= collision.relativeVelocity.sqrMagnitude;
 
-        if (DieVelocity <= 2.5f)
+        if (DieVelocity <= 10f)
         {
             GetComponent<Renderer>().material.color = Color.red;
         }
@@ -28,21 +28,11 @@ public class BlockManager : MonoBehaviour
             Debug.Log(collision.relativeVelocity.sqrMagnitude);
             Destroy(this.gameObject);
         }
-
-        if (collision.gameObject.CompareTag("Iron"))
-        {
-            AddDieVerocity();
-        }
     }
 
     public void OnDestroy()
     {
         _scoreManager.AddScore(500);
         int _score = _scoreManager.GetCurrentScore();
-    }
-
-    private void AddDieVerocity()
-    {
-        DieVelocity -= 30;
     }
 }
