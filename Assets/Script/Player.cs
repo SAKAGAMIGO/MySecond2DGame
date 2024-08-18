@@ -43,7 +43,6 @@ public class Player : MonoBehaviour
 
     PlayerHealth _playerHealth;
 
-
     void Start()
     {
         _muzzle = GameObject.FindAnyObjectByType<Muzzl>();

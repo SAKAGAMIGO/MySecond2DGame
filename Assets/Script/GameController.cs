@@ -84,7 +84,7 @@ public class GameController : MonoBehaviour
         //_itemDic‚ªitemType‚¾‚Á‚½‚ç(ContainsKey = boolŒ^)
         if (_itemDic.ContainsKey(itemType))
         {
-             _itemCount[itemType]++;
+            _itemCount[itemType]++;
             Debug.Log("ƒAƒCƒeƒ€Žæ“¾" + _itemCount);
         }
 

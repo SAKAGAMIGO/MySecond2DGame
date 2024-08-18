@@ -23,7 +23,7 @@ public class BackGround : MonoBehaviour
     void Update()
     {
         //¡‚ÌˆÊ’u‚©‚ç‰ŠúˆÊ’u‚ğˆø‚«ˆÚ“®‘¬“x‚ğ‚©‚¯‚éY²‚Í‚O
-        transform.Translate(new Vector2((Player.transform.position.x - lastPlayerPos.x) * _moveSpeed,0));
+        transform.Translate(new Vector2((Player.transform.position.x - lastPlayerPos.x) * _moveSpeed,0));  
 
         lastPlayerPos = Player.transform.position;
     }
