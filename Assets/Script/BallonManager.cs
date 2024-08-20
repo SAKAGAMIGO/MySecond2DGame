@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BallonManager : MonoBehaviour
 {
-    public ScoreManager _scoreManager;
+    ScoreManager _scoreManager;
 
     /// <summary>Ž€‚Ê‘¬“x</summary>
     public float DieVelocity = 8;

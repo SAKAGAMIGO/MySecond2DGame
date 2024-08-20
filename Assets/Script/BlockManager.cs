@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class BlockManager : MonoBehaviour
 {
-    public ScoreManager _scoreManager;
+    ScoreManager _scoreManager;
 
     /// <summary>Ž€‚Ê‘¬“x</summary>
     public float DieVelocity = 20;
+
+    [SerializeField] GameObject m_effect = default;
 
     void Start()
     {
@@ -26,7 +28,7 @@ public class BlockManager : MonoBehaviour
         if (collision.relativeVelocity.sqrMagnitude > DieVelocity)
         {
             Debug.Log(collision.relativeVelocity.sqrMagnitude);
-            Destroy(this.gameObject);
+            Hit();
         }
     }
 
@@ -34,5 +36,16 @@ public class BlockManager : MonoBehaviour
     {
         _scoreManager.AddScore(500);
         int _score = _scoreManager.GetCurrentScore();
+        
+    }
+
+    public void Hit()
+    {
+        if (m_effect)
+        {
+            Instantiate(m_effect, this.transform.position, Quaternion.identity);
+        }
+
+        Destroy(this.gameObject);
     }
 }

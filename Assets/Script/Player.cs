@@ -68,7 +68,8 @@ public class Player : MonoBehaviour
         _animator = GameObject.Find("Player_ShootStanding").GetComponent<Animator>();
         //Player MotionのTransFormを取得
         GameObject.Find("Player_ShootStanding").GetComponent<Transform>();
-        _playerHealth = GameObject.Find("Player").GetComponent<PlayerHealth>();
+        //PlayerHealthを格納
+        _playerHealth = GameObject.Find("Player_ShootStanding").GetComponent<PlayerHealth>(); 
     }
 
     //マウスクリックしながら移動する関数
