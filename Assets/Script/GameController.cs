@@ -18,14 +18,14 @@ public class GameController : MonoBehaviour
     int _playercount = 0;
 
     /// <summary>Player出現真偽</summary>
-    public bool IsPlayerCount = true;
+    public bool _isPlayerCount = true;
 
 
     /// <summary>Enemyの残機テキスト</summary>
     [SerializeField] Text _enemyText;
 
     /// <summary>Enemyの残機</summary>
-    int _enemyScore;
+    public int _enemyScore;
 
     /// <summary>Finish真偽</summary>
     private bool _isFinish = false;
@@ -39,8 +39,11 @@ public class GameController : MonoBehaviour
     /// <summary>GameOverボタン</summary>
     [SerializeField] GameObject _gameOverButton;
 
-    /// <summary>フィールド上にいるEnemyの数
+    /// <summary>フィールド上にいるEnemyの数</summary>
     [SerializeField] GameObject[] _enemyBox;
+
+    //<summary>現在のEnemyの数</summary>
+    public int _enemyElementCount;
 
     /// <summary>プレイヤーPrefab</summary>
     [SerializeField] List<Player> _playerList = new List<Player>();
@@ -73,8 +76,12 @@ public class GameController : MonoBehaviour
         //Enemyのカウントが0になったら実行
         GameClear();
 
-        //Playerのスポーン
-        GetPlayerSpawn();
+        if (_isPlayerCount == true)
+        {
+            //Playerのスポーン
+            GetPlayerSpawn();
+
+        }
 
         GameOver();
     }
@@ -147,19 +154,19 @@ public class GameController : MonoBehaviour
     /// <summary>Playerのスポーン</summary>
     private void PlayerSpawn()
     {
-        if (_playerList.Count > 0)
+        //if (_playerList.Count > 0)
+
+        if (_isPlayerCount == true)
         {
-            if (IsPlayerCount == true)
-            {
-                //現在出現していプレイヤーのプレファブにプレイヤーリストの0番目を格納
-                _currentPlayerPrefab = _playerList[0];
-                GameObject obj = Instantiate(_playerList[0].gameObject, transform.position, Quaternion.identity);
-                _currentPlayer = obj.GetComponent<Player>();
-                //プレイヤーリストの0番目を破棄
-                _playerList.Remove(_playerList[0]);
-                IsPlayerCount = false;
-            }
+            //現在出現していプレイヤーのプレファブにプレイヤーリストの0番目を格納
+            _currentPlayerPrefab = _playerList[0];
+            GameObject obj = Instantiate(_playerList[0].gameObject, transform.position, Quaternion.identity);
+            _currentPlayer = obj.GetComponent<Player>();
+            //プレイヤーリストの0番目を破棄
+            _playerList.Remove(_playerList[0]);
+            _isPlayerCount = false;
         }
+
         else if (_currentPlayer = null)
         {
             _isGameOver = true;
@@ -170,7 +177,7 @@ public class GameController : MonoBehaviour
 
     private void GetPlayerSpawn()
     {
-        Invoke(nameof(PlayerSpawn), 1f);
+        Invoke(nameof(PlayerSpawn), 2.5f);
     }
 
     /// <summary>Enemyの数</summary>

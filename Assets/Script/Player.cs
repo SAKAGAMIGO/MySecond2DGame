@@ -160,7 +160,7 @@ public class Player : MonoBehaviour
     public virtual void OnDestroy()
     {
         _animator.SetBool("Shoot", false);
-        _gameController.IsPlayerCount = true;
+        _gameController._isPlayerCount = true;
         Detonate();
         _playerHealth.AddDamage(10);
         //var impulseSource = CinemachineImpulseSource.FindAnyObjectByType<CinemachineImpulseSource>();

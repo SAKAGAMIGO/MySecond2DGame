@@ -48,7 +48,7 @@ public class TNTPlayer : Player
         Detonate();
         Instantiate(explosion, transform.position, transform.rotation);
         _gameController = FindAnyObjectByType<GameController>();
-        _gameController.IsPlayerCount = true;
+        _gameController._isPlayerCount = true;
     }
 
     // ‚«”ò‚Î‚µ‚Ìˆ—
