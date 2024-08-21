@@ -100,9 +100,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsFly: 0
+  _dotObj:
+  - {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
+  - {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
+  - {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
+  - {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
+  - {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
   DotPrefab: {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
-  _shootEffect: {fileID: 1951793539, guid: f00913f059228b9489bdf618b742ce2f, type: 3}
-  _muzzl: {fileID: 0}
 --- !u!58 &3508183381457867112
 CircleCollider2D:
   m_ObjectHideFlags: 0

@@ -56,6 +56,10 @@ public class GameController : MonoBehaviour
     /// <summary>キーがItemType, 値がInt</summary>
     [SerializeField] Dictionary<ItemType, int> _itemCount = new Dictionary<ItemType, int>();
 
+    [SerializeField] GameObject _addForceButtom;
+    [SerializeField] GameObject _tntButtom;
+    [SerializeField] GameObject _sightButtom;
+
     public void Start()
     {
         _enemyBox = GameObject.FindGameObjectsWithTag("Enemy");
@@ -85,14 +89,29 @@ public class GameController : MonoBehaviour
         if (_itemDic.ContainsKey(itemType))
         {
             _itemCount[itemType]++;
-            Debug.Log("アイテム取得" + _itemCount);
+            Debug.Log("アイテム取得" + _itemCount + item);
         }
 
-        else
+        if (_itemDic.ContainsKey(ItemType.Fly))
         {
-            _itemDic.Add(itemType, item);
-            _itemCount.Add(itemType, 1);
+            _addForceButtom.gameObject.SetActive(true);
         }
+
+        if (_itemDic.ContainsKey(ItemType.TNT))
+        {
+            _tntButtom.gameObject.SetActive(true);
+        }
+
+        if (_itemDic.ContainsKey(ItemType.Sight))
+        {
+            _sightButtom.gameObject.SetActive(true);
+        }
+
+        //else
+        //{
+        //    _itemDic.Add(itemType, item);
+        //    _itemCount.Add(itemType, 1);
+        //}
     }
 
     // アイテムを使う
@@ -110,8 +129,8 @@ public class GameController : MonoBehaviour
 
             item.Activate();
         }
-            _itemCount[itemType]--;
-            Debug.Log("アイテム使用" + _itemCount);
+        _itemCount[itemType]--;
+        Debug.Log("アイテム使用" + _itemCount);
     }
 
     public void AddTNT()

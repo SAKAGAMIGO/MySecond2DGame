@@ -1,3 +1,4 @@
+using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -23,14 +24,12 @@ public class Player : MonoBehaviour
     /// <summary>飛んだ判定</summary>
     public bool IsFly = false;
 
-    int _dotCount = 5;
+    //private GameObject[] _dotObject = new GameObject[5];
 
     //描画するドットの数
-    private GameObject[] _dotObject = new GameObject[5];
-
+    [SerializeField] List<GameObject> _dotObj = new List<GameObject>();
     /// <summary>ドットPrefab</summary>
     public GameObject DotPrefab;
-
     /// <summary>ドットの描画間隔</summary>    
     private float _dotTimeInterval = 0.05f;
 
@@ -56,13 +55,13 @@ public class Player : MonoBehaviour
         //動かせない初期位置
         _startPosition = transform.position;
         //配列の要素数分ドットのオブジェクトを表示
-        for (int i = 0; i < _dotObject.Length; i++)
+        for (int i = 0; i < _dotObj.Count; i++)
         {
-            _dotObject[i] = Instantiate(DotPrefab);
-            _dotObject[i].transform.localScale = _dotObject[i].transform.localScale * (1 - 0.06f * i);
-            _dotObject[i].transform.parent = transform;
-            //引っ張る前は非表示
-            _dotObject[i].SetActive(false);
+            _dotObj[i] = Instantiate(DotPrefab);
+            _dotObj[i].transform.localScale = _dotObj[i].transform.localScale * (1 - 0.06f * i);
+            _dotObj[i].transform.parent = transform;
+            //引っ張らないときは非表示
+            _dotObj[i].SetActive(false);
         }
         //PlayerMotionのアニメーションを格納
         _animator = GameObject.Find("Player_ShootStanding").GetComponent<Animator>();
@@ -124,9 +123,9 @@ public class Player : MonoBehaviour
         RigidBody2D.AddForce(Force, ForceMode2D.Impulse);
 
         //ドットオブジェクトをLengthの数分表示させる
-        for (int i = 0; i < _dotObject.Length; i++)
+        for (int i = 0; i < _dotObj.Count; i++)
         {
-            _dotObject[i].SetActive(false);
+            _dotObj[i].SetActive(false);
         }
 
         IsFly = true;
@@ -164,6 +163,8 @@ public class Player : MonoBehaviour
         _gameController.IsPlayerCount = true;
         Detonate();
         _playerHealth.AddDamage(10);
+        //var impulseSource = CinemachineImpulseSource.FindAnyObjectByType<CinemachineImpulseSource>();
+        //impulseSource.GenerateImpulse();
     }
 
     public virtual void Detonate()
@@ -178,17 +179,17 @@ public class Player : MonoBehaviour
         var Force = ((_startPosition - (Vector2)transform.position) * FlyForce) * (1 - _rb.gravityScale + 1);
         //飛ばしてからの時間ごとのキャラクターの位置にドットを表示
         var CurrentTime = _dotTimeInterval;
-        for (int i = 0; i < _dotObject.Length; i++)
+        for (int i = 0; i < _dotObj.Count; i++)
         {
             //アクティブにする
-            _dotObject[i].SetActive(true);
+            _dotObj[i].SetActive(true);
             var Position = new Vector2();
             //X方向は時間に比例して右に進む
             Position.x = (transform.position.x + Force.x * CurrentTime);
             //Y方向は自由落下の計算(重力)
             Position.y = (transform.position.y + Force.y * CurrentTime) - (Physics2D.gravity.magnitude * CurrentTime * CurrentTime) / (1 + FlyForce / 10);
 
-            _dotObject[i].transform.position = Position;
+            _dotObj[i].transform.position = Position;
             CurrentTime += _dotTimeInterval;
         }
     }
@@ -197,5 +198,14 @@ public class Player : MonoBehaviour
     {
         FlyForce += 3;
         Debug.Log("ステータスUP");
+    }
+
+    public void AddDotLength()
+    {
+        _dotObj.Add(DotPrefab);
+        _dotObj.Add(DotPrefab);
+        _dotObj.Add(DotPrefab);
+        _dotObj.Add(DotPrefab);
+        _dotObj.Add(DotPrefab);
     }
 }

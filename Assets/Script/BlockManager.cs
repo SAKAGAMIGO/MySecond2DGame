@@ -27,7 +27,7 @@ public class BlockManager : MonoBehaviour
         }
         if (collision.relativeVelocity.sqrMagnitude > DieVelocity)
         {
-            Debug.Log(collision.relativeVelocity.sqrMagnitude);
+            //Debug.Log(collision.relativeVelocity.sqrMagnitude);
             Hit();
         }
     }

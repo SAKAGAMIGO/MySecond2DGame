@@ -1,16 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class ButtonClick : MonoBehaviour, IPointerClickHandler
 {
     [SerializeField] ItemType _itemType;
+
     GameController _controller;
 
     private void Start()
     {
         _controller = FindAnyObjectByType<GameController>();
+        //this.gameObject.SetActive(false);
     }
 
     public void OnPointerClick(PointerEventData eventData)

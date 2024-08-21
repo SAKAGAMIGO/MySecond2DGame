@@ -99,8 +99,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 787118d517888c242ad54c6c3dd5a9d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _scoreManager: {fileID: 0}
   DieVelocity: 80
+  m_effect: {fileID: 6240373058469392770, guid: e76f00e4f6e92f94cae544d101814ead, type: 3}
 --- !u!61 &5121104115347896000
 BoxCollider2D:
   m_ObjectHideFlags: 0

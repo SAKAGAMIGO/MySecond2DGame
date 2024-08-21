@@ -10,7 +10,6 @@ public class TNTItem : ItemBaceClass
     public override void Activate()
     {
         _gameController.AddTNT();
-        
     }
 
     public override void GetItem(Collision2D collision)

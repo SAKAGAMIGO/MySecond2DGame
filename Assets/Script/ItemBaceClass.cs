@@ -4,6 +4,7 @@ using Unity.VisualScripting;
 using UnityEditorInternal.Profiling.Memory.Experimental;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using static ScoreManager;
 
 
 
@@ -74,10 +75,11 @@ public abstract class ItemBaceClass : MonoBehaviour
         Use,
     }
 }
-
-public enum ItemType
-{
-    None,
-    Fly,
-    TNT
+    public enum ItemType
+    {
+        None,
+        Fly,
+        TNT,
+        Sight
 }
+

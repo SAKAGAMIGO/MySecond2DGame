@@ -2,18 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ItemAddForce : ItemBaceClass
+public class SightItem : ItemBaceClass
 {
     Player _playerScript;
 
-    public void Start()
+    private void Start()
     {
         _playerScript = Player.FindObjectOfType<Player>();
     }
 
     public override void Activate()
     {
-        _playerScript.AddFlyForce();
+        _playerScript.AddDotLength();
     }
     public override void GetItem(Collision2D collision)
     {
@@ -32,7 +32,7 @@ public class ItemAddForce : ItemBaceClass
                 // コライダーを無効にする
                 GetComponent<Collider2D>().enabled = false;
                 //GameControllerにアイテムを渡す
-                FindObjectOfType<GameController>().GetItem(ItemType.Fly, this);
+                FindObjectOfType<GameController>().GetItem(ItemType.Sight, this);
                 Debug.Log("GameControllerにアイテムを渡す");
             }
         }
