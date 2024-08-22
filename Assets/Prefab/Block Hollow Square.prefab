@@ -16,9 +16,9 @@ GameObject:
   - component: {fileID: 749345785790911189}
   - component: {fileID: 5194446864049265375}
   - component: {fileID: 8332094499632281878}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Block Hollow Square
-  m_TagString: Wood
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103,7 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 787118d517888c242ad54c6c3dd5a9d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DieVelocity: 130
+  DieVelocity: 50
   m_effect: {fileID: 3969429051180598289, guid: 2a4d4edb2aeddda48aa1bdf777ae6d04, type: 3}
 --- !u!50 &1115696954940447366
 Rigidbody2D:
@@ -375,6 +375,10 @@ PrefabInstance:
     - target: {fileID: 1342562839936857585, guid: d27013c9b0e829f408da832ab4dc18f5, type: 3}
       propertyPath: m_Name
       value: Sprite Mask
+      objectReference: {fileID: 0}
+    - target: {fileID: 1342562839936857585, guid: d27013c9b0e829f408da832ab4dc18f5, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

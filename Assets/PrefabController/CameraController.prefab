@@ -46,4 +46,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _zoomButton: {fileID: 0}
   _outButton: {fileID: 0}
-  _defaltCamera: {fileID: 0}
+  _zoomCamera: {fileID: 0}
+  _camera1: {fileID: 0}
+  _camera2: {fileID: 0}

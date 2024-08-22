@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1062882526420714670}
   - component: {fileID: 3327501347579768200}
   - component: {fileID: 729058829312648573}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 787118d517888c242ad54c6c3dd5a9d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DieVelocity: 130
+  DieVelocity: 80
   m_effect: {fileID: 3969429051180598289, guid: 2a4d4edb2aeddda48aa1bdf777ae6d04, type: 3}
 --- !u!61 &3327501347579768200
 BoxCollider2D:

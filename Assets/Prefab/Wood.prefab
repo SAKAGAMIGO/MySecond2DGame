@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3852471986031932317}
   - component: {fileID: 8547604030748218656}
   - component: {fileID: 7133301090310639769}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wood
   m_TagString: Wood
   m_Icon: {fileID: 0}
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 787118d517888c242ad54c6c3dd5a9d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DieVelocity: 80
+  DieVelocity: 50
   m_effect: {fileID: 6240373058469392770, guid: e76f00e4f6e92f94cae544d101814ead, type: 3}
 --- !u!61 &8547604030748218656
 BoxCollider2D:

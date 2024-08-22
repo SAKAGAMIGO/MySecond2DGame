@@ -20,17 +20,20 @@ public class CameraController : MonoBehaviour
 
     GameController _controller;
 
-    private Animator _animator;
+    private Animator _cAnimator;
+    private Animator _tAnimator;
+
 
     public void Start()
     {
-        _zoomButton.SetActive(true);
-        _outButton.SetActive(false);
-        _isZoom = true;
-        _isOut = false;
+        _zoomButton.SetActive(false);
+        _outButton.SetActive(true);
+        _isZoom = false;
+        _isOut = true;
         _controller = GameObject.FindObjectOfType<GameController>();
         //PlayerMotionのアニメーションを格納
-        _animator = GameObject.Find("GameController").GetComponent<Animator>();
+        _cAnimator = GameObject.Find("GameController").GetComponent<Animator>();
+        _tAnimator = GameObject.Find("Target").GetComponent <Animator>();
     }
 
     public void Update()
@@ -43,7 +46,8 @@ public class CameraController : MonoBehaviour
             _camera1.Priority = 0;
             _camera2.Priority = 30;
             _zoomCamera.Priority = 0;
-            _animator.SetBool("Move", true);
+            _cAnimator.SetBool("Move", true);
+            _tAnimator.SetBool("Move", true);
         }
     }
 
@@ -76,14 +80,14 @@ public class CameraController : MonoBehaviour
     //VCameraIdolの優先度変更
     public void ZoomCamera()
     {
-        _zoomCamera.Priority = 0;
+        _zoomCamera.Priority = 40;
         _isZoom = false;
         _isOut = true;
         Debug.Log("推された");
     }
     public void OutCamera()
     {
-        _zoomCamera.Priority = 30;
+        _zoomCamera.Priority = 0;
         _isOut = false;
         _isZoom = true;
         Debug.Log("推された");

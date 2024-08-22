@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5348902910178782773}
   - component: {fileID: 7503017822637310300}
   - component: {fileID: 8027620115886128617}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ice Square
   m_TagString: Wood
   m_Icon: {fileID: 0}
@@ -99,8 +99,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 787118d517888c242ad54c6c3dd5a9d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _scoreManager: {fileID: 0}
   DieVelocity: 25
+  m_effect: {fileID: 0}
 --- !u!61 &7503017822637310300
 BoxCollider2D:
   m_ObjectHideFlags: 0

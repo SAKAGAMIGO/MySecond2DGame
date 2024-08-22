@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5639002723170559666}
   - component: {fileID: 1201265356213398370}
   - component: {fileID: 6200466794000185591}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ice Square Small
   m_TagString: Wood
   m_Icon: {fileID: 0}
