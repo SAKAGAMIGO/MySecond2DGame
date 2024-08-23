@@ -19,6 +19,7 @@ public class PlayerExplosion : Player
         foreach (Collider2D collider in colliders)
         {
             ApplyExplosionForce(collider);
+
         }
         Instantiate(Explosion, transform.position, transform.rotation);
         // 爆弾オブジェクトを破棄
