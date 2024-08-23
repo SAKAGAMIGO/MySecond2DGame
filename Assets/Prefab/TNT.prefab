@@ -174,4 +174,4 @@ MonoBehaviour:
   explosion: {fileID: 8959097256193253477, guid: 2ac3a3c83fd62d64f93753b2e866add0, type: 3}
   explosionForce: 8
   explosionRadius: 4
-  DieVelocity: 15
+  DieVelocity: 30
