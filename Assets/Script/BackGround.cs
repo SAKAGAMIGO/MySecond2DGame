@@ -5,7 +5,7 @@ using UnityEngine;
 public class BackGround : MonoBehaviour
 {
 
-    [SerializeField] GameObject Player;
+    [SerializeField] Camera _camera;
 
     //初期位置
     [SerializeField] Vector3 lastPlayerPos;
@@ -16,15 +16,15 @@ public class BackGround : MonoBehaviour
 
     void Start()
     {
-        lastPlayerPos = Player.transform.position;
+        lastPlayerPos = _camera.transform.position;
     }
 
     
     void Update()
     {
         //今の位置から初期位置を引き移動速度をかけるY軸は０
-        transform.Translate(new Vector2((Player.transform.position.x - lastPlayerPos.x) * _moveSpeed,0));  
+        transform.Translate(new Vector2((_camera.transform.position.x - lastPlayerPos.x) * _moveSpeed,0));  
 
-        lastPlayerPos = Player.transform.position;
+        lastPlayerPos = _camera.transform.position;
     }
 }

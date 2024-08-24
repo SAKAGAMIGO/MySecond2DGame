@@ -19,7 +19,6 @@ public class MoveXBlock : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        Debug.Log(transform.position);
         float posX = startPos.x + Mathf.PingPong(Time.time * speed, 3f);
         rb.MovePosition(new Vector3(posX, startPos.y, startPos.z));
     }

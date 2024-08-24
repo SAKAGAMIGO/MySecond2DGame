@@ -59,7 +59,7 @@ public class GameController : MonoBehaviour
     /// <summary>ÉLÅ[Ç™ItemType, ílÇ™Int</summary>
     [SerializeField] Dictionary<ItemType, int> _itemCount = new Dictionary<ItemType, int>();
 
-    [SerializeField] GameObject _addForceButtom;
+    [SerializeField] GameObject _pawerItemButton;
     [SerializeField] GameObject _tntButtom;
     [SerializeField] GameObject _sightButtom;
 
@@ -101,7 +101,7 @@ public class GameController : MonoBehaviour
 
         if (_itemDic.ContainsKey(ItemType.Fly))
         {
-            _addForceButtom.gameObject.SetActive(true);
+            _pawerItemButton.gameObject.SetActive(true);
         }
 
         if (_itemDic.ContainsKey(ItemType.TNT))
