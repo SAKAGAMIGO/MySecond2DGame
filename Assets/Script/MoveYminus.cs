@@ -19,7 +19,6 @@ public class MoveYminus : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        Debug.Log(transform.position);
         float posY = startPos.y - Mathf.PingPong(Time.time * speed, 3f);
         rb.MovePosition(new Vector3(startPos.x, posY, startPos.z));
     }

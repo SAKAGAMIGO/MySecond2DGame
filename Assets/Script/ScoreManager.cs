@@ -15,7 +15,7 @@ public class ScoreManager : MonoBehaviour
     public enum SceneKind
     {
         Title,
-        StageSelect,
+        Select,
         Result,
         GameOver,
         Stage1,
@@ -29,6 +29,7 @@ public class ScoreManager : MonoBehaviour
     public static Dictionary<SceneKind, string> SceneNames = new Dictionary<SceneKind, string>()
     {
         {SceneKind.Title, "TitleScene" },
+        {SceneKind.Select, "StageSelect"},
         {SceneKind.Result, "Result" },
         {SceneKind.GameOver, "GameOver" },
         {SceneKind.Stage1, "Stage1" },
@@ -55,6 +56,26 @@ public class ScoreManager : MonoBehaviour
     {
         return _score;
     }
+        
+    private void Title()
+    {
+        SceneManager.LoadScene(SceneNames[SceneKind.Title]);
+    }
+
+    public void GetTitle()
+    {
+        Invoke(nameof(Title), 2f);
+    }
+    private void StageSelect()
+    {
+        SceneManager.LoadScene(SceneNames[SceneKind.Select]);
+    }
+
+    public void GetStageSelect()
+    {
+        Invoke(nameof(StageSelect), 3f);
+        Debug.Log("ステージセレクトへ");
+    }
 
     private void Result()
     {
@@ -79,6 +100,10 @@ public class ScoreManager : MonoBehaviour
     private void Stage1()
     {
         SceneManager.LoadScene(SceneNames[SceneKind.Stage1]);
+    }
+    public void GetStage1()
+    {
+        Invoke(nameof(Stage1), 1f);
     }
 
 }

@@ -22,18 +22,20 @@ public class CameraController : MonoBehaviour
 
     private Animator _cAnimator;
     private Animator _tAnimator;
+    private Animator _pAnimator;
 
 
     public void Start()
     {
-        _zoomButton.SetActive(false);
-        _outButton.SetActive(true);
+        _zoomButton.SetActive(true);
+        _outButton.SetActive(false);
         _isZoom = false;
         _isOut = true;
         _controller = GameObject.FindObjectOfType<GameController>();
         //PlayerMotionのアニメーションを格納
         _cAnimator = GameObject.Find("GameController").GetComponent<Animator>();
         _tAnimator = GameObject.Find("Target").GetComponent <Animator>();
+        _pAnimator = GameObject.Find("Man_Gun").GetComponent<Animator>();
     }
 
     public void Update()
@@ -46,9 +48,21 @@ public class CameraController : MonoBehaviour
             _camera1.Priority = 0;
             _camera2.Priority = 30;
             _zoomCamera.Priority = 0;
+            _pAnimator.SetBool("Run", true);
             _cAnimator.SetBool("Move", true);
             _tAnimator.SetBool("Move", true);
+            GetRunStop();
         }
+    }
+
+    private void RunStop()
+    {
+        _pAnimator.SetBool("Run", false);
+    }
+
+    private void GetRunStop()
+    {
+        Invoke(nameof(RunStop), 2f);
     }
 
         //Zoomボタンアクティブ管理
@@ -56,11 +70,11 @@ public class CameraController : MonoBehaviour
     {
         if (_isZoom && _isOut == false)
         {
-            _zoomButton.SetActive(true);
+            _zoomButton.SetActive(false);
         }
         else
         {
-            _zoomButton.SetActive(false);
+            _zoomButton.SetActive(true);   
         }
     }
 
@@ -69,11 +83,11 @@ public class CameraController : MonoBehaviour
     {
         if (_isOut && _isZoom == false)
         {
-            _outButton.SetActive(true);
+            _outButton.SetActive(false);
         }
         else
         {
-            _outButton.SetActive(false);
+            _outButton.SetActive(true);
         }
     }
 

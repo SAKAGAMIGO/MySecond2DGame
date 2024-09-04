@@ -1,0 +1,62 @@
+fileFormatVersion: 2
+guid: 3e11f79f96480b348b22fa90265ba502
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+
+問題1
+    static void Main()
+    {
+        // 自分の得意な言語で
+        // Let's チャレンジ！！
+        string[] data = Console.ReadLine().Split();
+        int disstance = int.Parse(data[0]);
+        int step = int.Parse(data[1]);
+        disstance = disstance * 1000 * 100;
+        int stepCount = disstance / step;
+        if (stepCount >= 1000)
+        {
+            Console.WriteLine("Yes");
+        }
+        else
+        {
+            Console.WriteLine("No");
+        }
+    }
+
+問題3
+    static void Main()
+    {
+        // 自分の得意な言語で
+        // Let's チャレンジ！！
+        string[] line = Console.ReadLine().Split();
+        int a = int.Parse(line[0]);
+        int b = int.Parse(line[1]);
+        int ans;
+        if (a >= b)
+        {
+            ans = a - b;
+        }
+        else
+        {
+            ans = b - a;
+        }
+        Console.WriteLine(ans);
+    }
+
+問題4
+    static void Main()
+    {
+        // 自分の得意な言語で
+        // Let's チャレンジ！！
+        string[] line = Console.ReadLine().Split(',');
+        string a = line[0];
+        string b = line[1];
+        Console.WriteLine(line[0] + "!!");
+    }

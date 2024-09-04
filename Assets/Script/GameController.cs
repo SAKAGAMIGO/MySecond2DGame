@@ -10,7 +10,7 @@ using static ScoreManager;
 
 public class GameController : MonoBehaviour
 {
-    [SerializeField] Player _tntPlayer;
+    [SerializeField] Player _tntBullet;
 
     bool _isTNT = false;
 
@@ -19,7 +19,6 @@ public class GameController : MonoBehaviour
 
     /// <summary>Player出現真偽</summary>
     public bool _isPlayerCount = true;
-
 
     /// <summary>Enemyの残機テキスト</summary>
     [SerializeField] Text _enemyText;
@@ -80,6 +79,7 @@ public class GameController : MonoBehaviour
         {
             //Playerのスポーン
             GetPlayerSpawn();
+            //パーティクルシステム発動
 
         }
 
@@ -114,11 +114,11 @@ public class GameController : MonoBehaviour
             _sightButtom.gameObject.SetActive(true);
         }
 
-        //else
-        //{
-        //    _itemDic.Add(itemType, item);
-        //    _itemCount.Add(itemType, 1);
-        //}
+        else
+        {
+            _itemDic.Add(itemType, item);
+            _itemCount.Add(itemType, 1);
+        }
     }
 
     // アイテムを使う
@@ -145,7 +145,7 @@ public class GameController : MonoBehaviour
         //現在出現していプレイヤーのプレファブを０番目に出現
         _playerList.Insert(0, _currentPlayerPrefab);
         //TNTプレイヤーを０番目に出現
-        _playerList.Insert(0, _tntPlayer);
+        _playerList.Insert(0, _tntBullet);
         //現在のプレイヤーを破棄
         Destroy(_currentPlayer.gameObject);
     }
@@ -154,8 +154,6 @@ public class GameController : MonoBehaviour
     /// <summary>Playerのスポーン</summary>
     private void PlayerSpawn()
     {
-        //if (_playerList.Count > 0)
-
         if (_isPlayerCount == true)
         {
             //現在出現していプレイヤーのプレファブにプレイヤーリストの0番目を格納
@@ -177,7 +175,7 @@ public class GameController : MonoBehaviour
 
     private void GetPlayerSpawn()
     {
-        Invoke(nameof(PlayerSpawn), 2.5f);
+        Invoke(nameof(PlayerSpawn), 2.7f);
     }
 
     /// <summary>Enemyの数</summary>

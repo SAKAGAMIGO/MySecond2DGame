@@ -10,7 +10,7 @@ public class DoorRotation : MonoBehaviour
 
     void Start()
     {
-        _doorRotation = GameObject.FindWithTag("DoorRotation");
+        _doorRotation = GameObject.FindWithTag("DoorRotation"); 
         _boxCollider = _doorRotation.GetComponent<BoxCollider2D>();
         _animation = _doorRotation.GetComponent<Animator>();
     }
