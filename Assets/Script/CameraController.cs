@@ -9,6 +9,8 @@ public class CameraController : MonoBehaviour
     [SerializeField] GameObject _zoomButton;
     [SerializeField] GameObject _outButton;
 
+    [SerializeField] GameObject _gameController;
+
     /// <summary>Zoom,Out真偽</summary>
     bool _isZoom;
     bool _isOut;
@@ -33,7 +35,6 @@ public class CameraController : MonoBehaviour
         _isOut = true;
         _controller = GameObject.FindObjectOfType<GameController>();
         //PlayerMotionのアニメーションを格納
-        _cAnimator = GameObject.Find("GameController").GetComponent<Animator>();
         _tAnimator = GameObject.Find("Target").GetComponent <Animator>();
         _pAnimator = GameObject.Find("Man_Gun").GetComponent<Animator>();
     }
@@ -49,20 +50,9 @@ public class CameraController : MonoBehaviour
             _camera2.Priority = 30;
             _zoomCamera.Priority = 0;
             _pAnimator.SetBool("Run", true);
-            _cAnimator.SetBool("Move", true);
             _tAnimator.SetBool("Move", true);
-            GetRunStop();
         }
-    }
 
-    private void RunStop()
-    {
-        _pAnimator.SetBool("Run", false);
-    }
-
-    private void GetRunStop()
-    {
-        Invoke(nameof(RunStop), 2f);
     }
 
         //Zoomボタンアクティブ管理

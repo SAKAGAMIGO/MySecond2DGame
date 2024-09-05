@@ -62,6 +62,11 @@ public class GameController : MonoBehaviour
     [SerializeField] GameObject _tntButtom;
     [SerializeField] GameObject _sightButtom;
 
+    /// <summary></summary>
+    [SerializeField] Vector2 _taregetPos;
+    /// <summary>GameControllerの_taregetPos真偽</summary>
+    public bool _isTareget;
+
     public void Start()
     {
         _enemyBox = GameObject.FindGameObjectsWithTag("Enemy");
@@ -84,6 +89,12 @@ public class GameController : MonoBehaviour
         }
 
         GameOver();
+
+        if (_enemyElementCount <= _enemyScore)
+        {
+            _isTareget = true;
+            transform.position = _taregetPos;
+        }
     }
 
     /// <summary>
@@ -205,17 +216,5 @@ public class GameController : MonoBehaviour
         {
             _gameOverButton.SetActive(true);
         }
-    }
-
-    /// <summary>リザルト画面へロード</summary>
-    void Result()
-    {
-        SceneManager.LoadScene("Result");
-    }
-
-    /// <summary>0.5秒後に作動</summary>
-    public void GetResult()
-    {
-        Invoke(nameof(Result), 2f);
     }
 }

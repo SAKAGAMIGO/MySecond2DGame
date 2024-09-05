@@ -45,6 +45,8 @@ public class Player : MonoBehaviour
 
     Muzzl m_chergeEffect;
 
+    private bool _isSound = false;
+
     void Start()
     {
         _muzzle = GameObject.FindAnyObjectByType<Muzzl>();
@@ -83,15 +85,20 @@ public class Player : MonoBehaviour
     //マウスクリックしながら移動する関数
     public void OnMouseDrag()
     {
-        SoundManager.Instance.PlaySE(SESoundData.SE.Set);
+        if (!_isSound)
+        {
+            SoundManager.Instance.PlaySE(SESoundData.SE.Set);
+            _isSound = true;
+        }
 
         //Animationを再生
         _animator.SetBool("Set", true);
 
-
-
         //一度飛んだら処理を行えなくする
-        if (IsFly) return;
+        if (IsFly)
+        {
+            return;
+        }
 
         //Mouseの位置を取得してPlayerの位置を同じにする
         Vector2 Position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -118,6 +125,7 @@ public class Player : MonoBehaviour
     public void OnMouseUp()
     {
         SoundManager.Instance.PlaySE(SESoundData.SE.Shoot);
+        _isSound = false;
 
         //アニメーションを再生    
         _animator.SetBool("Shoot", true);

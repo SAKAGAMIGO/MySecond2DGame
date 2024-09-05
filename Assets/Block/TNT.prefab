@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1037526633517992248}
   - component: {fileID: 6213409895631071583}
+  - component: {fileID: 8026335999032532957}
   - component: {fileID: 8530734110670833540}
   - component: {fileID: 6220354957376806436}
-  - component: {fileID: 1714799150627434023}
   m_Layer: 0
   m_Name: TNT
   m_TagString: Untagged
@@ -87,6 +87,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8026335999032532957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6610665602736174181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c52927200d26eab498e711e541f785b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosion: {fileID: 8959097256193253477, guid: 2ac3a3c83fd62d64f93753b2e866add0, type: 3}
+  explosionForce: 5
+  explosionRadius: 10
+  DieVelocity: 15
 --- !u!61 &8530734110670833540
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -159,19 +175,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1714799150627434023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6610665602736174181}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc16718fe8b29774aa00fbf806fa60f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  explosion: {fileID: 1942315907881232961, guid: be1543a4333ee414db4a8a6a8022e536, type: 3}
-  explosionForce: 8
-  explosionRadius: 4
-  DieVelocity: 15
