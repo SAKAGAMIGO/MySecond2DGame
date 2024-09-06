@@ -36,6 +36,7 @@ public class Player : MonoBehaviour
     /// <summary>アニメーターを取得</summary>    
     private Animator _animator;
 
+    /// <summary>Muzzle</summary>
     Muzzl _muzzle;
 
     //撃ったときのエフェクト真偽
@@ -43,8 +44,10 @@ public class Player : MonoBehaviour
 
     PlayerHealth _playerHealth;
 
-    Muzzl m_chergeEffect;
+    /// <summary>チャージパーティクル</summary>
+    Muzzl _chergeEffect;
 
+    //Soundを一回だけ再生したいときに使う
     private bool _isSound = false;
 
     void Start()
@@ -77,9 +80,9 @@ public class Player : MonoBehaviour
 
 
         //PlayerHealthを格納
-        //_playerHealth = GameObject.Find("Player_ShootStanding").GetComponent<PlayerHealth>(); 
+        _playerHealth = GameObject.Find("Man_Gun").GetComponent<PlayerHealth>(); 
 
-        m_chergeEffect = GameObject.FindAnyObjectByType<Muzzl>();
+        _chergeEffect = GameObject.FindAnyObjectByType<Muzzl>();
     }
 
     //マウスクリックしながら移動する関数
@@ -124,6 +127,7 @@ public class Player : MonoBehaviour
     //マウスを離した時の関数
     public void OnMouseUp()
     {
+        //SoundManagerメソッド実行
         SoundManager.Instance.PlaySE(SESoundData.SE.Shoot);
         _isSound = false;
 
@@ -155,18 +159,13 @@ public class Player : MonoBehaviour
         _isShoot = true;
     }
 
-    public void Shoot()
+    private void Update()
     {
         if (_isShoot == true)
         {
             _muzzle.ToShoot();
             _isShoot = false;
         }
-    }
-
-    private void Update()
-    {
-        Shoot();
     }
 
     /// <summary>
@@ -185,12 +184,9 @@ public class Player : MonoBehaviour
         _gameController._isPlayerCount = true;
         Detonate();
 
+        _playerHealth.AddDamage(20);
 
-        //_playerHealth.AddDamage(10);
-
-        m_chergeEffect._flag = true;
-
-
+        _chergeEffect._flag = true;
     }
 
 
