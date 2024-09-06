@@ -49,10 +49,8 @@ public class CameraController : MonoBehaviour
             _camera1.Priority = 0;
             _camera2.Priority = 30;
             _zoomCamera.Priority = 0;
-            _pAnimator.SetBool("Run", true);
             _tAnimator.SetBool("Move", true);
         }
-
     }
 
         //Zoomボタンアクティブ管理

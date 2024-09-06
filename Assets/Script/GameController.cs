@@ -27,7 +27,7 @@ public class GameController : MonoBehaviour
     public int _enemyScore;
 
     /// <summary>Finish真偽</summary>
-    private bool _isFinish = false;
+    public bool _isFinish = false;
 
     /// <summary>終わりボタン</summary>
     [SerializeField] GameObject _finishButtom;
@@ -84,8 +84,6 @@ public class GameController : MonoBehaviour
         {
             //Playerのスポーン
             GetPlayerSpawn();
-            //パーティクルシステム発動
-
         }
 
         GameOver();
