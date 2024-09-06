@@ -13,7 +13,6 @@ public class ButtonClick : MonoBehaviour, IPointerClickHandler
     private void Start()
     {
         _controller = FindAnyObjectByType<GameController>();
-        //this.gameObject.SetActive(false);
     }
 
     public void OnPointerClick(PointerEventData eventData)
