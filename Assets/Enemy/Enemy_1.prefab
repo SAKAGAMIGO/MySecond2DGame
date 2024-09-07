@@ -384,6 +384,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DieVelocity: 25
+  m_effect: {fileID: 7205103241747219319, guid: 5202121be96537f4b86ef9136510f6a7, type: 3}
 --- !u!61 &763090809122033882
 BoxCollider2D:
   m_ObjectHideFlags: 0

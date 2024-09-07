@@ -26,13 +26,13 @@ public class CameraController : MonoBehaviour
 
     public void Start()
     {
-        _zoomButton.SetActive(true);
-        _outButton.SetActive(false);
-        _isZoom = false;
-        _isOut = true;
+        _zoomButton.SetActive(false);
+        _outButton.SetActive(true);
+        _isZoom = true;
+        _isOut = false;
         _controller = GameObject.FindObjectOfType<GameController>();
         //PlayerMotionのアニメーションを格納
-        _tAnimator = GameObject.Find("Target").GetComponent <Animator>();
+        //_tAnimator = GameObject.Find("Target").GetComponent <Animator>();
         _pAnimator = GameObject.Find("Man_Gun").GetComponent<Animator>();
     }
 
@@ -45,8 +45,8 @@ public class CameraController : MonoBehaviour
         {
             _camera1.Priority = 0;
             _camera2.Priority = 30;
-            _zoomCamera.Priority = 0;
-            _tAnimator.SetBool("Move", true);
+            _zoomCamera.Priority = 0;   
+            //_tAnimator.SetBool("Move", true);
         }
     }
 
