@@ -6,11 +6,13 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour
 {
     //Player‚ÌÅ‘åHP
-    float _health = 100f;
+    float _health = 0f;
     //public float HP => _health;
 
     //Player‚Ì‘Ì—Í
     HealthGuage _healthGuage;
+
+    GameController _controller;
 
     void Start()
     {
@@ -18,6 +20,7 @@ public class PlayerHealth : MonoBehaviour
         _healthGuage = GameObject.FindAnyObjectByType<HealthGuage>();
         //Setup‚ÉÅ‘åHP‚ğæ“¾
         _healthGuage.Setup(0);
+        _controller = GameObject.FindAnyObjectByType<GameController>();
     }
 
     public void AddDamage(float damage)
@@ -28,9 +31,11 @@ public class PlayerHealth : MonoBehaviour
         //impulseSource.GenerateImpulse();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        if (_health == 100)
+        {
+            _controller._isGameOver = true;
+        }
     }
 }

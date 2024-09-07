@@ -8,16 +8,20 @@ public class HealthGuage : MonoBehaviour
 {
     //赤色のバー
     [SerializeField] private Image _burn;
-    //HPが減る時間
-    public float _duration = 0.5f;
-    //最大HP
-    private float _currentHP = 100f;
-    //バーが揺れる強さ
-    public float _strength = 20f;
-    //バーが揺れる強さ
-    public int _vibrate = 100;
 
-    private float _maxHp;
+    //HPゲージのパラメータ
+    [Tooltip("HPが減る時間")] float _duration = 0.5f;
+    [Tooltip("最大HP")] float _maxHp;
+    [Tooltip("現在のHP")] float _currentHP = 100f;
+    [Tooltip("強さ")] float _strength = 20f;
+    [Tooltip("揺れる大きさ")] int _vibrate = 100;
+
+    GameController _controller;
+
+    private void Start()
+    {
+        
+    }
 
     public void Setup(float hp)
     {

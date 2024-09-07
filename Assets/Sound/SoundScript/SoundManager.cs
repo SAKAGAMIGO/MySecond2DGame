@@ -37,14 +37,12 @@ public class SoundManager : MonoBehaviour
         bgmAudioSource.Play();
     }
 
-
     public void PlaySE(SESoundData.SE se)
     {
         SESoundData data = seSoundDatas.Find(data => data.se == se);
         seAudioSource.volume = data.volume * m_seMasterVolume * m_masterVolume;
         seAudioSource.PlayOneShot(data.audioClip);
     }
-
 }
 
 [System.Serializable]
@@ -92,7 +90,8 @@ public class SESoundData
         EnemyBroken,
         Boss,
         Cherge,
-        Item,// ‚±‚ê‚ªƒ‰ƒxƒ‹‚É‚È‚é
+        Item,
+        Button,// ‚±‚ê‚ªƒ‰ƒxƒ‹‚É‚È‚é
     }
 
     public SE se;

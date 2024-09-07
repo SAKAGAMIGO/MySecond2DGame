@@ -9,8 +9,6 @@ public class CameraController : MonoBehaviour
     [SerializeField] GameObject _zoomButton;
     [SerializeField] GameObject _outButton;
 
-    [SerializeField] GameObject _gameController;
-
     /// <summary>Zoom,Outê^ãU</summary>
     bool _isZoom;
     bool _isOut;
@@ -25,7 +23,6 @@ public class CameraController : MonoBehaviour
     private Animator _cAnimator;
     private Animator _tAnimator;
     private Animator _pAnimator;
-
 
     public void Start()
     {
@@ -82,13 +79,16 @@ public class CameraController : MonoBehaviour
     //VCameraIdolÇÃóDêÊìxïœçX
     public void ZoomCamera()
     {
+        SoundManager.Instance.PlaySE(SESoundData.SE.Button);
         _zoomCamera.Priority = 40;
         _isZoom = false;
         _isOut = true;
         Debug.Log("êÑÇ≥ÇÍÇΩ");
     }
+
     public void OutCamera()
     {
+        SoundManager.Instance.PlaySE(SESoundData.SE.Button);
         _zoomCamera.Priority = 0;
         _isOut = false;
         _isZoom = true;

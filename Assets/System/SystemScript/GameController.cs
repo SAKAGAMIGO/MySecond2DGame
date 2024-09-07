@@ -33,7 +33,7 @@ public class GameController : MonoBehaviour
     [SerializeField] GameObject _finishButtom;
 
     /// <summary>GameOver真偽</summary>
-    private bool _isGameOver = false;
+    public bool _isGameOver = false;
 
     /// <summary>GameOverボタン</summary>
     [SerializeField] GameObject _gameOverButton;
@@ -172,13 +172,6 @@ public class GameController : MonoBehaviour
             //プレイヤーリストの0番目を破棄
             _playerList.Remove(_playerList[0]);
             _isPlayerCount = false;
-        }
-
-        else if (_currentPlayer = null)
-        {
-            _isGameOver = true;
-            Debug.LogWarning("GameOver");
-            Debug.LogWarning(_playerList.Count + "to" + _playercount);
         }
     }
 

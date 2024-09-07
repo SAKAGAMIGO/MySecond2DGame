@@ -245,9 +245,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _burn: {fileID: 4004633035941463324}
-  _duration: 0.5
-  _strength: 20
-  _vibrate: 100
 --- !u!1 &8432995624170568339
 GameObject:
   m_ObjectHideFlags: 0

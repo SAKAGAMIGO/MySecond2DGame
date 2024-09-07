@@ -28,7 +28,6 @@ public class TNT : MonoBehaviour
 
         if (collision.relativeVelocity.sqrMagnitude > DieVelocity)
         {
-            Debug.Log(collision.relativeVelocity.sqrMagnitude);
             Destroy(this.gameObject);
         }
     }
