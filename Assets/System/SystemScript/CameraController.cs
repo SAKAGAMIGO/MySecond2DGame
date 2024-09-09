@@ -56,10 +56,7 @@ public class CameraController : MonoBehaviour
         if (_isZoom && _isOut == false)
         {
             _outButton.SetActive(false);
-        }
-        else
-        {
-            _outButton.SetActive(true);   
+            _zoomButton.SetActive(true);
         }
     }
 
@@ -69,10 +66,7 @@ public class CameraController : MonoBehaviour
         if (_isOut && _isZoom == false)
         {
             _zoomButton.SetActive(false);
-        }
-        else
-        {
-            _zoomButton.SetActive(true);
+            _outButton.SetActive(true);
         }
     }
 
