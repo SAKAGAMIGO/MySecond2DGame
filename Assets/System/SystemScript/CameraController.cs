@@ -6,8 +6,8 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     /// <summary>Zoomボタン</summary>
-    [SerializeField] GameObject _zoomButton;
     [SerializeField] GameObject _outButton;
+    [SerializeField] GameObject _zoomButton;
 
     /// <summary>Zoom,Out真偽</summary>
     bool _isZoom;
@@ -26,10 +26,10 @@ public class CameraController : MonoBehaviour
 
     public void Start()
     {
-        _zoomButton.SetActive(false);
         _outButton.SetActive(true);
-        _isZoom = true;
-        _isOut = false;
+        _zoomButton.SetActive(false);
+        _isZoom = false;
+        _isOut = true;
         _controller = GameObject.FindObjectOfType<GameController>();
         //PlayerMotionのアニメーションを格納
         //_tAnimator = GameObject.Find("Target").GetComponent <Animator>();
@@ -43,11 +43,11 @@ public class CameraController : MonoBehaviour
 
         if (_controller._enemyElementCount <= _controller._enemyScore)
         {
-            _camera1.Priority = 0;
-            _camera2.Priority = 30;
-            _zoomCamera.Priority = 0;   
+                _camera1.Priority = 0;
+                _camera2.Priority = 30;
+                _zoomCamera.Priority = 0;
             //_tAnimator.SetBool("Move", true);
-        }
+        }      
     }
 
         //Zoomボタンアクティブ管理
@@ -55,11 +55,11 @@ public class CameraController : MonoBehaviour
     {
         if (_isZoom && _isOut == false)
         {
-            _zoomButton.SetActive(false);
+            _outButton.SetActive(false);
         }
         else
         {
-            _zoomButton.SetActive(true);   
+            _outButton.SetActive(true);   
         }
     }
 
@@ -68,11 +68,11 @@ public class CameraController : MonoBehaviour
     {
         if (_isOut && _isZoom == false)
         {
-            _outButton.SetActive(false);
+            _zoomButton.SetActive(false);
         }
         else
         {
-            _outButton.SetActive(true);
+            _zoomButton.SetActive(true);
         }
     }
 
@@ -80,7 +80,7 @@ public class CameraController : MonoBehaviour
     public void ZoomCamera()
     {
         SoundManager.Instance.PlaySE(SESoundData.SE.Button);
-        _zoomCamera.Priority = 40;
+        _zoomCamera.Priority = 30;
         _isZoom = false;
         _isOut = true;
         Debug.Log("推された");
@@ -90,8 +90,8 @@ public class CameraController : MonoBehaviour
     {
         SoundManager.Instance.PlaySE(SESoundData.SE.Button);
         _zoomCamera.Priority = 0;
-        _isOut = false;
         _isZoom = true;
+        _isOut = false;
         Debug.Log("推された");
     }
 }

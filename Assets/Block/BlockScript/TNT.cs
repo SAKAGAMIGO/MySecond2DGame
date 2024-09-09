@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+using DG.Tweening;
 
 public class TNT : MonoBehaviour
 {
@@ -11,6 +13,7 @@ public class TNT : MonoBehaviour
     /// <summary>死ぬ速度</summary>
     public float DieVelocity = 15;
 
+
     void Start()
     {
         _scoreManager = GameObject.FindObjectOfType<ScoreManager>();
@@ -19,6 +22,7 @@ public class TNT : MonoBehaviour
     /// <summary>衝突イベント</summary><param name="collision"></param>
     private void OnCollisionEnter2D(Collision2D collision)
     {
+
         DieVelocity--;
         //死ぬ速度が10より小さくなると黒色になる
         if (DieVelocity <= 10f)
@@ -28,22 +32,20 @@ public class TNT : MonoBehaviour
 
         if (collision.relativeVelocity.sqrMagnitude > DieVelocity)
         {
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
     }
 
     // 爆発処理
-    void Detonate()
+    public void Detonate()
     {
+
         // 爆風の範囲内のオブジェクトを検出
         Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, explosionRadius);
         foreach (Collider2D collider in colliders)
         {
             ApplyExplosionForce(collider);
         }
-
-        // 爆弾オブジェクトを破棄
-        Destroy(gameObject);
     }
 
     private void OnDestroy()

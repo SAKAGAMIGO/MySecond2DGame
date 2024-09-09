@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce8599c90a576b94da3b31d82034bda3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DieVelocity: 40
+  DieVelocity: 55
   m_effect: {fileID: 6240373058469392770, guid: e76f00e4f6e92f94cae544d101814ead, type: 3}
 --- !u!61 &8547604030748218656
 BoxCollider2D:

@@ -17,8 +17,6 @@ public class EffectMuzzle : MonoBehaviour
         }
         
     }
-    
-    
 
     private void Hit()
     {

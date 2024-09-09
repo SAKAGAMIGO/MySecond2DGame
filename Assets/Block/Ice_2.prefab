@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce8599c90a576b94da3b31d82034bda3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DieVelocity: 25
+  DieVelocity: 35
   m_effect: {fileID: 5899740577122158404, guid: c12c2b4567ffc334b883ff6893b3341b, type: 3}
 --- !u!114 &2244934854671389506
 MonoBehaviour:

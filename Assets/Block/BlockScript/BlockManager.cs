@@ -21,10 +21,11 @@ public class BlockManager : MonoBehaviour
     {
         DieVelocity -= collision.relativeVelocity.sqrMagnitude;
 
-        if (DieVelocity <= 10f)
+        if (DieVelocity <= 8f)
         {
             GetComponent<Renderer>().material.color = Color.red;
         }
+
         if (collision.relativeVelocity.sqrMagnitude > DieVelocity)
         {
             Hit();
@@ -35,7 +36,6 @@ public class BlockManager : MonoBehaviour
     {
         _scoreManager.AddScore(500);
         int _score = _scoreManager.GetCurrentScore();
-        
     }
 
     private void Hit()
