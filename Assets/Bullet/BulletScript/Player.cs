@@ -188,6 +188,8 @@ public class Player : MonoBehaviour
         _rb.velocity = _rb.velocity;
         _animator.SetBool("Shoot", false);
         _animator.SetBool("Angry", true);
+        FireMuzzle _fireMuzzle = Object.FindObjectOfType<FireMuzzle>();
+        _fireMuzzle.ToFire();
     }
 
     public virtual void OnDestroy()

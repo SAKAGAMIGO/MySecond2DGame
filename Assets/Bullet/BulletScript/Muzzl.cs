@@ -17,7 +17,6 @@ public class Muzzl : MonoBehaviour
     {
         //ShootEffectÇèoåª
         Instantiate(_shootEffect, transform.position, transform.rotation);
-        Debug.Log("Object instantiated: " + _shootEffect.name);
     }
 
     public void Cherge()
