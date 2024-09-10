@@ -187,7 +187,6 @@ public class Player : MonoBehaviour
         _rb.velocity = _rb.velocity;
         _animator.SetBool("Shoot", false);
         _animator.SetBool("Angry", true);
-        //_playerSmall.AA();
     }
 
     public virtual void OnDestroy()
