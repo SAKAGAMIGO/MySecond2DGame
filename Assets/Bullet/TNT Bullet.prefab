@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8231699024304470385}
   - component: {fileID: 9203093773002207109}
   - component: {fileID: 6558788633122076782}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TNT Bullet
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 7728574547317979392}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.5, y: 0.41, z: 0}
+  m_LocalPosition: {x: 3.5, y: 0.41, z: 5}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.6}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -171,8 +171,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55213482b01d59946bd72f16fbc15db0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsFly: 0
+  FlyForce: 8
+  _isFly: 0
   _dotObj:
+  - {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
+  - {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
+  - {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
   - {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
   - {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
   - {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}

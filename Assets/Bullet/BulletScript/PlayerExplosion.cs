@@ -19,12 +19,10 @@ public class PlayerExplosion : Player
         foreach (Collider2D collider in colliders)
         {
             ApplyExplosionForce(collider);
-
         }
         Instantiate(Explosion, transform.position, transform.rotation);
         // 爆弾オブジェクトを破棄
         Destroy(gameObject);
-        Debug.Log("bbbb");
     }
 
     /// <summary>吹き飛ばしの処理</summary>
@@ -43,8 +41,6 @@ public class PlayerExplosion : Player
 
             // 力を加える
             targetRigidbody.AddForce(explosionDirection.normalized * force, ForceMode2D.Impulse);
-
-            Debug.Log("force");
         }
     }
 }

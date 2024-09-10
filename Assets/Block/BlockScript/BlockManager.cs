@@ -35,7 +35,7 @@ public class BlockManager : MonoBehaviour
     public void OnDestroy()
     {
         _scoreManager.AddScore(500);
-        int _score = _scoreManager.GetCurrentScore();
+        //int _score = _scoreManager.GetCurrentScore();
     }
 
     private void Hit()

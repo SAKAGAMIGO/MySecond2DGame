@@ -12,23 +12,6 @@ public class TNTPlayer : Player
     /// <summary>死ぬ速度</summary>
     public float DieVelocity = 15;
 
-    /// <summary>衝突イベント</summary><param name="collision"></param>
-    public void OnCollisionEnter2D(Collision2D collision)
-    {
-        DieVelocity--;
-        //死ぬ速度が10より小さくなると黒色になる
-        if (DieVelocity <= 10f)
-        {
-            GetComponent<Renderer>().material.color = Color.black;
-        }
-
-        if (collision.relativeVelocity.sqrMagnitude > DieVelocity)
-        {
-            Debug.Log(collision.relativeVelocity.sqrMagnitude);
-            Destroy(this.gameObject);
-        }
-    }
-
     // 爆発処理
     public override void Detonate()
     {

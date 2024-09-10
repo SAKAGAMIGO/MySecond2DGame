@@ -45,6 +45,6 @@ public class BallonManager : MonoBehaviour
     {
         _scoreManager.AddScore(100);
 
-        int _score = _scoreManager.GetCurrentScore();
+        //int _score = _scoreManager.GetCurrentScore();
     }
 }

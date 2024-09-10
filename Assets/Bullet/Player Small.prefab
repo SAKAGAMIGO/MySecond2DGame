@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 527253544840398890}
   - component: {fileID: 2908111219002740380}
   - component: {fileID: 393940411403046145}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player Small
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 4187943818444278328}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.5757375, y: -3.1239514, z: 0}
+  m_LocalPosition: {x: -5.5757375, y: -3.1239514, z: 5}
   m_LocalScale: {x: -0.09, y: -0.09, z: -0}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -99,14 +99,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e353eda77756a53439607a4bdb65392c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsFly: 0
+  FlyForce: 8
+  _isFly: 0
   _dotObj:
   - {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
   - {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
   - {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
   - {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
   - {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
+  - {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
+  - {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
+  - {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
   DotPrefab: {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
+  _ballPrefab: {fileID: 496981802020442480, guid: 7624220e57481b74385ab42b38e04e7e, type: 3}
+  _splitCount: 4
+  _splitAngle: 15
 --- !u!58 &2908111219002740380
 CircleCollider2D:
   m_ObjectHideFlags: 0

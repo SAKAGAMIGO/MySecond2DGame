@@ -2,15 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.SocialPlatforms.Impl;
 using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
 {
+    public static ScoreManager Instance; // シングルトンインスタンス
+
     /// <summary>スコアテキスト</summary>
     [SerializeField] Text _scoreText;
 
     /// <summary>スコア</summary>
-    public static int _score;
+    public int _score;
 
     public enum SceneKind
     {
@@ -40,22 +43,46 @@ public class ScoreManager : MonoBehaviour
         {SceneKind.Stage6, "Stage6" }
     };
 
+    private void Awake()
+    {
+        // シングルトンパターンの実装
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject); // このオブジェクトをシーンが遷移しても破棄しない
+        }
+        else
+        {
+            Destroy(gameObject); // 既にインスタンスがある場合は重複を避けるために破棄
+        }
+    }
+
     public void Start()
     {
         _scoreText.text = "SCORE" + _score;
+        UpdateScoreText();
     }
 
     /// <summary>Scoreを加算</summary>
-    public void AddScore(int Value)
+    public void AddScore(int points)
     {
-        _score += Value;
+        _score += points;
         _scoreText.text = "SCORE" + _score;
+        UpdateScoreText ();
     }
 
-    public int GetCurrentScore()
+    private void UpdateScoreText()
     {
-        return _score;
+        if (_scoreText != null)
+        {
+            _scoreText.text = "Score: " + _score.ToString();
+        }
     }
+
+    //public int GetCurrentScore()
+    //{
+    //    return _score;
+    //}
         
     private void Title()
     {

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1821701653685162291}
   - component: {fileID: 3914441923635193090}
   - component: {fileID: 2147156474065775724}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player Heaby
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 8789668905391391151}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.9765792, y: -1.5820277, z: 0}
+  m_LocalPosition: {x: -2.9765792, y: -1.5820277, z: 5}
   m_LocalScale: {x: 0.03, y: 0.034999996, z: 0}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -99,8 +99,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c8ed57612f1a4740856578804735253, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsFly: 0
+  FlyForce: 8
+  _isFly: 0
   _dotObj:
+  - {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
+  - {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
+  - {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
   - {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
   - {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
   - {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}

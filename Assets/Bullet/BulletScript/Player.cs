@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     GameController _gameController;
 
     /// <summary>Rigidbody2Dを取得</summary>
-    Rigidbody2D _rb;
+    protected Rigidbody2D _rb;
 
     /// <summary>開始位置</summary>
     private Vector2 _startPosition;
@@ -19,10 +19,10 @@ public class Player : MonoBehaviour
     private float MaxPullDistance = 1;
 
     /// <summary>飛ばす力</summary>
-    [SerializeField] static float FlyForce = 8;
+    [SerializeField]  float FlyForce = 8;
 
     /// <summary>飛んだ判定</summary>
-    public bool IsFly = false;
+    public bool _isFly = false;
 
     //private GameObject[] _dotObject = new GameObject[5];
 
@@ -47,11 +47,14 @@ public class Player : MonoBehaviour
     /// <summary>チャージパーティクル</summary>
     Muzzl _chergeEffect;
 
+    PlayerSmall _playerSmall;
+
     //Soundを一回だけ再生したいときに使う
     private bool _isSound = false;
 
     void Start()
     {
+        _playerSmall = Object.FindObjectOfType<PlayerSmall>();
         _muzzle = GameObject.FindAnyObjectByType<Muzzl>();
         _gameController = GameObject.Find("GameController").GetComponent<GameController>();
         //RigidBodyを取得
@@ -98,7 +101,7 @@ public class Player : MonoBehaviour
         _animator.SetBool("Set", true);
 
         //一度飛んだら処理を行えなくする
-        if (IsFly)
+        if (_isFly)
         {
             return;
         }
@@ -136,7 +139,7 @@ public class Player : MonoBehaviour
         _animator.SetBool("Set", false);
 
         //一度飛んだら処理を行えなくする
-        if (IsFly) return;
+        if (_isFly) return;
 
         //力を加えるベクトルに飛ばす力をかける
         var Force = ((_startPosition - (Vector2)transform.position) * FlyForce);
@@ -154,7 +157,7 @@ public class Player : MonoBehaviour
             _dotObj[i].SetActive(false);
         }
 
-        IsFly = true;
+        _isFly = true;
 
         _isShoot = true;
     }
@@ -166,6 +169,11 @@ public class Player : MonoBehaviour
             _muzzle.ToShoot();
             _isShoot = false;
         }
+
+        if (Input.GetMouseButtonDown(0) && _isFly)
+        {
+            Detonate();
+        }
     }
 
     /// <summary>
@@ -176,20 +184,24 @@ public class Player : MonoBehaviour
     {
         //3秒後に消える
         Destroy(gameObject, 3);
+        _rb.velocity = _rb.velocity;
         _animator.SetBool("Shoot", false);
+        _animator.SetBool("Angry", true);
+        //_playerSmall.AA();
     }
 
     public virtual void OnDestroy()
     {
         _gameController._isPlayerCount = true;
+
         Detonate();
 
         _playerHealth.AddDamage(20);
 
         _chergeEffect._flag = true;
+
+        _animator.SetBool("Angry", false);
     }
-
-
 
     public virtual void Detonate()
     {

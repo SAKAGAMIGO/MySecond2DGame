@@ -9,9 +9,8 @@ public class CameraController : MonoBehaviour
     [SerializeField] GameObject _outButton;
     [SerializeField] GameObject _zoomButton;
 
-    /// <summary>Zoom,Out真偽</summary>
+    [SerializeField,Tooltip("Zoom,Out真偽")] 
     bool _isZoom;
-    bool _isOut;
 
     /// <summary>VacualCamera</summary>
     [SerializeField] CinemachineVirtualCamera _zoomCamera;
@@ -26,10 +25,6 @@ public class CameraController : MonoBehaviour
 
     public void Start()
     {
-        _outButton.SetActive(true);
-        _zoomButton.SetActive(false);
-        _isZoom = false;
-        _isOut = true;
         _controller = GameObject.FindObjectOfType<GameController>();
         //PlayerMotionのアニメーションを格納
         //_tAnimator = GameObject.Find("Target").GetComponent <Animator>();
@@ -53,20 +48,20 @@ public class CameraController : MonoBehaviour
         //Zoomボタンアクティブ管理
     public void Zoom()
     {
-        if (_isZoom && _isOut == false)
+        if (_isZoom)
         {
-            _outButton.SetActive(false);
-            _zoomButton.SetActive(true);
+            _outButton.SetActive(true);
+            _zoomButton.SetActive(false);
         }
     }
 
     //Outボタンアクティブ管理
     public void Out()
     {
-        if (_isOut && _isZoom == false)
+        if (_isZoom == false)
         {
-            _zoomButton.SetActive(false);
-            _outButton.SetActive(true);
+            _outButton.SetActive(false);
+            _zoomButton.SetActive(true);
         }
     }
 
@@ -75,8 +70,7 @@ public class CameraController : MonoBehaviour
     {
         SoundManager.Instance.PlaySE(SESoundData.SE.Button);
         _zoomCamera.Priority = 30;
-        _isZoom = false;
-        _isOut = true;
+        _isZoom = true;
         Debug.Log("推された");
     }
 
@@ -84,8 +78,7 @@ public class CameraController : MonoBehaviour
     {
         SoundManager.Instance.PlaySE(SESoundData.SE.Button);
         _zoomCamera.Priority = 0;
-        _isZoom = true;
-        _isOut = false;
+        _isZoom = false;
         Debug.Log("推された");
     }
 }
