@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyManager : MonoBehaviour
 {
     /// <summary>Ž€‚Ê‘¬“x</summary>
-    [SerializeField] float DieVelocity = 10;
+    public float DieVelocity = 10;
 
     GameController gameController;
 

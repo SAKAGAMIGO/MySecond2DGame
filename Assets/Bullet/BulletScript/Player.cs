@@ -173,6 +173,7 @@ public class Player : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && _isFly)
         {
             Detonate();
+            _animator.SetBool("Angry", true);
         }
     }
 
