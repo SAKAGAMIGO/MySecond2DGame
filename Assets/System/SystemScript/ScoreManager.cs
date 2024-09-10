@@ -31,8 +31,8 @@ public class ScoreManager : MonoBehaviour
 
     public static Dictionary<SceneKind, string> SceneNames = new Dictionary<SceneKind, string>()
     {
-        {SceneKind.Title, "TitleScene" },
-        {SceneKind.Select, "StageSelect"},
+        {SceneKind.Title, "Title" },
+        {SceneKind.Select, "Select"},
         {SceneKind.Result, "Result" },
         {SceneKind.GameOver, "GameOver" },
         {SceneKind.Stage1, "Stage1" },
@@ -42,20 +42,6 @@ public class ScoreManager : MonoBehaviour
         {SceneKind.Stage5, "Stage5" },
         {SceneKind.Stage6, "Stage6" }
     };
-
-    private void Awake()
-    {
-        // シングルトンパターンの実装
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject); // このオブジェクトをシーンが遷移しても破棄しない
-        }
-        else
-        {
-            Destroy(gameObject); // 既にインスタンスがある場合は重複を避けるために破棄
-        }
-    }
 
     public void Start()
     {

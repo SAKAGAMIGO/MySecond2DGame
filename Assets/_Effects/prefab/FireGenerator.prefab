@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 814293560167860784}
   - component: {fileID: 6771543153665676436}
   m_Layer: 0
-  m_Name: FireMuzzle
+  m_Name: FireGenerator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
