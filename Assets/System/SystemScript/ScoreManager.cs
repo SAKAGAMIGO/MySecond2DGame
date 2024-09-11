@@ -8,7 +8,20 @@ using UnityEngine.UI;
 public class ScoreManager : MonoBehaviour
 {
     /// <summary>スコア</summary>
-    public static int _score;
+    public static int _score = 0;
+
+    [SerializeField,Tooltip("スター表示のためのノルマスコア1")] int _quotaScoreOne;
+    [SerializeField,Tooltip("スター表示のためのノルマスコア2")] int _quotaScoreTwo;
+    [SerializeField,Tooltip("スター表示のためのノルマスコア3")] int _quotaScoreThree;
+
+    [SerializeField] GameObject _starOne;
+    [SerializeField] GameObject _starTwo;
+    [SerializeField] GameObject _starThree;
+
+    private void Start()
+    {
+        StartCoroutine(StarAnim());
+    }
 
     public enum SceneKind
     {
@@ -45,6 +58,27 @@ public class ScoreManager : MonoBehaviour
         _score += points;
     }
 
+    IEnumerator StarAnim()
+    {
+        if (_score < _quotaScoreOne)
+        {
+            yield break;
+        }
+        _starOne.GetComponent<Animator>().Play("StarScore_1");
+        yield return new WaitForSeconds(0.5f);
+        if (_score < _quotaScoreTwo)
+        {
+            yield break;
+        }
+        _starTwo.GetComponent<Animator>().Play("StarScpre_2");
+        yield return new WaitForSeconds(0.5f);
+        if (_score < _quotaScoreThree)
+        {
+            yield break;
+        }
+        _starThree.GetComponent<Animator>().Play("StarScore_3");
+    }
+
     private void Title()
     {
         SceneManager.LoadScene(SceneNames[SceneKind.Title]);
@@ -61,7 +95,7 @@ public class ScoreManager : MonoBehaviour
 
     public void GetStageSelect()
     {
-        Invoke(nameof(StageSelect), 3f);
+        Invoke(nameof(StageSelect), 1f);
         Debug.Log("ステージセレクトへ");
     }
 
@@ -72,7 +106,7 @@ public class ScoreManager : MonoBehaviour
 
     public void GetResult()
     {
-        Invoke(nameof(Result), 0.5f);
+        Invoke(nameof(Result), 1f);
     }
 
     private void GameOver()
@@ -82,7 +116,7 @@ public class ScoreManager : MonoBehaviour
 
     public void GetGameOver()
     {
-        Invoke(nameof(GameOver), 0.5f);
+        Invoke(nameof(GameOver), 1f);
     }
 
     private void Stage1()

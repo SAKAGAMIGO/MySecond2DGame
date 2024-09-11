@@ -8,7 +8,6 @@ public class ScoreDisplay : MonoBehaviour
     /// <summary>スコアテキスト</summary>
     public Text _scoreText;
 
-    // Update is called once per frame
     void Update()
     {
         _scoreText.text = "SCORE: " + ScoreManager._score;
