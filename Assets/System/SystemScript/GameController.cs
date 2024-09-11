@@ -56,7 +56,7 @@ public class GameController : MonoBehaviour
     /// <summary>キーがItemType, 値がItemBaceClass</summary>
     [SerializeField] Dictionary<ItemType, ItemBaceClass> _itemDic = new Dictionary<ItemType, ItemBaceClass>();
     /// <summary>キーがItemType, 値がInt</summary>
-    [SerializeField] Dictionary<ItemType, int> _itemCount = new Dictionary<ItemType, int>();
+    public Dictionary<ItemType, int> _itemCount = new Dictionary<ItemType, int>();
 
     [SerializeField] GameObject _pawerItemButton;
     [SerializeField] GameObject _tntButtom;
@@ -133,20 +133,51 @@ public class GameController : MonoBehaviour
     // アイテムを使う
     public void UseItem(ItemType itemType)
     {
-        if (_itemDic.Count > 0)
+        //if (_itemDic.Count > 0)
+        //{
+        //    if (_itemDic[itemType] == null || _itemCount.Count > 0)
+        //    {
+        //        return;
+        //    }
+
+        //    // itemに _itemDicを格納
+        //    ItemBaceClass item = _itemDic[itemType];
+
+        //    item.Activate();
+        //}
+        //_itemCount[itemType]--;
+        //Debug.Log("アイテム使用" + _itemCount);
+
+        // 辞書が空またはアイテムが存在しない場合は何もしない
+        if (_itemDic.Count == 0 || !_itemDic.ContainsKey(itemType))
         {
-            if (_itemDic[itemType] == null || _itemCount.Count == 0)
-            {
-                return;
-            }
-
-            // itemに _itemDicを格納
-            ItemBaceClass item = _itemDic[itemType];
-
-            item.Activate();
+            Debug.Log("アイテムが存在しません。");
+            return;
         }
-        _itemCount[itemType]--;
-        Debug.Log("アイテム使用" + _itemCount);
+
+        // 指定したアイテムがnullまたはカウントが0以下の場合は何もしない
+        if (_itemDic[itemType] == null || !_itemCount.ContainsKey(itemType) || _itemCount[itemType] <= 0)
+        {
+            Debug.Log("アイテムが存在しないか、カウントが0です。");
+            return;
+        }
+
+        // itemに _itemDic[itemType] を格納
+        ItemBaceClass item = _itemDic[itemType];
+
+        // アイテムのアクティブ化
+        item.Activate();
+
+        // アイテムカウントが0になったら辞書から削除する（必要に応じて）
+        if (_itemCount[itemType] == 0)
+        {
+            _itemCount.Remove(itemType);
+            Debug.Log($"アイテム {itemType} のカウントが0になったので削除しました。");
+        }
+        else
+        {
+            Debug.Log($"アイテム {itemType} を使用しました。残りカウント: {_itemCount[itemType]}");
+        }
     }
 
     public void AddTNT()

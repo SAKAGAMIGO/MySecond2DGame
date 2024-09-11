@@ -52,14 +52,9 @@ public class BGMSoundData
     {
         Title,
         StageSelect,
-        Stage1,
-        Stage2,
-        Stagw3,
-        Stage4,
-        Stage5,
+        Stage,
         Result,
-        GameOver,
-        GameClear// ‚±‚ê‚ªƒ‰ƒxƒ‹‚É‚È‚é
+        GameOver,// ‚±‚ê‚ªƒ‰ƒxƒ‹‚É‚È‚é
     }
 
     public BGM bgm;

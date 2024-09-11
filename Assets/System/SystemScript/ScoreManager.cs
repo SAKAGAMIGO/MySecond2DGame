@@ -7,13 +7,8 @@ using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
 {
-    public static ScoreManager Instance; // シングルトンインスタンス
-
-    /// <summary>スコアテキスト</summary>
-    [SerializeField] Text _scoreText;
-
     /// <summary>スコア</summary>
-    public int _score;
+    public static int _score;
 
     public enum SceneKind
     {
@@ -43,33 +38,13 @@ public class ScoreManager : MonoBehaviour
         {SceneKind.Stage6, "Stage6" }
     };
 
-    public void Start()
-    {
-        _scoreText.text = "SCORE" + _score;
-        UpdateScoreText();
-    }
 
     /// <summary>Scoreを加算</summary>
-    public void AddScore(int points)
+    public static void AddScore(int points)
     {
         _score += points;
-        _scoreText.text = "SCORE" + _score;
-        UpdateScoreText ();
     }
 
-    private void UpdateScoreText()
-    {
-        if (_scoreText != null)
-        {
-            _scoreText.text = "Score: " + _score.ToString();
-        }
-    }
-
-    //public int GetCurrentScore()
-    //{
-    //    return _score;
-    //}
-        
     private void Title()
     {
         SceneManager.LoadScene(SceneNames[SceneKind.Title]);
@@ -119,4 +94,23 @@ public class ScoreManager : MonoBehaviour
         Invoke(nameof(Stage1), 1f);
     }
 
+    private void Stage2()
+    {
+        SceneManager.LoadScene(SceneNames[SceneKind.Stage2]);
+    }
+
+    public void GetStage2()
+    {
+        Invoke(nameof(Stage2), 1f);
+    }
+
+    private void Stage3()
+    {
+        SceneManager.LoadScene(SceneNames[SceneKind.Stage3]);
+    }
+
+    public void GetStage3()
+    {
+        Invoke(nameof(Stage3), 1f);
+    }
 }

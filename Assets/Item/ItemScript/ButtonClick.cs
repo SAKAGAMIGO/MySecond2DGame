@@ -17,8 +17,8 @@ public class ButtonClick : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        SoundManager.Instance.PlaySE(SESoundData.SE.Item);
         _controller.UseItem(_itemType);
-
         Debug.Log($"Use{_itemType}");
     }
 }

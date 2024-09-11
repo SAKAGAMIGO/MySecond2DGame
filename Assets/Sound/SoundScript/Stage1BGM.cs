@@ -7,7 +7,7 @@ public class Stage1BGM : MonoBehaviour
 {
     private void Start()
     {
-        SoundManager.Instance.PlayBGM(BGMSoundData.BGM.Stage1);
+        SoundManager.Instance.PlayBGM(BGMSoundData.BGM.Stage);
     }
 
     void Update()

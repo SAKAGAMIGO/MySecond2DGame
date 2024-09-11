@@ -4,8 +4,6 @@ using DG.Tweening;
 
 public class TNT : MonoBehaviour
 {
-    ScoreManager _scoreManager;
-
     [SerializeField] GameObject explosion;
     [SerializeField] private float explosionForce; // ”š”­—Í
     [SerializeField] private float explosionRadius; // ”š”­”¼Œa
@@ -16,7 +14,7 @@ public class TNT : MonoBehaviour
 
     void Start()
     {
-        _scoreManager = GameObject.FindObjectOfType<ScoreManager>();
+
     }
 
     /// <summary>Õ“ËƒCƒxƒ“ƒg</summary><param name="collision"></param>
@@ -53,7 +51,7 @@ public class TNT : MonoBehaviour
         SoundManager.Instance.PlaySE(SESoundData.SE.Bomb);
         Detonate();
         Instantiate(explosion,transform.position,transform.rotation);
-        _scoreManager.AddScore(800);
+        ScoreManager.AddScore(800);
     }
 
     // ‚«”ò‚Î‚µ‚Ìˆ—

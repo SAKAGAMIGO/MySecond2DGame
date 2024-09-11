@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BlockManager : MonoBehaviour
-{
-    ScoreManager _scoreManager;
-
+{ 
     /// <summary>死ぬ速度</summary>
     public float DieVelocity = 20;
 
@@ -13,7 +11,7 @@ public class BlockManager : MonoBehaviour
 
     void Start()
     {
-        _scoreManager = GameObject.FindObjectOfType<ScoreManager>();
+        
     }
 
     /// <summary>衝突イベント</summary><param name="collision"></param>
@@ -34,8 +32,7 @@ public class BlockManager : MonoBehaviour
 
     public void OnDestroy()
     {
-        _scoreManager.AddScore(500);
-        //int _score = _scoreManager.GetCurrentScore();
+        ScoreManager.AddScore(500);
     }
 
     private void Hit()
