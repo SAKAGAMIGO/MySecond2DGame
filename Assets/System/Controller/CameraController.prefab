@@ -44,8 +44,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84bff85dee01dc94689dac92c9abbade, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _zoomButton: {fileID: 0}
   _outButton: {fileID: 0}
+  _zoomButton: {fileID: 0}
+  _isZoom: 1
   _zoomCamera: {fileID: 0}
   _camera1: {fileID: 0}
   _camera2: {fileID: 0}

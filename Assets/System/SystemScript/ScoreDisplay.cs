@@ -6,10 +6,11 @@ using UnityEngine.UI;
 public class ScoreDisplay : MonoBehaviour
 {
     /// <summary>スコアテキスト</summary>
-    public Text _scoreText;
+    public Text _score;
 
     void Update()
     {
-        _scoreText.text = "SCORE: " + ScoreManager._score;
+        //static変数_scoreを加算
+        _score.text = "SCORE: " + ScoreManager._score;
     }
 }

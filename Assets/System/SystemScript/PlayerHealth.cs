@@ -14,7 +14,6 @@ public class PlayerHealth : MonoBehaviour
 
     GameController _controller;
 
-
     void Start()
     {
         //HealthGuage‚ðŽæ“¾
