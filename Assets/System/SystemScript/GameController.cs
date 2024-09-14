@@ -67,6 +67,8 @@ public class GameController : MonoBehaviour
     /// <summary>GameControllerの_taregetPos真偽</summary>
     public bool _isTareget;
 
+    bool _isCurrentPlayerMove = false;
+
     public void Start()
     {
         _enemyBox = GameObject.FindGameObjectsWithTag("Enemy");
@@ -196,12 +198,21 @@ public class GameController : MonoBehaviour
     {
         if (_isPlayerCount == true)
         {
-            //現在出現していプレイヤーのプレファブにプレイヤーリストの0番目を格納
+            // 現在出現しているプレイヤーのプレファブにプレイヤーリストの0番目を格納
             _currentPlayerPrefab = _playerList[0];
+
+            // プレイヤーオブジェクトをスポナーの位置に生成
             GameObject obj = Instantiate(_playerList[0].gameObject, transform.position, Quaternion.identity);
+
+            // プレイヤーオブジェクトをスポナーの子に設定
+            obj.transform.SetParent(transform);
+
+            // プレイヤーコンポーネントを取得
             _currentPlayer = obj.GetComponent<Player>();
-            //プレイヤーリストの0番目を破棄
-            _playerList.Remove(_playerList[0]);
+
+            // プレイヤーリストの0番目を破棄
+            _playerList.RemoveAt(0);
+
             _isPlayerCount = false;
         }
     }

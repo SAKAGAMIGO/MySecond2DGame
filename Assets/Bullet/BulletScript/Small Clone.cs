@@ -9,15 +9,16 @@ public class SmallClone : MonoBehaviour
     BlockManager _block;
     EnemyManager _enemy;
 
+    private void Start()
+    {
+        _block = Object.FindObjectOfType<BlockManager>();
+        _enemy = Object.FindObjectOfType<EnemyManager>();
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject)
         {
-            float _dieVerocity = collision.relativeVelocity.sqrMagnitude;
-
-            BlockManager _block = collision.gameObject.GetComponent<BlockManager>();
-            EnemyManager _enemy = collision.gameObject.GetComponent<EnemyManager>();
-
             _block.DieVelocity -= 10;
             _enemy.DieVelocity -= 10;
         }

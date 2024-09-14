@@ -172,10 +172,13 @@ public class Player : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0) && _isFly)
         {
-            Detonate();
+            _animator.SetBool("Shoot", false);
             _animator.SetBool("Angry", true);
+            Detonate();
         }
     }
+
+    FireMuzzle _fireMuzzle;
 
     /// <summary>
     /// è’ìÀÉCÉxÉìÉg
@@ -183,26 +186,28 @@ public class Player : MonoBehaviour
     /// <param name="collision"></param>
     public void OnCollisionEnter2D(Collision2D collision)
     {
+        
         //3ïbå„Ç…è¡Ç¶ÇÈ
         Destroy(gameObject, 3);
         _rb.velocity = _rb.velocity;
         _animator.SetBool("Shoot", false);
         _animator.SetBool("Angry", true);
-        FireMuzzle _fireMuzzle = Object.FindObjectOfType<FireMuzzle>();
+        _fireMuzzle = Object.FindObjectOfType<FireMuzzle>();
         _fireMuzzle.ToFire();
     }
 
-    public virtual void OnDestroy()
+    public  virtual void OnDestroy()
     {
-        _gameController._isPlayerCount = true;
+        _animator.SetBool("Angry", false);
+        _playerHealth.AddDamage(20);
 
         Detonate();
 
-        _playerHealth.AddDamage(20);
-
         _chergeEffect._flag = true;
 
-        _animator.SetBool("Angry", false);
+        _gameController._isPlayerCount = true;
+
+        _fireMuzzle.ToFire();
     }
 
     public virtual void Detonate()

@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4585295850063229384}
   - component: {fileID: 3080388400132682684}
-  - component: {fileID: 5105464109980573868}
   - component: {fileID: 3993127757559651403}
   - component: {fileID: 7517261453162561616}
+  - component: {fileID: 7033424223634232655}
   m_Layer: 3
   m_Name: Ice Triangle _2
   m_TagString: Untagged
@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4076287450937637781}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.9220761, y: -0.38700885, z: -0, w: 0}
+  m_LocalRotation: {x: -0.92207605, y: -0.38700882, z: 0, w: 0}
   m_LocalPosition: {x: 6.228, y: -2.123, z: 0}
   m_LocalScale: {x: 0.8800001, y: 0.5000002, z: 0.5000002}
   m_ConstrainProportionsScale: 0
@@ -87,20 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5105464109980573868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4076287450937637781}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 787118d517888c242ad54c6c3dd5a9d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DieVelocity: 25
-  m_effect: {fileID: 5899740577122158404, guid: c12c2b4567ffc334b883ff6893b3341b, type: 3}
 --- !u!60 &3993127757559651403
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -176,3 +162,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &7033424223634232655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4076287450937637781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce8599c90a576b94da3b31d82034bda3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DieVelocity: 25
+  m_effect: {fileID: 5899740577122158404, guid: c12c2b4567ffc334b883ff6893b3341b, type: 3}

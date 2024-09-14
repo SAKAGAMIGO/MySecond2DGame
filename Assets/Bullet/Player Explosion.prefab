@@ -111,7 +111,7 @@ MonoBehaviour:
   - {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
   - {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
   DotPrefab: {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
-  explosionForce: 13
+  explosionForce: 7
   explosionRadius: 2
   Explosion: {fileID: 1942315907881232961, guid: be1543a4333ee414db4a8a6a8022e536, type: 3}
 --- !u!50 &7442963283470358549
