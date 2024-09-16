@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerExplosion : Player
 {
-
     [SerializeField] private float explosionForce; // 爆発力
     [SerializeField] private float explosionRadius; // 爆発半径
 
@@ -21,6 +20,9 @@ public class PlayerExplosion : Player
             ApplyExplosionForce(collider);
         }
         Instantiate(Explosion, transform.position, transform.rotation);
+        SoundManager.Instance.PlaySE(SESoundData.SE.Bomb);
+        _animator.Play("Angry");
+
         // 爆弾オブジェクトを破棄
         Destroy(gameObject);
     }

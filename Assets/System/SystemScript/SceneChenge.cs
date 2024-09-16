@@ -5,10 +5,19 @@ using UnityEngine.SceneManagement;
 using UnityEngine.SocialPlatforms.Impl;
 using UnityEngine.UI;
 
-public class ScoreManager : MonoBehaviour
+public class SceneChenge : MonoBehaviour
 {
     /// <summary>スコア</summary>
     public static int _score = 0;
+
+    public static int _stageNumber;
+
+    StarDisplay _starDisplay;
+
+    private void Start()
+    {
+        _starDisplay = Object.FindObjectOfType<StarDisplay>();
+    }
 
     public enum SceneKind
     {
@@ -61,7 +70,7 @@ public class ScoreManager : MonoBehaviour
 
     public void GetStageSelect()
     {
-        Invoke(nameof(StageSelect), 1f);
+        Invoke(nameof(StageSelect), 3.5f);
         Debug.Log("ステージセレクトへ");
     }
 
@@ -79,7 +88,7 @@ public class ScoreManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneNames[SceneKind.GameOver]);
     }
-
+    
     public void GetGameOver()
     {
         Invoke(nameof(GameOver), 1f);
@@ -88,6 +97,7 @@ public class ScoreManager : MonoBehaviour
     private void Stage1()
     {
         SceneManager.LoadScene(SceneNames[SceneKind.Stage1]);
+        _stageNumber = 0;
     }
     public void GetStage1()
     {
@@ -97,6 +107,7 @@ public class ScoreManager : MonoBehaviour
     private void Stage2()
     {
         SceneManager.LoadScene(SceneNames[SceneKind.Stage2]);
+        _stageNumber = 1;
     }
 
     public void GetStage2()
@@ -107,10 +118,44 @@ public class ScoreManager : MonoBehaviour
     private void Stage3()
     {
         SceneManager.LoadScene(SceneNames[SceneKind.Stage3]);
+        _stageNumber = 2;
     }
-
+    
     public void GetStage3()
     {
         Invoke(nameof(Stage3), 1f);
+    }
+
+    private void Stage4()
+    {
+        SceneManager.LoadScene(SceneNames[SceneKind.Stage4]);
+        _stageNumber = 3;
+    }
+
+    public void GetStage4()
+    {
+        Invoke(nameof(Stage4), 1f);
+    }
+
+    private void Stage5()
+    {
+        SceneManager.LoadScene(SceneNames[SceneKind.Stage5]);
+        _stageNumber = 4;
+    }
+
+    public void GetStage5()
+    {
+        Invoke(nameof(Stage5), 1f);
+    }
+
+    private void Stage6()
+    {
+        SceneManager.LoadScene(SceneNames[SceneKind.Stage6]);
+        _stageNumber = 5;
+    }
+
+    public void GetStage6()
+    {
+        Invoke(nameof(Stage6), 1f);
     }
 }

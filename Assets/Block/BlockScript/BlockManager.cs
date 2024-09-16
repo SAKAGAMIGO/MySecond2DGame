@@ -32,7 +32,7 @@ public class BlockManager : MonoBehaviour
 
     public void OnDestroy()
     {
-        ScoreManager.AddScore(500);
+        SceneChenge.AddScore(500);
     }
 
     private void Hit()

@@ -111,9 +111,9 @@ MonoBehaviour:
   - {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
   - {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
   DotPrefab: {fileID: 7166678514538307950, guid: 0d3e0598cb7d5364787db5fdfa7c0e33, type: 3}
-  _ballPrefab: {fileID: 496981802020442480, guid: 7624220e57481b74385ab42b38e04e7e, type: 3}
+  _ballPrefab: {fileID: -4130609389510022260, guid: 7624220e57481b74385ab42b38e04e7e, type: 3}
   _splitCount: 4
-  _splitAngle: 15
+  _splitAngle: 150
 --- !u!58 &2908111219002740380
 CircleCollider2D:
   m_ObjectHideFlags: 0

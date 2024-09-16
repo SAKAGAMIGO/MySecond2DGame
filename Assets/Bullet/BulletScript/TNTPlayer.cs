@@ -22,11 +22,13 @@ public class TNTPlayer : Player
             ApplyExplosionForce(collider);
         }
 
+        _animator.Play("Angry");
+
         // 爆弾オブジェクトを破棄
         Destroy(gameObject);
     }
 
-    public override void OnDestroy()
+   protected override void OnDestroy()
     {
         Detonate();
         Instantiate(explosion, transform.position, transform.rotation);

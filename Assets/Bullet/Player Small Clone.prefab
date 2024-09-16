@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6807681079897550833}
   - component: {fileID: 2355895226624277784}
   - component: {fileID: 7925966309675357556}
-  - component: {fileID: 3116940024455916857}
+  - component: {fileID: -4130609389510022260}
   m_Layer: 8
   m_Name: Player Small Clone
   m_TagString: Player
@@ -149,7 +149,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &3116940024455916857
+--- !u!114 &-4130609389510022260
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -161,3 +161,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b46dabd21d2964fa4c55ecb2cc0635, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _rb: {fileID: 7925966309675357556}

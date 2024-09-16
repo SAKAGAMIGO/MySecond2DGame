@@ -6,21 +6,10 @@ using static Unity.Collections.AllocatorManager;
 
 public class SmallClone : MonoBehaviour
 {
-    BlockManager _block;
-    EnemyManager _enemy;
+    [SerializeField] Rigidbody2D _rb;
 
-    private void Start()
+    public void SetVelocity(Vector2 velocity)
     {
-        _block = Object.FindObjectOfType<BlockManager>();
-        _enemy = Object.FindObjectOfType<EnemyManager>();
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject)
-        {
-            _block.DieVelocity -= 10;
-            _enemy.DieVelocity -= 10;
-        }
+        _rb.velocity = velocity;
     }
 }

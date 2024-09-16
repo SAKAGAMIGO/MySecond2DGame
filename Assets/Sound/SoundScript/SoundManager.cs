@@ -79,6 +79,7 @@ public class SESoundData
         IceBroken,
         BallonBroken,
         Electric,
+        TNT,
         Bomb,
         Player,
         Enemy,

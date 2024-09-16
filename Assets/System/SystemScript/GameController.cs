@@ -6,7 +6,8 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using static ScoreManager;
+using static SceneChenge;
+using static UnityEditor.Progress;
 
 public class GameController : MonoBehaviour
 {
@@ -53,14 +54,16 @@ public class GameController : MonoBehaviour
     //現在のプレイヤー
     [SerializeField] Player _currentPlayer;
 
-    /// <summary>キーがItemType, 値がItemBaceClass</summary>
-    [SerializeField] Dictionary<ItemType, ItemBaceClass> _itemDic = new Dictionary<ItemType, ItemBaceClass>();
     /// <summary>キーがItemType, 値がInt</summary>
-    public Dictionary<ItemType, int> _itemCount = new Dictionary<ItemType, int>();
+    public static Dictionary<ItemType, int> _itemCount = new Dictionary<ItemType, int>();
 
     [SerializeField] GameObject _pawerItemButton;
     [SerializeField] GameObject _tntButtom;
     [SerializeField] GameObject _sightButtom;
+
+    [SerializeField] TNTItem _tntItem;
+    [SerializeField] SightItem _sightItem;
+    [SerializeField] ItemAddForce _itemAddForce;
 
     /// <summary></summary>
     [SerializeField] Vector2 _taregetPos;
@@ -69,12 +72,22 @@ public class GameController : MonoBehaviour
 
     bool _isCurrentPlayerMove = false;
 
+    private static bool _isFirstEntry = true;
+
     public void Start()
     {
         _enemyBox = GameObject.FindGameObjectsWithTag("Enemy");
         _enemyText.text = "ENEMY:" + _enemyScore + "/" + _enemyBox.Length;
         _finishButtom.SetActive(false);
         _gameOverButton.SetActive(false);
+
+        if (_isFirstEntry)
+        {
+            _itemCount.Add(ItemType.TNT, 3);
+            _itemCount.Add(ItemType.Sight, 3);
+            _itemCount.Add(ItemType.Fly, 3);
+
+        }
     }
 
     private void Update()
@@ -97,78 +110,41 @@ public class GameController : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// アイテムをアイテムリストに追加する
-    /// </summary>
-    /// <param name="item"></param>
-    public void GetItem(ItemType itemType, ItemBaceClass item)
-    {
-        //_itemDicがitemTypeだったら(ContainsKey = bool型)
-        if (_itemDic.ContainsKey(itemType))
-        {
-            _itemCount[itemType]++;
-            Debug.Log("アイテム取得" + _itemCount + item);
-        }
-
-        if (_itemDic.ContainsKey(ItemType.Fly))
-        {
-            _pawerItemButton.gameObject.SetActive(true);
-        }
-
-        if (_itemDic.ContainsKey(ItemType.TNT))
-        {
-            _tntButtom.gameObject.SetActive(true);
-        }
-
-        if (_itemDic.ContainsKey(ItemType.Sight))
-        {
-            _sightButtom.gameObject.SetActive(true);
-        }
-
-        else
-        {
-            _itemDic.Add(itemType, item);
-            _itemCount.Add(itemType, 1);
-        }
-    }
-
     // アイテムを使う
     public void UseItem(ItemType itemType)
     {
-        //if (_itemDic.Count > 0)
-        //{
-        //    if (_itemDic[itemType] == null || _itemCount.Count > 0)
-        //    {
-        //        return;
-        //    }
-
-        //    // itemに _itemDicを格納
-        //    ItemBaceClass item = _itemDic[itemType];
-
-        //    item.Activate();
-        //}
-        //_itemCount[itemType]--;
-        //Debug.Log("アイテム使用" + _itemCount);
-
         // 辞書が空またはアイテムが存在しない場合は何もしない
-        if (_itemDic.Count == 0 || !_itemDic.ContainsKey(itemType))
+        if (_itemCount.Count == 0 || !_itemCount.ContainsKey(itemType))
         {
             Debug.Log("アイテムが存在しません。");
             return;
         }
 
-        // 指定したアイテムがnullまたはカウントが0以下の場合は何もしない
-        if (_itemDic[itemType] == null || !_itemCount.ContainsKey(itemType) || _itemCount[itemType] <= 0)
+        ItemBaceClass item = null;
+        if (itemType == ItemType.TNT)
         {
-            Debug.Log("アイテムが存在しないか、カウントが0です。");
-            return;
+            // itemに _itemDic[itemType] を格納
+            var tnt = Instantiate(_tntItem);
+            tnt.AddController(this);
+            item = tnt;
         }
-
-        // itemに _itemDic[itemType] を格納
-        ItemBaceClass item = _itemDic[itemType];
+        else if (itemType == ItemType.Sight)
+        {
+            var sight = Instantiate(_sightItem);
+            sight.AddPlayer(_currentPlayer);
+            item = sight;
+        }
+        else if (itemType == ItemType.Fly)
+        {
+            var fly = Instantiate(_itemAddForce);
+            fly.AddPlayer(_currentPlayer);
+            item = fly;
+        }
 
         // アイテムのアクティブ化
         item.Activate();
+        //_itemCountを減らす
+        _itemCount[itemType]--;
 
         // アイテムカウントが0になったら辞書から削除する（必要に応じて）
         if (_itemCount[itemType] == 0)
@@ -184,6 +160,7 @@ public class GameController : MonoBehaviour
 
     public void AddTNT()
     {
+        Debug.Log("AddTNT");
         //現在出現していプレイヤーのプレファブを０番目に出現
         _playerList.Insert(0, _currentPlayerPrefab);
         //TNTプレイヤーを０番目に出現

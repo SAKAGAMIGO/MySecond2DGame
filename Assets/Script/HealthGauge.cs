@@ -40,6 +40,5 @@ public class HealthGuage : MonoBehaviour
     {
         SetGuage((_currentHP + rate) / _maxHp);
         _currentHP += rate;
-        Debug.Log($"Rate: {rate}, Current: {_currentHP}, Max: {_maxHp}");
     }
 }

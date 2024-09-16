@@ -11,12 +11,6 @@ public class TNT : MonoBehaviour
     /// <summary>死ぬ速度</summary>
     public float DieVelocity = 15;
 
-
-    void Start()
-    {
-
-    }
-
     /// <summary>衝突イベント</summary><param name="collision"></param>
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -48,10 +42,10 @@ public class TNT : MonoBehaviour
 
     private void OnDestroy()
     {
-        SoundManager.Instance.PlaySE(SESoundData.SE.Bomb);
+        SoundManager.Instance.PlaySE(SESoundData.SE.TNT);
         Detonate();
         Instantiate(explosion,transform.position,transform.rotation);
-        ScoreManager.AddScore(800);
+        SceneChenge.AddScore(800);
     }
 
     // 吹き飛ばしの処理

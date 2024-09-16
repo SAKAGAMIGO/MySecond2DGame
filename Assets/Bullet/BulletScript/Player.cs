@@ -34,7 +34,7 @@ public class Player : MonoBehaviour
     private float _dotTimeInterval = 0.05f;
 
     /// <summary>アニメーターを取得</summary>    
-    private Animator _animator;
+    protected Animator _animator;
 
     /// <summary>Muzzle</summary>
     Muzzl _muzzle;
@@ -52,10 +52,11 @@ public class Player : MonoBehaviour
     //Soundを一回だけ再生したいときに使う
     private bool _isSound = false;
 
-    void Start()
+    protected virtual void Start()
     {
         _playerSmall = Object.FindObjectOfType<PlayerSmall>();
         _muzzle = GameObject.FindAnyObjectByType<Muzzl>();
+        _fireMuzzle = Object.FindObjectOfType<FireMuzzle>();
         _gameController = GameObject.Find("GameController").GetComponent<GameController>();
         //RigidBodyを取得
         _rb = GetComponent<Rigidbody2D>();
@@ -98,7 +99,7 @@ public class Player : MonoBehaviour
         }
 
         //Animationを再生
-        _animator.SetBool("Set", true);
+        _animator.Play("Set");
 
         //一度飛んだら処理を行えなくする
         if (_isFly)
@@ -135,8 +136,7 @@ public class Player : MonoBehaviour
         _isSound = false;
 
         //アニメーションを再生    
-        _animator.SetBool("Shoot", true);
-        _animator.SetBool("Set", false);
+        _animator.Play("Shoot");
 
         //一度飛んだら処理を行えなくする
         if (_isFly) return;
@@ -172,8 +172,6 @@ public class Player : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0) && _isFly)
         {
-            _animator.SetBool("Shoot", false);
-            _animator.SetBool("Angry", true);
             Detonate();
         }
     }
@@ -189,19 +187,21 @@ public class Player : MonoBehaviour
         
         //3秒後に消える
         Destroy(gameObject, 3);
-        _rb.velocity = _rb.velocity;
-        _animator.SetBool("Shoot", false);
-        _animator.SetBool("Angry", true);
-        _fireMuzzle = Object.FindObjectOfType<FireMuzzle>();
+        _animator.Play("Shoot");
+        
         _fireMuzzle.ToFire();
     }
 
-    public  virtual void OnDestroy()
+    protected virtual void OnDestroy()
     {
-        _animator.SetBool("Angry", false);
+        _animator.Play("Angry");
+
         _playerHealth.AddDamage(20);
 
-        Detonate();
+        if (this is not PlayerExplosion && this is not TNTPlayer)
+        {
+            Detonate();
+        }
 
         _chergeEffect._flag = true;
 

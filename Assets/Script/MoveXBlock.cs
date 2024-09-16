@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoveXBlock : MonoBehaviour
 {
-    public int speed;
+    public float speed;
     private Vector3 startPos;
     Rigidbody2D rb;
 
