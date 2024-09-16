@@ -9,6 +9,12 @@ public class PlayerSmall : Player
     public float _splitAngle = 30f; // •ª—ôŒã‚Ì‹…‚ÌŠgUŠp“x
     private bool _hasSplit = true;
     private bool _isSplit = false;
+    public Rigidbody2D _rb;
+
+    private void Start()
+    {
+        _rb = GetComponent<Rigidbody2D>();
+    }
 
     public override void Detonate()
     {
@@ -16,7 +22,7 @@ public class PlayerSmall : Player
         {
             _isSplit = true;
             // Œ»İ‚Ì‘¬“x‚Æ•ûŒü‚ğ•Û
-            //Vector3 currentVelocity = _rb.velocity;
+            Vector3 currentVelocity = _rb.velocity;
 
             // •ª—ô‚³‚¹‚é
             for (int i = 0; i < _splitCount; i++)
@@ -30,10 +36,10 @@ public class PlayerSmall : Player
                 // •ª—ôŒã‚Ì‹…‚Ì•ûŒü‚ğ­‚µ‚¸‚Â•Ï‚¦‚é
                 float angleOffset = (i - (_splitCount / 2f)) * _splitAngle;
                 Quaternion rotation = Quaternion.Euler(0, angleOffset, 0);
-                //Vector3 newVelocity = rotation * currentVelocity;
+                Vector3 newVelocity = rotation * currentVelocity;
 
                 // V‚µ‚¢‹…‚É¨‚¢‚ğ—^‚¦‚é
-                //splitRb.velocity = newVelocity;
+                splitRb.velocity = newVelocity;
                 
                 if (_isSplit)
                 {

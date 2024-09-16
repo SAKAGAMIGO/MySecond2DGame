@@ -903,9 +903,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 066cf4d78e5bdd2449195704f01f8ab6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _quotaScoreOne: -1
-  _quotaScoreTwo: -2
-  _quotaScoreThree: -3
+  _quotaScoreOne: 0
+  _quotaScoreTwo: 0
+  _quotaScoreThree: 0
   _starOne: {fileID: 329672954}
   _starTwo: {fileID: 353659824}
   _starThree: {fileID: 1991726698}
@@ -1198,8 +1198,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1937597529}
-        m_TargetAssemblyTypeName: ScoreManager, Assembly-CSharp
+      - m_Target: {fileID: 1937597532}
+        m_TargetAssemblyTypeName: SceneChenge, Assembly-CSharp
         m_MethodName: GetStageSelect
         m_Mode: 1
         m_Arguments:
@@ -1712,8 +1712,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1937597530}
-  - component: {fileID: 1937597529}
   - component: {fileID: 1937597531}
+  - component: {fileID: 1937597532}
   m_Layer: 0
   m_Name: ScoreManager
   m_TagString: Untagged
@@ -1721,18 +1721,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1937597529
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1937597528}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5798e7512bca3664fa0f52111c0e5ff9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1937597530
 Transform:
   m_ObjectHideFlags: 0
@@ -1761,6 +1749,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _score: {fileID: 992230274}
+--- !u!114 &1937597532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937597528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 281b3d9969380b84282179c2293c333d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1952741341
 GameObject:
   m_ObjectHideFlags: 0

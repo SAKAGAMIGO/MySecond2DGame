@@ -4,7 +4,7 @@ using Unity.VisualScripting;
 using UnityEditorInternal.Profiling.Memory.Experimental;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using static ScoreManager;
+using static SceneChenge;
 
 
 

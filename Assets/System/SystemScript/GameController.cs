@@ -6,7 +6,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using static ScoreManager;
+using static SceneChenge;
 
 public class GameController : MonoBehaviour
 {

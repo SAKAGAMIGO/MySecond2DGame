@@ -21,6 +21,7 @@ public class PlayerExplosion : Player
             ApplyExplosionForce(collider);
         }
         Instantiate(Explosion, transform.position, transform.rotation);
+        SoundManager.Instance.PlaySE(SESoundData.SE.Bomb);
         // 爆弾オブジェクトを破棄
         Destroy(gameObject);
     }

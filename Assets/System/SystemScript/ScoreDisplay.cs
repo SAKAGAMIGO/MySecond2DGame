@@ -11,6 +11,6 @@ public class ScoreDisplay : MonoBehaviour
     void Update()
     {
         //static•Ï”_score‚ğ‰ÁZ
-        _score.text = "SCORE: " + ScoreManager._score;
+        _score.text = "SCORE: " + SceneChenge._score;
     }
 }
