@@ -3206,7 +3206,7 @@ PrefabInstance:
     - target: {fileID: 6280466408892466161, guid: 2ff7fb619f1ae1b44b44424f5155d087, type: 3}
       propertyPath: _playerList.Array.data[0]
       value: 
-      objectReference: {fileID: 527253544840398890, guid: 679e722702acc894dbb874c4762497e1, type: 3}
+      objectReference: {fileID: 4942768768570048910, guid: 6af1c0005c7551a4283054ac8e6ff889, type: 3}
     - target: {fileID: 6280466408892466161, guid: 2ff7fb619f1ae1b44b44424f5155d087, type: 3}
       propertyPath: _playerList.Array.data[1]
       value: 
