@@ -74,9 +74,12 @@ public class GameController : MonoBehaviour
 
     private static bool _isFirstEntry = true;
 
+    Animator _animator;
+
     public void Start()
     {
         _enemyBox = GameObject.FindGameObjectsWithTag("Enemy");
+        _animator = GameObject.Find("Man_Gun").GetComponent<Animator>();
         _enemyText.text = "ENEMY:" + _enemyScore + "/" + _enemyBox.Length;
         _finishButtom.SetActive(false);
         _gameOverButton.SetActive(false);
@@ -224,6 +227,7 @@ public class GameController : MonoBehaviour
     {
         if (_isGameOver && _isFinish == false)
         {
+            _animator.Play("Death");
             _gameOverButton.SetActive(true);
         }
     }
