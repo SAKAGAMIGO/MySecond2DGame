@@ -87,7 +87,6 @@ public class GameController : MonoBehaviour
         if (_isFirstEntry)
         {
             _itemCount.Add(ItemType.TNT, 3);
-            _itemCount.Add(ItemType.Sight, 3);
             _itemCount.Add(ItemType.Fly, 3);
 
         }
@@ -130,12 +129,6 @@ public class GameController : MonoBehaviour
             var tnt = Instantiate(_tntItem);
             tnt.AddController(this);
             item = tnt;
-        }
-        else if (itemType == ItemType.Sight)
-        {
-            var sight = Instantiate(_sightItem);
-            sight.AddPlayer(_currentPlayer);
-            item = sight;
         }
         else if (itemType == ItemType.Fly)
         {
