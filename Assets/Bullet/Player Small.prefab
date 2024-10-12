@@ -28,13 +28,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4187943818444278328}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -1, w: 0}
   m_LocalPosition: {x: -5.5757375, y: -3.1239514, z: 5}
-  m_LocalScale: {x: -0.09, y: -0.09, z: -0}
+  m_LocalScale: {x: -0.035, y: -0.035, z: -0}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180}
 --- !u!212 &8897162744487689469
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: c18299f250a9e8b43ad323f2925c3cdd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2f38419a1c5f37748a25cd13b8a16d3e, type: 3}
   m_Color: {r: 0, g: 0, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -146,9 +146,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.09}
+  m_Offset: {x: 0.4, y: 0.03}
   serializedVersion: 2
-  m_Radius: 1.06
+  m_Radius: 2.25
 --- !u!50 &393940411403046145
 Rigidbody2D:
   serializedVersion: 4
