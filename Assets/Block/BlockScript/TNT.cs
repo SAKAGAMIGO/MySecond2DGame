@@ -16,11 +16,6 @@ public class TNT : MonoBehaviour
     {
 
         DieVelocity--;
-        //€‚Ê‘¬“x‚ª10‚æ‚è¬‚³‚­‚È‚é‚Æ•F‚É‚È‚é
-        if (DieVelocity <= 10f)
-        {
-            GetComponent<Renderer>().material.color = Color.black;
-        }
 
         if (collision.relativeVelocity.sqrMagnitude > DieVelocity)
         {

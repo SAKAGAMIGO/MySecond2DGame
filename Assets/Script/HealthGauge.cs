@@ -18,11 +18,6 @@ public class HealthGuage : MonoBehaviour
 
     GameController _controller;
 
-    private void Start()
-    {
-        
-    }
-
     public void Setup(float hp)
     {
         _currentHP = hp;

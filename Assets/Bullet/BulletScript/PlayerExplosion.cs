@@ -18,13 +18,13 @@ public class PlayerExplosion : Player
         foreach (Collider2D collider in colliders)
         {
             ApplyExplosionForce(collider);
+            // 爆弾オブジェクトを破棄
+            Destroy(gameObject);
         }
         Instantiate(Explosion, transform.position, transform.rotation);
         SoundManager.Instance.PlaySE(SESoundData.SE.Bomb);
         _animator.Play("Angry");
 
-        // 爆弾オブジェクトを破棄
-        Destroy(gameObject);
     }
 
     /// <summary>吹き飛ばしの処理</summary>

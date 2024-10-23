@@ -52,6 +52,12 @@ public class Player : MonoBehaviour
     //Soundを一回だけ再生したいときに使う
     private bool _isSound = false;
 
+    //Initialize() メソッドを使って、GameControllerの参照を渡します。
+    public void Initialize(GameController controller)
+    {
+        _gameController = controller;
+    }
+
     protected virtual void Start()
     {
         _playerSmall = Object.FindObjectOfType<PlayerSmall>();
@@ -205,9 +211,13 @@ public class Player : MonoBehaviour
 
         _chergeEffect._flag = true;
 
-        _gameController._isPlayerCount = true;
-
         _fireMuzzle.ToFire();
+
+        // 自分が破壊されたことをGameControllerに通知
+        if (_gameController != null)
+        {
+            _gameController.OnPlayerDestroyed();
+        }
     }
 
     public virtual void Detonate()

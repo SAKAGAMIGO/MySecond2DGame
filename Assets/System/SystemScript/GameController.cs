@@ -78,6 +78,9 @@ public class GameController : MonoBehaviour
 
     public void Start()
     {
+        // 最初のプレイヤーをスポーンする
+        Invoke(nameof(PlayerSpawn), 2.7f);
+
         _enemyBox = GameObject.FindGameObjectsWithTag("Enemy");
         _animator = GameObject.Find("Man_Gun").GetComponent<Animator>();
         _enemyText.text = "ENEMY:" + _enemyScore + "/" + _enemyBox.Length;
@@ -88,7 +91,6 @@ public class GameController : MonoBehaviour
         {
             _itemCount.Add(ItemType.TNT, 3);
             _itemCount.Add(ItemType.Fly, 3);
-
         }
     }
 
@@ -96,14 +98,6 @@ public class GameController : MonoBehaviour
     {
         //Enemyのカウントが0になったら実行
         GameClear();
-
-        if (_isPlayerCount == true)
-        {
-            //Playerのスポーン
-            GetPlayerSpawn();
-        }
-
-        GameOver();
 
         if (_enemyElementCount <= _enemyScore)
         {
@@ -169,30 +163,41 @@ public class GameController : MonoBehaviour
     /// <summary>Playerのスポーン</summary>
     private void PlayerSpawn()
     {
-        if (_isPlayerCount == true)
+        if (_playerList.Count > 0)
         {
-            // 現在出現しているプレイヤーのプレファブにプレイヤーリストの0番目を格納
-            _currentPlayerPrefab = _playerList[0];
-
-            // プレイヤーオブジェクトをスポナーの位置に生成
-            GameObject obj = Instantiate(_playerList[0].gameObject, transform.position, Quaternion.identity);
-
-            // プレイヤーオブジェクトをスポナーの子に設定
-            obj.transform.SetParent(transform);
-
-            // プレイヤーコンポーネントを取得
-            _currentPlayer = obj.GetComponent<Player>();
-
-            // プレイヤーリストの0番目を破棄
+            // リストからプレイヤーを取得
+            Player newPlayer = _playerList[0];
             _playerList.RemoveAt(0);
 
-            _isPlayerCount = false;
+            // スポナーの位置に生成
+            GameObject obj = Instantiate(newPlayer.gameObject, transform.position, Quaternion.identity);
+
+            // プレイヤーをスポナーの子として設定
+            obj.transform.SetParent(transform);
+
+            // プレイヤーにGameControllerを登録
+            Player spawnedPlayer = obj.GetComponent<Player>();
+            spawnedPlayer.Initialize(this);
+
+            // 現在のプレイヤーとして保持
+            _currentPlayer = spawnedPlayer;
         }
     }
 
-    private void GetPlayerSpawn()
+    /// <summary>プレイヤーが破壊されたときの処理</summary>
+    public void OnPlayerDestroyed()
     {
-        Invoke(nameof(PlayerSpawn), 2.7f);
+        if (_playerList.Count == 0)
+        {
+            // すべてのプレイヤーが破壊されたらゲームオーバー
+            GameOver();
+        }
+        else
+        {
+            // 次のプレイヤーをスポーン
+            Invoke(nameof(PlayerSpawn), 2.7f);
+            Debug.Log("PlayerSpawn");
+        }
     }
 
     /// <summary>Enemyの数</summary>
@@ -218,10 +223,9 @@ public class GameController : MonoBehaviour
 
     public void GameOver()
     {
-        if (_isGameOver && _isFinish == false)
-        {
-            _animator.Play("Death");
-            _gameOverButton.SetActive(true);
-        }
+        Debug.Log("ゲームオーバー！");
+        _isGameOver = true;
+        _animator.Play("Death");
+        _gameOverButton.SetActive(true);
     }
 }
