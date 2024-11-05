@@ -7,11 +7,10 @@ public class StageButton : MonoBehaviour
 {
     public Button stageButton; // ボタン
     public CharacterMover characterMover; // キャラクターのスクリプト参照
-    public Transform stagePosition; // ステージの位置
 
     void Start()
     {
         // ボタンがクリックされたときにキャラクターを移動させる
-        stageButton.onClick.AddListener(() => characterMover.MoveTo(stagePosition.position));
+        //stageButton.onClick.AddListener(() => characterMover.MoveTo(newPosition));
     }
 }

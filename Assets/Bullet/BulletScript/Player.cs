@@ -163,6 +163,9 @@ public class Player : MonoBehaviour
             _dotObj[i].SetActive(false);
         }
 
+        // eqŠÖŒW‚ğ‰ğœ‚·‚é
+        transform.SetParent(null);
+
         _isFly = true;
 
         _isShoot = true;

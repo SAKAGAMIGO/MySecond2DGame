@@ -9,9 +9,15 @@ public class CharacterMover : MonoBehaviour
     private bool isMoving = false; // 移動中フラグ
     Animator _animator;
 
+    // static変数で目標位置を保持
+    public static Vector3 StaticTargetPosition;
+
     private void Start()
     {
         _animator = GameObject.Find("Man").GetComponent<Animator>();
+
+        // static変数から目標位置を読み込む
+        LoadTargetPosition();
     }
 
     void Update()
@@ -29,7 +35,7 @@ public class CharacterMover : MonoBehaviour
             }
         }
 
-        if (isMoving == false)
+        if (!isMoving)
         {
             _animator.SetBool("Wolk", false);
         }
@@ -40,5 +46,33 @@ public class CharacterMover : MonoBehaviour
     {
         targetPosition = newPosition;
         isMoving = true;
+
+        // 目標位置をstatic変数に保存
+        SaveTargetPosition();
+    }
+
+    private void SaveTargetPosition()
+    {
+        // static変数に目標位置を保存
+        StaticTargetPosition = targetPosition;
+    }
+
+    private void LoadTargetPosition()
+    {
+        if (PlayerPrefs.HasKey("TargetPositionX") && PlayerPrefs.HasKey("TargetPositionY") && PlayerPrefs.HasKey("TargetPositionZ"))
+        {
+            float x = PlayerPrefs.GetFloat("TargetPositionX");
+            float y = PlayerPrefs.GetFloat("TargetPositionY");
+            float z = PlayerPrefs.GetFloat("TargetPositionZ");
+            targetPosition = new Vector3(x, y, z);
+
+            Debug.Log($"読み込まれた目標位置: {targetPosition}");
+        }
+        else
+        {
+            // 初期位置を設定
+            targetPosition = transform.position;
+            Debug.Log("目標位置が存在しないため、初期位置を使用します: " + targetPosition);
+        }
     }
 }

@@ -89,8 +89,11 @@ public class GameController : MonoBehaviour
 
         if (_isFirstEntry)
         {
-            _itemCount.Add(ItemType.TNT, 3);
-            _itemCount.Add(ItemType.Fly, 3);
+            if (!_itemCount.ContainsKey(ItemType.TNT))
+                _itemCount.Add(ItemType.TNT, 3);
+
+            if (!_itemCount.ContainsKey(ItemType.Fly))
+                _itemCount.Add(ItemType.Fly, 3);
         }
     }
 

@@ -39,6 +39,12 @@ public class SoundManager : MonoBehaviour
 
     public void PlaySE(SESoundData.SE se)
     {
+        if (seAudioSource == null)
+        {
+            Debug.LogWarning("SE AudioSource is missing. Re-assigning AudioSource.");
+            seAudioSource = gameObject.AddComponent<AudioSource>();
+        }
+
         SESoundData data = seSoundDatas.Find(data => data.se == se);
         seAudioSource.volume = data.volume * m_seMasterVolume * m_masterVolume;
         seAudioSource.PlayOneShot(data.audioClip);
