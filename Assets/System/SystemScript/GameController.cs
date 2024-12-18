@@ -6,72 +6,68 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
 using static SceneChenge;
 using static UnityEditor.Progress;
 
 public class GameController : MonoBehaviour
 {
-    [SerializeField] Player _tntBullet;
+    [SerializeField, Tooltip("プレイヤーPrefab")]
+    List<Player> _playerList = new List<Player>();
+    [SerializeField, Tooltip("現在出現していプレイヤーのプレファブ")]
+    Player _currentPlayerPrefab;
+    [SerializeField, Tooltip("TNTバレット")]
+    Player _tntBullet;
+    [SerializeField, Tooltip("現在のプレイヤー")]
+    Player _currentPlayer;
+    [SerializeField, Tooltip("フィールド上にいるEnemyの数")]
+    GameObject[] _enemyBox;
 
-    bool _isTNT = false;
+    [SerializeField, Tooltip("移動位置")]
+    Vector2 _taregetPos;
 
-    /// <summary>Player出現カウント</summary>
-    int _playercount = 0;
+    [SerializeField, Tooltip("Enemyの残機テキスト")]
+    Text _enemyText;
+    [SerializeField, Tooltip("終わりボタン")]
+    GameObject _finishButtom;
+    [SerializeField, Tooltip("GameOverボタン")]
+    GameObject _gameOverButton;
+    [SerializeField, Tooltip("TNTアイテム数を表示")]
+    TextMeshProUGUI _tntText;
+    [SerializeField, Tooltip("Flyアイテム数を表示")]
+    TextMeshProUGUI _flyText;
+    [SerializeField, Tooltip("タイトルシーン名")]
+    string _titleSceneName = "Title";
 
-    /// <summary>Player出現真偽</summary>
-    public bool _isPlayerCount = true;
-
-    /// <summary>Enemyの残機テキスト</summary>
-    [SerializeField] Text _enemyText;
-
-    /// <summary>Enemyの残機</summary>
-    public int _enemyScore;
-
-    /// <summary>Finish真偽</summary>
-    public bool _isFinish = false;
-
-    /// <summary>終わりボタン</summary>
-    [SerializeField] GameObject _finishButtom;
-
-    /// <summary>GameOver真偽</summary>
-    public bool _isGameOver = false;
-
-    /// <summary>GameOverボタン</summary>
-    [SerializeField] GameObject _gameOverButton;
-
-    /// <summary>フィールド上にいるEnemyの数</summary>
-    [SerializeField] GameObject[] _enemyBox;
-
-    //<summary>現在のEnemyの数</summary>
-    public int _enemyElementCount;
-
-    /// <summary>プレイヤーPrefab</summary>
-    [SerializeField] List<Player> _playerList = new List<Player>();
-
-    //現在出現していプレイヤーのプレファブ
-    [SerializeField] Player _currentPlayerPrefab;
-
-    //現在のプレイヤー
-    [SerializeField] Player _currentPlayer;
+    [SerializeField, Tooltip("エナジードリンク")]
+    GameObject _pawerItemButton;
+    [SerializeField, Tooltip("TNT")]
+    GameObject _tntButtom;
+    [SerializeField, Tooltip("TNTのインスタンス")]
+    TNTItem _tntItem;
+    [SerializeField, Tooltip("エナジードリンクのインスタンス")]
+    ItemAddForce _itemAddForce;
 
     /// <summary>キーがItemType, 値がInt</summary>
     public static Dictionary<ItemType, int> _itemCount = new Dictionary<ItemType, int>();
 
-    [SerializeField] GameObject _pawerItemButton;
-    [SerializeField] GameObject _tntButtom;
-    [SerializeField] GameObject _sightButtom;
+    /// <summary>Player出現カウント</summary>
+    int _playercount = 0;
+    //<summary>現在のEnemyの数</summary>
+    public int _enemyElementCount;
 
-    [SerializeField] TNTItem _tntItem;
-    [SerializeField] SightItem _sightItem;
-    [SerializeField] ItemAddForce _itemAddForce;
-
-    /// <summary></summary>
-    [SerializeField] Vector2 _taregetPos;
+    bool _isTNT = false;
+    /// <summary>Player出現真偽</summary>
+    public bool _isPlayerCount = true;
+    /// <summary>Enemyの残機</summary>
+    public int _enemyScore;
+    /// <summary>Finish真偽</summary>
+    public bool _isFinish = false;
+    /// <summary>GameOver真偽</summary>
+    public bool _isGameOver = false;
     /// <summary>GameControllerの_taregetPos真偽</summary>
     public bool _isTareget;
-
     bool _isCurrentPlayerMove = false;
-
     private static bool _isFirstEntry = true;
 
     Animator _animator;
@@ -90,11 +86,14 @@ public class GameController : MonoBehaviour
         if (_isFirstEntry)
         {
             if (!_itemCount.ContainsKey(ItemType.TNT))
-                _itemCount.Add(ItemType.TNT, 3);
+                _itemCount.Add(ItemType.TNT, 5);
 
             if (!_itemCount.ContainsKey(ItemType.Fly))
-                _itemCount.Add(ItemType.Fly, 3);
+                _itemCount.Add(ItemType.Fly, 5);
         }
+
+        // 最初のテキスト更新
+        UpdateItemText();
     }
 
     private void Update()
@@ -107,6 +106,19 @@ public class GameController : MonoBehaviour
             _isTareget = true;
             transform.position = _taregetPos;
         }
+    }
+
+    private void UpdateItemText()
+    {
+        if (_itemCount.ContainsKey(ItemType.TNT))
+            _tntText.text = $"{_itemCount[ItemType.TNT]}";
+        else
+            _tntText.text = "0";
+
+        if (_itemCount.ContainsKey(ItemType.Fly))
+            _flyText.text = $"{_itemCount[ItemType.Fly]}";
+        else
+            _flyText.text = "0";
     }
 
     // アイテムを使う
@@ -127,7 +139,7 @@ public class GameController : MonoBehaviour
             tnt.AddController(this);
             item = tnt;
         }
-        else if (itemType == ItemType.Fly)
+        else if (itemType == ItemType.Fly && _currentPlayer != null)
         {
             var fly = Instantiate(_itemAddForce);
             fly.AddPlayer(_currentPlayer);
@@ -149,6 +161,8 @@ public class GameController : MonoBehaviour
         {
             Debug.Log($"アイテム {itemType} を使用しました。残りカウント: {_itemCount[itemType]}");
         }
+
+        UpdateItemText(); // 使用後にテキスト更新
     }
 
     public void AddTNT()
@@ -187,6 +201,15 @@ public class GameController : MonoBehaviour
 
             // 現在のプレイヤーとして保持
             _currentPlayer = spawnedPlayer;
+        }
+    }
+
+    public void OnPlayerCollision()
+    {
+        if (_currentPlayer != null)
+        {
+            Debug.Log($"プレイヤー {_currentPlayer.name} がコリジョンしました。現在のプレイヤーをリセットします。");
+            _currentPlayer = null;
         }
     }
 
@@ -236,4 +259,38 @@ public class GameController : MonoBehaviour
             _gameOverButton.SetActive(true);
         }
     }
+
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if (scene.name == _titleSceneName)
+        {
+            RefillItems();
+        }
+    }
+
+    private void RefillItems()
+    {
+        if (!_itemCount.ContainsKey(ItemType.TNT))
+            _itemCount[ItemType.TNT] = 3;
+        else
+            _itemCount[ItemType.TNT] += 3;
+
+        if (!_itemCount.ContainsKey(ItemType.Fly))
+            _itemCount[ItemType.Fly] = 3;
+        else
+            _itemCount[ItemType.Fly] += 3;
+
+        UpdateItemText();
+    }
+
 }

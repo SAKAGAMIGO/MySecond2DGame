@@ -69,7 +69,7 @@ public class SceneChenge : MonoBehaviour
 
     public void GetStageSelect()
     {
-        Invoke(nameof(StageSelect), 1f);
+        Invoke(nameof(StageSelect), 2f);
     }
 
     private void Result()

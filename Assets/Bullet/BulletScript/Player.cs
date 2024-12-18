@@ -199,6 +199,9 @@ public class Player : MonoBehaviour
         _animator.Play("Shoot");
         
         _fireMuzzle.ToFire();
+
+        // GameControllerに現在のプレイヤーをリセットさせる
+        _gameController.OnPlayerCollision();
     }
 
     protected virtual void OnDestroy()

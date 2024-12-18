@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7024272582434952741}
   - component: {fileID: 7342153849433908501}
   - component: {fileID: 2977006026514326532}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TNTItem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,4 +173,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DieVelocity: 10
   _whenActivated: 1
-  _gameController: {fileID: 0}

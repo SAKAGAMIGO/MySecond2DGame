@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4421857998798056804}
   - component: {fileID: 7820409518706695767}
   - component: {fileID: 1805051587801859712}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: AddFlyForceItem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
