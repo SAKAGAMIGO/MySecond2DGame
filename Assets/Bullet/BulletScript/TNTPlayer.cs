@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class TNTPlayer : Player
@@ -28,12 +26,14 @@ public class TNTPlayer : Player
         Destroy(gameObject);
     }
 
-   protected override void OnDestroy()
+    protected override void OnDestroy()
     {
         Detonate();
         Instantiate(explosion, transform.position, transform.rotation);
         _gameController = FindAnyObjectByType<GameController>();
-        _gameController._isPlayerCount = true;
+
+        // TNTプレイヤーが破壊されたときに通常プレイヤーを再度出現させる
+        _gameController.OnPlayerDestroyed();  // 通常プレイヤーを再度スポーン
     }
 
     // 吹き飛ばしの処理

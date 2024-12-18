@@ -157,7 +157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -2}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &275240885
@@ -658,7 +658,7 @@ MonoBehaviour:
   _starOne: {fileID: 329672954}
   _starTwo: {fileID: 353659824}
   _starThree: {fileID: 1991726698}
-  _quotaScore: 983a00003075000090e20000905f010060ea0000e8030000
+  _quotaScore: c83200003075000090e20000905f010060ea000050c30000
 --- !u!4 &691497200
 Transform:
   m_ObjectHideFlags: 0
@@ -1211,7 +1211,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6927014820292196454, guid: f0bac678c40d46f4b9d8b12c67229b2c, type: 3}
       propertyPath: m_Name
-      value: SceneChenger (1)
+      value: SceneChenger
       objectReference: {fileID: 0}
     - target: {fileID: 8985192918574827461, guid: f0bac678c40d46f4b9d8b12c67229b2c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1505,7 +1505,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1937597530}
   - component: {fileID: 1937597531}
-  - component: {fileID: 1937597532}
   m_Layer: 0
   m_Name: ScoreManager
   m_TagString: Untagged
@@ -1540,19 +1539,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c12c7b8a63098424bbef9951ea2a3840, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _score: {fileID: 992230274}
---- !u!114 &1937597532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1937597528}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 281b3d9969380b84282179c2293c333d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  _scoreText: {fileID: 992230274}
 --- !u!1 &1952741341
 GameObject:
   m_ObjectHideFlags: 0
@@ -1753,15 +1740,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2441043199665914937, guid: acc2743144cf73a4cac51ce181fe5dd4, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.55
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2441043199665914937, guid: acc2743144cf73a4cac51ce181fe5dd4, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.55
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2441043199665914937, guid: acc2743144cf73a4cac51ce181fe5dd4, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.55
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2441043199665914937, guid: acc2743144cf73a4cac51ce181fe5dd4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1769,7 +1756,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2441043199665914937, guid: acc2743144cf73a4cac51ce181fe5dd4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.35
+      value: -4.51
       objectReference: {fileID: 0}
     - target: {fileID: 2441043199665914937, guid: acc2743144cf73a4cac51ce181fe5dd4, type: 3}
       propertyPath: m_LocalPosition.z

@@ -6,11 +6,16 @@ using UnityEngine.UI;
 public class ScoreDisplay : MonoBehaviour
 {
     /// <summary>スコアテキスト</summary>
-    public Text _score;
+    public Text _scoreText;
 
-    void Update()
+    private void Update()
     {
-        //static変数_scoreを加算
-        _score.text = "SCORE: " + SceneChenge._score;
+        // ステージ遷移後でもスコアを表示できるようにする
+        _scoreText.text = "SCORE: " + SceneChenge._score;
+    }
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
     }
 }

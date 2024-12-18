@@ -8,8 +8,7 @@ using UnityEngine.UI;
 public class SceneChenge : MonoBehaviour
 {
     /// <summary>スコア</summary>
-    public static int _score = 0;
-
+    public static int _score ;
     public static int _stageNumber;
 
     StarDisplay _starDisplay;
@@ -70,8 +69,7 @@ public class SceneChenge : MonoBehaviour
 
     public void GetStageSelect()
     {
-        Invoke(nameof(StageSelect), 3.5f);
-        Debug.Log("ステージセレクトへ");
+        Invoke(nameof(StageSelect), 1f);
     }
 
     private void Result()

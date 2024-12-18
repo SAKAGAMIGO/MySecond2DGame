@@ -26,13 +26,14 @@ public class TNT : MonoBehaviour
     // 爆発処理
     public void Detonate()
     {
-
         // 爆風の範囲内のオブジェクトを検出
         Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, explosionRadius);
         foreach (Collider2D collider in colliders)
         {
             ApplyExplosionForce(collider);
         }
+
+        Destroy(gameObject);
     }
 
     private void OnDestroy()

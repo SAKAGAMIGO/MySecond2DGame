@@ -154,12 +154,15 @@ public class GameController : MonoBehaviour
     public void AddTNT()
     {
         Debug.Log("AddTNT");
-        //現在出現していプレイヤーのプレファブを０番目に出現
-        _playerList.Insert(0, _currentPlayerPrefab);
+
         //TNTプレイヤーを０番目に出現
         _playerList.Insert(0, _tntBullet);
-        //現在のプレイヤーを破棄
-        Destroy(_currentPlayer.gameObject);
+
+        // 通常プレイヤーもリストに格納しておく
+        if (_playerList.Count == 1) // 最初のTNTプレイヤー追加時のみ
+        {
+            _playerList.Add(_currentPlayerPrefab);  // 通常プレイヤーを追加
+        }
     }
 
 
@@ -218,7 +221,7 @@ public class GameController : MonoBehaviour
     /// <summary>FinishButtomを表示</summary>
     private void GameClear()
     {
-        if (_isFinish)
+        if (_isFinish && !_isGameOver)
         {
             _finishButtom.SetActive(true);
         }
@@ -226,9 +229,11 @@ public class GameController : MonoBehaviour
 
     public void GameOver()
     {
-        Debug.Log("ゲームオーバー！");
-        _isGameOver = true;
-        _animator.Play("Death");
-        _gameOverButton.SetActive(true);
+        if (!_isGameOver && !_isFinish)
+        {
+            _isGameOver = true;
+            _animator.Play("Death");
+            _gameOverButton.SetActive(true);
+        }
     }
 }
