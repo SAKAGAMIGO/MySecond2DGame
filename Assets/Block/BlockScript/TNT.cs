@@ -1,5 +1,4 @@
 using UnityEngine;
-using System.Collections;
 using DG.Tweening;
 
 public class TNT : MonoBehaviour
@@ -7,14 +6,13 @@ public class TNT : MonoBehaviour
     [SerializeField] GameObject explosion;
     [SerializeField] private float explosionForce; // 爆発力
     [SerializeField] private float explosionRadius; // 爆発半径
+    [SerializeField] private GameObject m_scoreTextPrefab = default; // スコアテキストプレハブ
+    [SerializeField] private Canvas m_canvas = default; // スコアテキストを表示する Canvas
 
-    /// <summary>死ぬ速度</summary>
     public float DieVelocity = 15;
 
-    /// <summary>衝突イベント</summary><param name="collision"></param>
     private void OnCollisionEnter2D(Collision2D collision)
     {
-
         DieVelocity--;
 
         if (collision.relativeVelocity.sqrMagnitude > DieVelocity)
@@ -23,10 +21,8 @@ public class TNT : MonoBehaviour
         }
     }
 
-    // 爆発処理
     public void Detonate()
     {
-        // 爆風の範囲内のオブジェクトを検出
         Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, explosionRadius);
         foreach (Collider2D collider in colliders)
         {
@@ -40,25 +36,48 @@ public class TNT : MonoBehaviour
     {
         SoundManager.Instance.PlaySE(SESoundData.SE.TNT);
         Detonate();
-        Instantiate(explosion,transform.position,transform.rotation);
+        Instantiate(explosion, transform.position, transform.rotation);
         SceneChenge.AddScore(800);
+
+        ShowScoreText(800); // スコアテキストを表示
     }
 
-    // 吹き飛ばしの処理
     void ApplyExplosionForce(Collider2D targetCollider)
     {
         Rigidbody2D targetRigidbody = targetCollider.GetComponent<Rigidbody2D>();
 
         if (targetRigidbody != null)
         {
-            // 爆心からの距離に応じて力を計算
             Vector2 explosionDirection = targetCollider.transform.position - transform.position;
             float distance = explosionDirection.magnitude;
             float normalizedDistance = distance / explosionRadius;
             float force = Mathf.Lerp(explosionForce, 0f, normalizedDistance);
 
-            // 力を加える
             targetRigidbody.AddForce(explosionDirection.normalized * force, ForceMode2D.Impulse);
+        }
+    }
+
+    private void ShowScoreText(int score)
+    {
+        if (m_scoreTextPrefab && m_canvas)
+        {
+            // スコアテキストを生成し、Canvas の子オブジェクトに設定
+            GameObject scoreText = Instantiate(m_scoreTextPrefab, m_canvas.transform);
+
+            // 生成したテキストの位置をワールド座標からスクリーン座標へ変換
+            Vector3 worldPosition = this.transform.position;
+            Vector3 screenPosition = Camera.main.WorldToScreenPoint(worldPosition);
+            scoreText.transform.position = screenPosition;
+
+            // テキストの内容を設定
+            var textComponent = scoreText.GetComponent<UnityEngine.UI.Text>();
+            if (textComponent != null)
+            {
+                textComponent.text = $"+{score}";
+            }
+
+            // ScoreTextController を追加して制御
+            scoreText.AddComponent<ScoreTextController>();
         }
     }
 }

@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,12 +11,23 @@ public class SceneChenge : MonoBehaviour
     /// <summary>スコア</summary>
     public static int _score ;
     public static int _stageNumber;
+    public static int _resultScore; // リザルト用のスコア
+
+    static bool isInitialized = false;
+
+    static float _scoreChangeDuration = 0.5f; // スコアカウントアップの時間
 
     StarDisplay _starDisplay;
 
     private void Start()
     {
         _starDisplay = Object.FindObjectOfType<StarDisplay>();
+    }
+
+    private void Update()
+    {
+        Debug.Log( _score);
+        Debug.Log(_resultScore);
     }
 
     public enum SceneKind
@@ -46,11 +58,47 @@ public class SceneChenge : MonoBehaviour
         {SceneKind.Stage6, "Stage6" }
     };
 
+    private void Awake()
+    {
+        if (!isInitialized)
+        {
+            // 初回のみ初期化
+            _score = 0;
+            _resultScore = 0; 
+            isInitialized = true;
+        }
+    }
 
-    /// <summary>Scoreを加算</summary>
+    public static void ResetScore()
+    {
+        _score = 0; // スコアをリセット
+        ScoreDisplay.UpdateScoreText(_score); // テキストを更新
+        _resultScore = _score;
+    }
+
     public static void AddScore(int points)
     {
-        _score += points;
+        int initialScore = _score; // 現在のスコア
+        int targetScore = _score + points; // 目標スコア
+
+        _score = targetScore; // スコアを更新（これによりスコアが保持される）
+        _resultScore = _score; // リザルト用スコアも更新
+
+        // UIテキストの更新
+        ScoreDisplay.UpdateScoreText(_score);
+
+        // DOTweenでアニメーション
+        DOTween.To(
+            () => initialScore,
+            value =>
+            {
+                _score = value; // スコアをリアルタイムで更新
+                _resultScore = _score; // リザルトに反映
+                ScoreDisplay.UpdateScoreText(_score); // テキストも更新
+            },
+            targetScore,
+            0.5f // アニメーション時間（秒）
+        );
     }
 
     private void Title()
@@ -74,6 +122,7 @@ public class SceneChenge : MonoBehaviour
 
     private void Result()
     {
+        _resultScore = _score; // リザルト用スコアを更新
         SceneManager.LoadScene(SceneNames[SceneKind.Result]);
     }
 
@@ -96,6 +145,7 @@ public class SceneChenge : MonoBehaviour
     {
         SceneManager.LoadScene(SceneNames[SceneKind.Stage1]);
         _stageNumber = 0;
+        ResetScore();
     }
     public void GetStage1()
     {
@@ -106,6 +156,7 @@ public class SceneChenge : MonoBehaviour
     {
         SceneManager.LoadScene(SceneNames[SceneKind.Stage2]);
         _stageNumber = 1;
+        ResetScore();
     }
 
     public void GetStage2()
@@ -117,6 +168,7 @@ public class SceneChenge : MonoBehaviour
     {
         SceneManager.LoadScene(SceneNames[SceneKind.Stage3]);
         _stageNumber = 2;
+        ResetScore();
     }
     
     public void GetStage3()
@@ -128,6 +180,7 @@ public class SceneChenge : MonoBehaviour
     {
         SceneManager.LoadScene(SceneNames[SceneKind.Stage4]);
         _stageNumber = 3;
+        ResetScore();
     }
 
     public void GetStage4()
@@ -139,6 +192,7 @@ public class SceneChenge : MonoBehaviour
     {
         SceneManager.LoadScene(SceneNames[SceneKind.Stage5]);
         _stageNumber = 4;
+        ResetScore();
     }
 
     public void GetStage5()
@@ -150,6 +204,7 @@ public class SceneChenge : MonoBehaviour
     {
         SceneManager.LoadScene(SceneNames[SceneKind.Stage6]);
         _stageNumber = 5;
+        ResetScore();
     }
 
     public void GetStage6()

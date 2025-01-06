@@ -23,21 +23,21 @@ public class StarDisplay : MonoBehaviour
         Debug.Log(quotaScore);
 
         // ƒXƒRƒA‚ÉŠî‚Ã‚¢‚½¯‚ÌŠl“¾
-        if (SceneChenge._score > quotaScore / 3)
+        if (SceneChenge._resultScore > quotaScore / 3)
         {
             Debug.Log("Star1Šl“¾");
             _starOne.GetComponent<Animator>().Play("StarScore_1");
         }
         yield return new WaitForSeconds(1f);
 
-        if (SceneChenge._score > quotaScore / 2)
+        if (SceneChenge._resultScore > quotaScore / 2)
         {
             Debug.Log("Star2Šl“¾");
             _starTwo.GetComponent<Animator>().Play("StarScore_2");
         }
         yield return new WaitForSeconds(1f);
 
-        if (SceneChenge._score > quotaScore)
+        if (SceneChenge._resultScore > quotaScore)
         {
             _starThree.GetComponent<Animator>().Play("StarScore_3");
             Debug.Log("Star3Šl“¾");

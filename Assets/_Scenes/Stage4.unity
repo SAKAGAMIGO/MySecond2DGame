@@ -135,6 +135,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood Dsck (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2306074133112956917, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2306074133112956917, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7620005547238329043, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18.938755
@@ -340,6 +348,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -406,6 +422,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -475,6 +499,14 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (23)
@@ -680,6 +712,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -709,7 +749,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 258676952882975711, guid: 72581716ad48955489832bc22ed17e00, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.3479772
+      value: -2.4
       objectReference: {fileID: 0}
     - target: {fileID: 258676952882975711, guid: 72581716ad48955489832bc22ed17e00, type: 3}
       propertyPath: m_LocalPosition.y
@@ -751,6 +791,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -808,6 +856,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -835,6 +891,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.10000001
@@ -910,6 +974,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4771353690564789313, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 4771353690564789313, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5665377457067296425, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.10936001
@@ -1034,6 +1106,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (8)
@@ -1230,6 +1310,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1302,6 +1390,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1334,6 +1430,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 4771353690564789313, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 4771353690564789313, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5665377457067296425, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.10936001
@@ -1399,6 +1503,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood Dsck (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2306074133112956917, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2306074133112956917, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7620005547238329043, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 16.474756
@@ -1584,6 +1696,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (19)
@@ -1744,6 +1864,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (4)
@@ -1954,6 +2082,14 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5276304906739139524, guid: e3a94bd335d57804a9086cf52abc96a6, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5276304906739139524, guid: e3a94bd335d57804a9086cf52abc96a6, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6939553400504661184, guid: e3a94bd335d57804a9086cf52abc96a6, type: 3}
       propertyPath: m_Name
       value: Block Triangle
@@ -1975,6 +2111,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.10000001
@@ -2190,6 +2334,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 701915161}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (6)
@@ -2296,6 +2448,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2362,6 +2522,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (5)
@@ -2433,6 +2601,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: TNT (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8026335999032532957, guid: 0a2098ba26f33d64185197b29970795e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 8026335999032532957, guid: 0a2098ba26f33d64185197b29970795e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6291220081502024004, guid: 29dd7f15afe1a5b45b2bca0175d399a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2450,6 +2626,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood
       objectReference: {fileID: 0}
+    - target: {fileID: 4771353690564789313, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 4771353690564789313, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5665377457067296425, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.10000001
@@ -2571,6 +2755,14 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7033424223634232655, guid: f4310e2f31bf18044b8963ce53e94bf4, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 7033424223634232655, guid: f4310e2f31bf18044b8963ce53e94bf4, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents:
     - {fileID: 5105464109980573868, guid: f4310e2f31bf18044b8963ce53e94bf4, type: 3}
     m_RemovedGameObjects: []
@@ -2638,6 +2830,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2648,6 +2848,107 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 258676952882975711, guid: 72581716ad48955489832bc22ed17e00, type: 3}
   m_PrefabInstance: {fileID: 335902670}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &337731559
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 337731560}
+  - component: {fileID: 337731563}
+  - component: {fileID: 337731562}
+  - component: {fileID: 337731561}
+  m_Layer: 0
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &337731560
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337731559}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 533997331}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &337731561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337731559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &337731562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337731559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &337731563
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337731559}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1001 &342559544
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2704,6 +3005,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (10)
@@ -2726,6 +3035,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 701915161}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (4)
@@ -2832,6 +3149,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: TNT (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8026335999032532957, guid: 0a2098ba26f33d64185197b29970795e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 8026335999032532957, guid: 0a2098ba26f33d64185197b29970795e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6291220081502024004, guid: 29dd7f15afe1a5b45b2bca0175d399a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2885,6 +3210,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf
@@ -2951,6 +3284,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: TNT (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8026335999032532957, guid: 0a2098ba26f33d64185197b29970795e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 8026335999032532957, guid: 0a2098ba26f33d64185197b29970795e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6291220081502024004, guid: 29dd7f15afe1a5b45b2bca0175d399a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3052,6 +3393,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood Dsck (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2306074133112956917, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2306074133112956917, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7620005547238329043, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18.144756
@@ -3114,6 +3463,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood Dsck (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2306074133112956917, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2306074133112956917, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7620005547238329043, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18.136755
@@ -3307,6 +3664,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Copy Machine (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7975907346510910273, guid: 913c0972fbc208d42b75ae3aa9fb2c7e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 7975907346510910273, guid: 913c0972fbc208d42b75ae3aa9fb2c7e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3372,6 +3737,14 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5583590368945227376, guid: 193fd0fec9cf5bc4aae27e68eeb693b0, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5583590368945227376, guid: 193fd0fec9cf5bc4aae27e68eeb693b0, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6091938964958427887, guid: 193fd0fec9cf5bc4aae27e68eeb693b0, type: 3}
       propertyPath: m_Name
       value: Rock Cair (2)
@@ -3429,6 +3802,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3896275653680235448, guid: a3213e09ebeb0ab4299e4b06c48d2f11, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3896275653680235448, guid: a3213e09ebeb0ab4299e4b06c48d2f11, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 4305685879541171323, guid: a3213e09ebeb0ab4299e4b06c48d2f11, type: 3}
       propertyPath: m_Name
       value: Block Square Small
@@ -3526,6 +3907,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3600,6 +3989,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_1
       objectReference: {fileID: 0}
+    - target: {fileID: 8146578151071767957, guid: 6ff4fc95858fa4743bada8ab12f4a179, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 8146578151071767957, guid: 6ff4fc95858fa4743bada8ab12f4a179, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6210306137752328490, guid: 40dcad8b7d5242b4ea09ab418e40c0fd, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3733,7 +4130,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.40392157, g: 0.40392157, b: 0.40392157, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3806,6 +4203,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (1)
@@ -3876,6 +4281,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (9)
@@ -4138,6 +4551,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (2)
@@ -4211,6 +4632,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4224,6 +4653,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 961316771}
     m_Modifications:
+    - target: {fileID: 374100691960327443, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 374100691960327443, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6210306137752328490, guid: 40dcad8b7d5242b4ea09ab418e40c0fd, type: 3}
     - target: {fileID: 5501227766257757045, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0049978495
@@ -4411,7 +4848,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.40392157, g: 0.40392157, b: 0.40392157, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4503,6 +4940,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4626,7 +5071,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.40392157, g: 0.40392157, b: 0.40392157, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4673,6 +5118,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4771353690564789313, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 4771353690564789313, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5665377457067296425, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.10000001
@@ -4757,8 +5210,9 @@ Transform:
   m_Children:
   - {fileID: 47783917}
   - {fileID: 1841955533}
-  - {fileID: 1457723913}
+  - {fileID: 1464206526}
   - {fileID: 1747090559}
+  - {fileID: 337731560}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &534886797 stripped
@@ -4822,6 +5276,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (11)
@@ -4844,6 +5306,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1437350666}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (3)
@@ -4919,6 +5389,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1437350666}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (2)
@@ -4988,6 +5466,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood Dsck (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 2306074133112956917, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2306074133112956917, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7620005547238329043, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.1
@@ -5119,6 +5605,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5205,7 +5699,7 @@ PrefabInstance:
     - target: {fileID: 6280466408892466161, guid: 2ff7fb619f1ae1b44b44424f5155d087, type: 3}
       propertyPath: _enemyText
       value: 
-      objectReference: {fileID: 1457723911}
+      objectReference: {fileID: 1464206529}
     - target: {fileID: 6280466408892466161, guid: 2ff7fb619f1ae1b44b44424f5155d087, type: 3}
       propertyPath: _isTareget
       value: 0
@@ -5225,7 +5719,7 @@ PrefabInstance:
     - target: {fileID: 6280466408892466161, guid: 2ff7fb619f1ae1b44b44424f5155d087, type: 3}
       propertyPath: _finishButtom
       value: 
-      objectReference: {fileID: 1457723909}
+      objectReference: {fileID: 1464206528}
     - target: {fileID: 6280466408892466161, guid: 2ff7fb619f1ae1b44b44424f5155d087, type: 3}
       propertyPath: _itemAddForce
       value: 
@@ -5241,7 +5735,7 @@ PrefabInstance:
     - target: {fileID: 6280466408892466161, guid: 2ff7fb619f1ae1b44b44424f5155d087, type: 3}
       propertyPath: _gameOverButton
       value: 
-      objectReference: {fileID: 1457723910}
+      objectReference: {fileID: 1464206527}
     - target: {fileID: 6280466408892466161, guid: 2ff7fb619f1ae1b44b44424f5155d087, type: 3}
       propertyPath: _pawerItemButton
       value: 
@@ -5295,13 +5789,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 701915161}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (12)
       objectReference: {fileID: 0}
     - target: {fileID: 8096431095734683165, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.6089773
+      value: -2.65
       objectReference: {fileID: 0}
     - target: {fileID: 8096431095734683165, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5354,7 +5856,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1856519315437394261, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.03
+      value: -2.039
       objectReference: {fileID: 0}
     - target: {fileID: 1856519315437394261, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5392,6 +5894,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (8)
@@ -5418,6 +5928,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4771353690564789313, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 4771353690564789313, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5665377457067296425, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.10936001
@@ -5584,7 +6102,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.40392157, g: 0.40392157, b: 0.40392157, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5617,6 +6135,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 701915161}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (5)
@@ -5750,6 +6276,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 701915161}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (2)
@@ -5868,6 +6402,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5939,6 +6481,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (12)
@@ -6003,11 +6553,11 @@ PrefabInstance:
     - target: {fileID: 3859327751192598965, guid: 85369a9781b918c4ead63c7d15fa69bb, type: 3}
       propertyPath: _score
       value: 
-      objectReference: {fileID: 1457723912}
+      objectReference: {fileID: 0}
     - target: {fileID: 3859327751192598965, guid: 85369a9781b918c4ead63c7d15fa69bb, type: 3}
       propertyPath: _scoreText
       value: 
-      objectReference: {fileID: 1457723912}
+      objectReference: {fileID: 1464206530}
     m_RemovedComponents:
     - {fileID: 4424408278510964424, guid: 85369a9781b918c4ead63c7d15fa69bb, type: 3}
     m_RemovedGameObjects: []
@@ -6159,6 +6709,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6252,6 +6810,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6318,6 +6884,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (7)
@@ -6383,6 +6957,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6449,6 +7031,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (21)
@@ -6526,6 +7116,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Copy Machine (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7975907346510910273, guid: 913c0972fbc208d42b75ae3aa9fb2c7e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 7975907346510910273, guid: 913c0972fbc208d42b75ae3aa9fb2c7e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6545,7 +7143,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1190817942605872455, guid: c388c51430730d541b9b8d458351273d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.605
+      value: -2.626
       objectReference: {fileID: 0}
     - target: {fileID: 1190817942605872455, guid: c388c51430730d541b9b8d458351273d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6583,6 +7181,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6672,6 +7278,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 701915161}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (7)
@@ -6815,6 +7429,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 443690612}
     m_Modifications:
+    - target: {fileID: 1595853225988187980, guid: cb67eb21fde6986469807f1a65676a38, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 1595853225988187980, guid: cb67eb21fde6986469807f1a65676a38, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6634675519479002539, guid: cb67eb21fde6986469807f1a65676a38, type: 3}
       propertyPath: m_Name
       value: Wood Square Small (5)
@@ -6920,6 +7542,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6994,6 +7624,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Copy Machine (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7975907346510910273, guid: 913c0972fbc208d42b75ae3aa9fb2c7e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 7975907346510910273, guid: 913c0972fbc208d42b75ae3aa9fb2c7e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7013,7 +7651,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 258676952882975711, guid: 72581716ad48955489832bc22ed17e00, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.3479772
+      value: -2.39
       objectReference: {fileID: 0}
     - target: {fileID: 258676952882975711, guid: 72581716ad48955489832bc22ed17e00, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7055,6 +7693,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7116,6 +7762,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7140,7 +7794,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1856519315437394261, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.8925985
+      value: -1.893
       objectReference: {fileID: 0}
     - target: {fileID: 1856519315437394261, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7174,6 +7828,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (7)
@@ -7231,6 +7893,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 701915161}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (8)
@@ -7302,6 +7972,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4771353690564789313, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 4771353690564789313, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5665377457067296425, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.10000001
@@ -7531,6 +8209,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7544,6 +8230,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1437350666}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf
@@ -7675,6 +8369,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (6)
@@ -7692,6 +8394,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1437350666}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (1)
@@ -7769,6 +8479,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood Dsck (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2306074133112956917, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2306074133112956917, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7620005547238329043, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.1
@@ -7838,6 +8556,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4771353690564789313, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 4771353690564789313, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5665377457067296425, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.10936001
@@ -7944,6 +8670,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5583590368945227376, guid: 193fd0fec9cf5bc4aae27e68eeb693b0, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5583590368945227376, guid: 193fd0fec9cf5bc4aae27e68eeb693b0, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6091938964958427887, guid: 193fd0fec9cf5bc4aae27e68eeb693b0, type: 3}
       propertyPath: m_Name
       value: Rock Cair
@@ -8014,6 +8748,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (18)
@@ -8036,6 +8778,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 961316771}
     m_Modifications:
+    - target: {fileID: 374100691960327443, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 374100691960327443, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6210306137752328490, guid: 40dcad8b7d5242b4ea09ab418e40c0fd, type: 3}
     - target: {fileID: 7324483376325809776, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.05
@@ -8158,6 +8908,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 701915161}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (3)
@@ -8278,6 +9036,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (27)
@@ -8335,6 +9101,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3896275653680235448, guid: a3213e09ebeb0ab4299e4b06c48d2f11, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3896275653680235448, guid: a3213e09ebeb0ab4299e4b06c48d2f11, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 4305685879541171323, guid: a3213e09ebeb0ab4299e4b06c48d2f11, type: 3}
       propertyPath: m_Name
       value: Block Square Small (6)
@@ -8457,7 +9231,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.40392157, g: 0.40392157, b: 0.40392157, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -8535,6 +9309,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (2)
@@ -8676,6 +9458,14 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (24)
@@ -8749,6 +9539,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8812,6 +9610,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3896275653680235448, guid: a3213e09ebeb0ab4299e4b06c48d2f11, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3896275653680235448, guid: a3213e09ebeb0ab4299e4b06c48d2f11, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 4305685879541171323, guid: a3213e09ebeb0ab4299e4b06c48d2f11, type: 3}
       propertyPath: m_Name
       value: Block Square Small (4)
@@ -8860,7 +9666,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1856519315437394261, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.621
+      value: -2.68
       objectReference: {fileID: 0}
     - target: {fileID: 1856519315437394261, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8898,6 +9704,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (9)
@@ -8925,13 +9739,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 701915161}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (10)
       objectReference: {fileID: 0}
     - target: {fileID: 8096431095734683165, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.608
+      value: -2.614
       objectReference: {fileID: 0}
     - target: {fileID: 8096431095734683165, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -9203,6 +10025,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3896275653680235448, guid: a3213e09ebeb0ab4299e4b06c48d2f11, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3896275653680235448, guid: a3213e09ebeb0ab4299e4b06c48d2f11, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 4305685879541171323, guid: a3213e09ebeb0ab4299e4b06c48d2f11, type: 3}
       propertyPath: m_Name
       value: Block Square Small (3)
@@ -9484,7 +10314,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.40392157, g: 0.40392157, b: 0.40392157, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -9565,6 +10395,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (13)
@@ -9627,6 +10465,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (6)
@@ -9649,6 +10495,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 701915161}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (1)
@@ -9897,6 +10751,14 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (22)
@@ -9989,6 +10851,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.10000001
@@ -10141,6 +11011,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10297,6 +11175,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8146578151071767957, guid: 6ff4fc95858fa4743bada8ab12f4a179, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 8146578151071767957, guid: 6ff4fc95858fa4743bada8ab12f4a179, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6210306137752328490, guid: 40dcad8b7d5242b4ea09ab418e40c0fd, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10394,6 +11280,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 961316771}
     m_Modifications:
+    - target: {fileID: 374100691960327443, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 374100691960327443, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6210306137752328490, guid: 40dcad8b7d5242b4ea09ab418e40c0fd, type: 3}
     - target: {fileID: 7324483376325809776, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21.8
@@ -10544,6 +11438,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.10000001
@@ -10626,7 +11528,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1190817942605872455, guid: c388c51430730d541b9b8d458351273d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.05
+      value: -2.036
       objectReference: {fileID: 0}
     - target: {fileID: 1190817942605872455, guid: c388c51430730d541b9b8d458351273d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -10664,6 +11566,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10722,6 +11632,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3896275653680235448, guid: a3213e09ebeb0ab4299e4b06c48d2f11, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3896275653680235448, guid: a3213e09ebeb0ab4299e4b06c48d2f11, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 4305685879541171323, guid: a3213e09ebeb0ab4299e4b06c48d2f11, type: 3}
       propertyPath: m_Name
       value: Block Square Small (9)
@@ -10739,6 +11657,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1437350666}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (4)
@@ -10836,6 +11762,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (25)
@@ -11029,6 +11963,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (28)
@@ -11105,6 +12047,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11181,6 +12131,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (15)
@@ -11250,6 +12208,14 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11263,6 +12229,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 443690612}
     m_Modifications:
+    - target: {fileID: 1595853225988187980, guid: cb67eb21fde6986469807f1a65676a38, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 1595853225988187980, guid: cb67eb21fde6986469807f1a65676a38, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6634675519479002539, guid: cb67eb21fde6986469807f1a65676a38, type: 3}
       propertyPath: m_Name
       value: Wood Square Small (4)
@@ -11324,6 +12298,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4771353690564789313, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 4771353690564789313, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5665377457067296425, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.10000001
@@ -11425,6 +12407,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (1)
@@ -11557,7 +12547,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.40392157, g: 0.40392157, b: 0.40392157, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -11642,6 +12632,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3907035749396459756, guid: a3271c77a60508543997d0220fdf8324, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3907035749396459756, guid: a3271c77a60508543997d0220fdf8324, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5987044533910549848, guid: a3271c77a60508543997d0220fdf8324, type: 3}
       propertyPath: m_Size.x
       value: 3.85
@@ -11825,6 +12823,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11883,6 +12889,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (5)
@@ -11945,6 +12959,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (4)
@@ -12023,6 +13045,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12040,6 +13070,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.10000001
@@ -12162,6 +13200,14 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5276304906739139524, guid: e3a94bd335d57804a9086cf52abc96a6, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5276304906739139524, guid: e3a94bd335d57804a9086cf52abc96a6, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6939553400504661184, guid: e3a94bd335d57804a9086cf52abc96a6, type: 3}
       propertyPath: m_Name
       value: Block Triangle (1)
@@ -12189,6 +13235,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 701915161}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (9)
@@ -12294,6 +13348,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_2
       objectReference: {fileID: 0}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12412,7 +13474,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.40392157, g: 0.40392157, b: 0.40392157, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -12520,6 +13582,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 443690612}
     m_Modifications:
+    - target: {fileID: 1595853225988187980, guid: cb67eb21fde6986469807f1a65676a38, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 1595853225988187980, guid: cb67eb21fde6986469807f1a65676a38, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6634675519479002539, guid: cb67eb21fde6986469807f1a65676a38, type: 3}
       propertyPath: m_Name
       value: Wood Square Small (3)
@@ -12577,6 +13647,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 961316771}
     m_Modifications:
+    - target: {fileID: 374100691960327443, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 374100691960327443, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6210306137752328490, guid: 40dcad8b7d5242b4ea09ab418e40c0fd, type: 3}
     - target: {fileID: 7324483376325809776, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.08
@@ -12694,6 +13772,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (17)
@@ -12751,6 +13837,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5317880791422955427, guid: ab52b23373b70a144abce68ca2ffdba7, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5317880791422955427, guid: ab52b23373b70a144abce68ca2ffdba7, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5423550818183743064, guid: ab52b23373b70a144abce68ca2ffdba7, type: 3}
       propertyPath: m_Name
       value: Wood Chair (2)
@@ -12760,236 +13854,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab52b23373b70a144abce68ca2ffdba7, type: 3}
---- !u!1001 &1457723908
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 533997331}
-    m_Modifications:
-    - target: {fileID: 306484867517866523, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 306484867517866523, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 306484867517866523, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 268760031}
-    - target: {fileID: 306484867517866523, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 306484867517866523, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: GetResult
-      objectReference: {fileID: 0}
-    - target: {fileID: 306484867517866523, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: SceneChenge, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 306484867517866523, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 1721720754206067648, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1721720754206067648, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: GetGameOver
-      objectReference: {fileID: 0}
-    - target: {fileID: 1721720754206067648, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: SceneChenge, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945346072674267800, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -175
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4170184015731349215, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 1621290316}
-    - target: {fileID: 4170184015731349215, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_RenderMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6169504102304379434, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6169504102304379434, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: GetResult
-      objectReference: {fileID: 0}
-    - target: {fileID: 6169504102304379434, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: SceneChenge, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385722818140054363, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_Name
-      value: Text Canvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 6703655868180069870, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6703655868180069870, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6703655868180069870, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 268760031}
-    - target: {fileID: 6703655868180069870, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6703655868180069870, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: GetGameOver
-      objectReference: {fileID: 0}
-    - target: {fileID: 6703655868180069870, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: SceneChenge, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6703655868180069870, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 8593994383707786787, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -253
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
---- !u!1 &1457723909 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1429206488950941739, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-  m_PrefabInstance: {fileID: 1457723908}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1457723910 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4924953202807501470, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-  m_PrefabInstance: {fileID: 1457723908}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1457723911 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2417968624231342179, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-  m_PrefabInstance: {fileID: 1457723908}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1457723912 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7232168239740689171, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-  m_PrefabInstance: {fileID: 1457723908}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!224 &1457723913 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-  m_PrefabInstance: {fileID: 1457723908}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1461768403
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13002,6 +13866,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.10000001
@@ -13055,6 +13927,156 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+--- !u!1001 &1464206525
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 533997331}
+    m_Modifications:
+    - target: {fileID: 842850897045936448, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_Name
+      value: TextCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 1371451760148051137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 268760031}
+    - target: {fileID: 1371451760148051137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GetResult
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335297629625991520, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 268760031}
+    - target: {fileID: 7335297629625991520, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GetGameOver
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+--- !u!224 &1464206526 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+  m_PrefabInstance: {fileID: 1464206525}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1464206527 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4079251174218534877, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+  m_PrefabInstance: {fileID: 1464206525}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1464206528 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3983822117211749138, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+  m_PrefabInstance: {fileID: 1464206525}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1464206529 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2548390249270721122, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+  m_PrefabInstance: {fileID: 1464206525}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1464206530 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1588761030277507998, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+  m_PrefabInstance: {fileID: 1464206525}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1470403894 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5665377457067296425, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
@@ -13129,6 +14151,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8146578151071767957, guid: 6ff4fc95858fa4743bada8ab12f4a179, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 8146578151071767957, guid: 6ff4fc95858fa4743bada8ab12f4a179, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6210306137752328490, guid: 40dcad8b7d5242b4ea09ab418e40c0fd, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13191,6 +14221,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13249,6 +14287,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3896275653680235448, guid: a3213e09ebeb0ab4299e4b06c48d2f11, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3896275653680235448, guid: a3213e09ebeb0ab4299e4b06c48d2f11, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 4305685879541171323, guid: a3213e09ebeb0ab4299e4b06c48d2f11, type: 3}
       propertyPath: m_Name
       value: Block Square Small (7)
@@ -13319,6 +14365,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (3)
@@ -13380,6 +14434,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PC  (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6280477867118030084, guid: c7c4c100d4ca3a04fb726a0a8a683d96, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 6280477867118030084, guid: c7c4c100d4ca3a04fb726a0a8a683d96, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13438,6 +14500,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (30)
@@ -13495,6 +14565,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3896275653680235448, guid: a3213e09ebeb0ab4299e4b06c48d2f11, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3896275653680235448, guid: a3213e09ebeb0ab4299e4b06c48d2f11, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 4305685879541171323, guid: a3213e09ebeb0ab4299e4b06c48d2f11, type: 3}
       propertyPath: m_Name
       value: Block Square Small (8)
@@ -13516,6 +14594,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood Dsck
       objectReference: {fileID: 0}
+    - target: {fileID: 2306074133112956917, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2306074133112956917, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7620005547238329043, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.7179575
@@ -13625,6 +14711,14 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5276304906739139524, guid: e3a94bd335d57804a9086cf52abc96a6, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5276304906739139524, guid: e3a94bd335d57804a9086cf52abc96a6, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6939553400504661184, guid: e3a94bd335d57804a9086cf52abc96a6, type: 3}
       propertyPath: m_Name
       value: Block Triangle (2)
@@ -13692,6 +14786,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (3)
@@ -13718,6 +14820,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood Dsck (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2306074133112956917, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2306074133112956917, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7620005547238329043, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18.606756
@@ -13827,6 +14937,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Copy Machine (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7975907346510910273, guid: 913c0972fbc208d42b75ae3aa9fb2c7e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 7975907346510910273, guid: 913c0972fbc208d42b75ae3aa9fb2c7e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14028,6 +15146,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14288,6 +15414,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4771353690564789313, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 4771353690564789313, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5665377457067296425, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.10000001
@@ -14359,6 +15493,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 443690612}
     m_Modifications:
+    - target: {fileID: 1595853225988187980, guid: cb67eb21fde6986469807f1a65676a38, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 1595853225988187980, guid: cb67eb21fde6986469807f1a65676a38, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6634675519479002539, guid: cb67eb21fde6986469807f1a65676a38, type: 3}
       propertyPath: m_Name
       value: Wood Square Small (1)
@@ -14541,6 +15683,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (16)
@@ -14563,6 +15713,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 961316771}
     m_Modifications:
+    - target: {fileID: 374100691960327443, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 374100691960327443, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6210306137752328490, guid: 40dcad8b7d5242b4ea09ab418e40c0fd, type: 3}
     - target: {fileID: 5501227766257757045, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0049978495
@@ -14693,6 +15851,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (14)
@@ -14750,6 +15916,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3896275653680235448, guid: a3213e09ebeb0ab4299e4b06c48d2f11, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3896275653680235448, guid: a3213e09ebeb0ab4299e4b06c48d2f11, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 4305685879541171323, guid: a3213e09ebeb0ab4299e4b06c48d2f11, type: 3}
       propertyPath: m_Name
       value: Block Square Small (2)
@@ -14839,6 +16013,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (20)
@@ -14860,6 +16042,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.10000001
@@ -15164,6 +16354,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15217,6 +16415,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (31)
@@ -15240,7 +16446,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 258676952882975711, guid: 72581716ad48955489832bc22ed17e00, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.336977
+      value: -2.351
       objectReference: {fileID: 0}
     - target: {fileID: 258676952882975711, guid: 72581716ad48955489832bc22ed17e00, type: 3}
       propertyPath: m_LocalPosition.y
@@ -15282,6 +16488,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15299,6 +16513,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.10000001
@@ -15538,7 +16760,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.40392157, g: 0.40392157, b: 0.40392157, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -15587,7 +16809,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 258676952882975711, guid: 72581716ad48955489832bc22ed17e00, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.3479772
+      value: -2.364
       objectReference: {fileID: 0}
     - target: {fileID: 258676952882975711, guid: 72581716ad48955489832bc22ed17e00, type: 3}
       propertyPath: m_LocalPosition.y
@@ -15629,6 +16851,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15642,13 +16872,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 701915161}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (11)
       objectReference: {fileID: 0}
     - target: {fileID: 8096431095734683165, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.027
+      value: -2.033
       objectReference: {fileID: 0}
     - target: {fileID: 8096431095734683165, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -15743,6 +16981,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PC  (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6280477867118030084, guid: c7c4c100d4ca3a04fb726a0a8a683d96, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 6280477867118030084, guid: c7c4c100d4ca3a04fb726a0a8a683d96, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15765,6 +17011,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood Dsck (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2306074133112956917, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2306074133112956917, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7620005547238329043, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 17.225756
@@ -15928,7 +17182,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.40392157, g: 0.40392157, b: 0.40392157, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -15966,6 +17220,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 443690612}
     m_Modifications:
+    - target: {fileID: 1595853225988187980, guid: cb67eb21fde6986469807f1a65676a38, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 1595853225988187980, guid: cb67eb21fde6986469807f1a65676a38, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6634675519479002539, guid: cb67eb21fde6986469807f1a65676a38, type: 3}
       propertyPath: m_Name
       value: Wood Square Small
@@ -16025,7 +17287,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5223275390209546975, guid: ab52b23373b70a144abce68ca2ffdba7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.123
+      value: 0.16
       objectReference: {fileID: 0}
     - target: {fileID: 5223275390209546975, guid: ab52b23373b70a144abce68ca2ffdba7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -16063,6 +17325,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5317880791422955427, guid: ab52b23373b70a144abce68ca2ffdba7, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5317880791422955427, guid: ab52b23373b70a144abce68ca2ffdba7, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5423550818183743064, guid: ab52b23373b70a144abce68ca2ffdba7, type: 3}
       propertyPath: m_Name
       value: Wood Chair
@@ -16080,6 +17350,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 443690612}
     m_Modifications:
+    - target: {fileID: 2154988478141561146, guid: 87b9e1558c3604b4a83823cc4122a3a9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2154988478141561146, guid: 87b9e1558c3604b4a83823cc4122a3a9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 4933939739338081540, guid: 87b9e1558c3604b4a83823cc4122a3a9, type: 3}
       propertyPath: m_Name
       value: Wood Hollow Square
@@ -16348,6 +17626,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 443690612}
     m_Modifications:
+    - target: {fileID: 1595853225988187980, guid: cb67eb21fde6986469807f1a65676a38, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 1595853225988187980, guid: cb67eb21fde6986469807f1a65676a38, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6634675519479002539, guid: cb67eb21fde6986469807f1a65676a38, type: 3}
       propertyPath: m_Name
       value: Wood Square Small (2)
@@ -16409,6 +17695,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 4771353690564789313, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 4771353690564789313, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5665377457067296425, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.10936001
@@ -16685,7 +17979,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.40392157, g: 0.40392157, b: 0.40392157, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -16766,6 +18060,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16824,6 +18126,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf
@@ -16916,6 +18226,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Copy Machine (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7975907346510910273, guid: 913c0972fbc208d42b75ae3aa9fb2c7e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 7975907346510910273, guid: 913c0972fbc208d42b75ae3aa9fb2c7e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16973,6 +18291,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Copy Machine
       objectReference: {fileID: 0}
+    - target: {fileID: 7975907346510910273, guid: 913c0972fbc208d42b75ae3aa9fb2c7e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 7975907346510910273, guid: 913c0972fbc208d42b75ae3aa9fb2c7e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16990,6 +18316,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.10000001
@@ -17150,6 +18484,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'Ice Hollow Square '
       objectReference: {fileID: 0}
+    - target: {fileID: 1894837645892507960, guid: 03d963b3ed53ab74e84c79fb93eea7e8, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 1894837645892507960, guid: 03d963b3ed53ab74e84c79fb93eea7e8, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 4444802596507005040, guid: 03d963b3ed53ab74e84c79fb93eea7e8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 28.04533
@@ -17243,6 +18585,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5317880791422955427, guid: ab52b23373b70a144abce68ca2ffdba7, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5317880791422955427, guid: ab52b23373b70a144abce68ca2ffdba7, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5423550818183743064, guid: ab52b23373b70a144abce68ca2ffdba7, type: 3}
       propertyPath: m_Name
       value: Wood Chair
@@ -17310,6 +18660,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (29)
@@ -17341,6 +18699,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4771353690564789313, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 4771353690564789313, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5665377457067296425, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.10936001
@@ -17402,6 +18768,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 443690612}
     m_Modifications:
+    - target: {fileID: 2154988478141561146, guid: 87b9e1558c3604b4a83823cc4122a3a9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2154988478141561146, guid: 87b9e1558c3604b4a83823cc4122a3a9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 4933939739338081540, guid: 87b9e1558c3604b4a83823cc4122a3a9, type: 3}
       propertyPath: m_Name
       value: Wood Hollow Square (1)
@@ -17837,6 +19211,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 701915161}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf
@@ -17943,6 +19325,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: TNT
       objectReference: {fileID: 0}
+    - target: {fileID: 8026335999032532957, guid: 0a2098ba26f33d64185197b29970795e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 8026335999032532957, guid: 0a2098ba26f33d64185197b29970795e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6291220081502024004, guid: 29dd7f15afe1a5b45b2bca0175d399a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18000,6 +19390,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18058,6 +19456,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3896275653680235448, guid: a3213e09ebeb0ab4299e4b06c48d2f11, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3896275653680235448, guid: a3213e09ebeb0ab4299e4b06c48d2f11, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 4305685879541171323, guid: a3213e09ebeb0ab4299e4b06c48d2f11, type: 3}
       propertyPath: m_Name
       value: Block Square Small (5)
@@ -18147,6 +19553,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (26)
@@ -18295,6 +19709,14 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5317880791422955427, guid: ab52b23373b70a144abce68ca2ffdba7, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 5317880791422955427, guid: ab52b23373b70a144abce68ca2ffdba7, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5423550818183743064, guid: ab52b23373b70a144abce68ca2ffdba7, type: 3}
       propertyPath: m_Name
       value: Wood Chair (1)
@@ -18444,6 +19866,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18510,6 +19940,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18584,6 +20022,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Copy Machine (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7975907346510910273, guid: 913c0972fbc208d42b75ae3aa9fb2c7e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 7975907346510910273, guid: 913c0972fbc208d42b75ae3aa9fb2c7e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18597,6 +20043,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 443690612}
     m_Modifications:
+    - target: {fileID: 2154988478141561146, guid: 87b9e1558c3604b4a83823cc4122a3a9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2154988478141561146, guid: 87b9e1558c3604b4a83823cc4122a3a9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 4933939739338081540, guid: 87b9e1558c3604b4a83823cc4122a3a9, type: 3}
       propertyPath: m_Name
       value: Wood Hollow Square (2)
@@ -18702,6 +20156,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18817,6 +20279,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4771353690564789313, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 4771353690564789313, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5665377457067296425, guid: 68ea69e98996bdc4e8a4e5181344614e, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.10936001
@@ -18989,6 +20459,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19122,7 +20600,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.40392157, g: 0.40392157, b: 0.40392157, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -19215,6 +20693,14 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7033424223634232655, guid: f4310e2f31bf18044b8963ce53e94bf4, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 7033424223634232655, guid: f4310e2f31bf18044b8963ce53e94bf4, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19268,6 +20754,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3896275653680235448, guid: a3213e09ebeb0ab4299e4b06c48d2f11, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 3896275653680235448, guid: a3213e09ebeb0ab4299e4b06c48d2f11, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 4305685879541171323, guid: a3213e09ebeb0ab4299e4b06c48d2f11, type: 3}
       propertyPath: m_Name
       value: Block Square Small (1)
@@ -19329,6 +20823,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Copy Machine (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7975907346510910273, guid: 913c0972fbc208d42b75ae3aa9fb2c7e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 7975907346510910273, guid: 913c0972fbc208d42b75ae3aa9fb2c7e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19510,6 +21012,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'PC '
       objectReference: {fileID: 0}
+    - target: {fileID: 6280477867118030084, guid: c7c4c100d4ca3a04fb726a0a8a683d96, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 337731563}
+    - target: {fileID: 6280477867118030084, guid: c7c4c100d4ca3a04fb726a0a8a683d96, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
