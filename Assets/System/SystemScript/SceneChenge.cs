@@ -26,8 +26,8 @@ public class SceneChenge : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log( _score);
-        Debug.Log(_resultScore);
+       // Debug.Log( _score);
+       // Debug.Log(_resultScore);
     }
 
     public enum SceneKind

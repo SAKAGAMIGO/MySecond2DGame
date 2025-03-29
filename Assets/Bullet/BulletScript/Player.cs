@@ -101,6 +101,7 @@ public class Player : MonoBehaviour
         if (!_isSound)
         {
             SoundManager.Instance.PlaySE(SESoundData.SE.Set);
+            Debug.Log("set");
             _isSound = true;
         }
 
@@ -139,6 +140,7 @@ public class Player : MonoBehaviour
     {
         //SoundManagerメソッド実行
         SoundManager.Instance.PlaySE(SESoundData.SE.Shoot);
+        Debug.Log("shoot");
         _isSound = false;
 
         //アニメーションを再生    

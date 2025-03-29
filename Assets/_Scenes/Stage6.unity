@@ -254,6 +254,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8146578151071767957, guid: 6ff4fc95858fa4743bada8ab12f4a179, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8146578151071767957, guid: 6ff4fc95858fa4743bada8ab12f4a179, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6210306137752328490, guid: 40dcad8b7d5242b4ea09ab418e40c0fd, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -267,6 +275,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1999507170}
     m_Modifications:
+    - target: {fileID: 3466774027505899889, guid: e0b153170e9f4e1489b5c3154ddcf2ec, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3466774027505899889, guid: e0b153170e9f4e1489b5c3154ddcf2ec, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5305838936785993830, guid: e0b153170e9f4e1489b5c3154ddcf2ec, type: 3}
       propertyPath: m_Name
       value: Block Circle (2)
@@ -390,6 +406,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_1 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8146578151071767957, guid: 6ff4fc95858fa4743bada8ab12f4a179, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8146578151071767957, guid: 6ff4fc95858fa4743bada8ab12f4a179, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6210306137752328490, guid: 40dcad8b7d5242b4ea09ab418e40c0fd, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -407,6 +431,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block Hollow Square (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7853435397632674287, guid: d469ea5023751b846af32706f8acdd86, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 7853435397632674287, guid: d469ea5023751b846af32706f8acdd86, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7926471025791760419, guid: d469ea5023751b846af32706f8acdd86, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.3985691
@@ -514,6 +546,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -527,6 +567,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 966972093}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (13)
@@ -588,6 +636,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block Hollow Square (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7853435397632674287, guid: d469ea5023751b846af32706f8acdd86, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 7853435397632674287, guid: d469ea5023751b846af32706f8acdd86, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7926471025791760419, guid: d469ea5023751b846af32706f8acdd86, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.8335686
@@ -700,17 +756,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 258676952882975711, guid: 72581716ad48955489832bc22ed17e00, type: 3}
   m_PrefabInstance: {fileID: 78333367}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &79203770 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2417968624231342179, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-  m_PrefabInstance: {fileID: 1853110487}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &80472635
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -719,6 +764,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 966972093}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (21)
@@ -780,6 +833,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.15
@@ -850,6 +911,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'Ice Hollow Square '
       objectReference: {fileID: 0}
+    - target: {fileID: 1894837645892507960, guid: 03d963b3ed53ab74e84c79fb93eea7e8, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 1894837645892507960, guid: 03d963b3ed53ab74e84c79fb93eea7e8, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 4444802596507005040, guid: 03d963b3ed53ab74e84c79fb93eea7e8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.5954304
@@ -908,6 +977,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 966972093}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (2)
@@ -1035,6 +1112,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 966972093}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (1)
@@ -1092,6 +1177,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 966972093}
     m_Modifications:
+    - target: {fileID: 2154988478141561146, guid: 87b9e1558c3604b4a83823cc4122a3a9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 2154988478141561146, guid: 87b9e1558c3604b4a83823cc4122a3a9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 4933939739338081540, guid: 87b9e1558c3604b4a83823cc4122a3a9, type: 3}
       propertyPath: m_Name
       value: Wood Hollow Square (2)
@@ -1149,6 +1242,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 966972093}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (4)
@@ -1440,6 +1541,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 966972093}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (17)
@@ -1497,6 +1606,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 966972093}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (7)
@@ -1558,6 +1675,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.15
@@ -1643,6 +1768,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice Hollow Square  (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1894837645892507960, guid: 03d963b3ed53ab74e84c79fb93eea7e8, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 1894837645892507960, guid: 03d963b3ed53ab74e84c79fb93eea7e8, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 4444802596507005040, guid: 03d963b3ed53ab74e84c79fb93eea7e8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.057430267
@@ -1740,6 +1873,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Shelf Bock (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5102091205254681286, guid: c08473f1da1ca4b48a074f54a5132ad4, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5102091205254681286, guid: c08473f1da1ca4b48a074f54a5132ad4, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1825,6 +1966,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 966972093}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (6)
@@ -2106,6 +2255,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.088375
@@ -2241,6 +2398,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block Hollow Square (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7853435397632674287, guid: d469ea5023751b846af32706f8acdd86, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 7853435397632674287, guid: d469ea5023751b846af32706f8acdd86, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7926471025791760419, guid: d469ea5023751b846af32706f8acdd86, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.3985691
@@ -2304,6 +2469,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 966972093}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (11)
@@ -2483,6 +2656,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8146578151071767957, guid: 6ff4fc95858fa4743bada8ab12f4a179, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8146578151071767957, guid: 6ff4fc95858fa4743bada8ab12f4a179, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6210306137752328490, guid: 40dcad8b7d5242b4ea09ab418e40c0fd, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2540,6 +2721,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2597,6 +2786,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2777,6 +2974,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block Hollow Square
       objectReference: {fileID: 0}
+    - target: {fileID: 7853435397632674287, guid: d469ea5023751b846af32706f8acdd86, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 7853435397632674287, guid: d469ea5023751b846af32706f8acdd86, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7926471025791760419, guid: d469ea5023751b846af32706f8acdd86, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.6014309
@@ -2830,6 +3035,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 966972093}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (18)
@@ -2931,6 +3144,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3001,6 +3222,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5417908887116902210, guid: 438fef3a81af38943b6b99ea6b3c0ea3, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5417908887116902210, guid: 438fef3a81af38943b6b99ea6b3c0ea3, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3058,6 +3287,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PC  (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6280477867118030084, guid: c7c4c100d4ca3a04fb726a0a8a683d96, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 6280477867118030084, guid: c7c4c100d4ca3a04fb726a0a8a683d96, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3075,6 +3312,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.15
@@ -3151,6 +3396,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 966972093}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (20)
@@ -3253,6 +3506,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5317880791422955427, guid: ab52b23373b70a144abce68ca2ffdba7, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5317880791422955427, guid: ab52b23373b70a144abce68ca2ffdba7, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5423550818183743064, guid: ab52b23373b70a144abce68ca2ffdba7, type: 3}
       propertyPath: m_Name
       value: Wood Chair
@@ -3317,11 +3578,11 @@ PrefabInstance:
     - target: {fileID: 3859327751192598965, guid: 85369a9781b918c4ead63c7d15fa69bb, type: 3}
       propertyPath: _score
       value: 
-      objectReference: {fileID: 1853110491}
+      objectReference: {fileID: 0}
     - target: {fileID: 3859327751192598965, guid: 85369a9781b918c4ead63c7d15fa69bb, type: 3}
       propertyPath: _scoreText
       value: 
-      objectReference: {fileID: 1853110491}
+      objectReference: {fileID: 1132217204}
     m_RemovedComponents:
     - {fileID: 4424408278510964424, guid: 85369a9781b918c4ead63c7d15fa69bb, type: 3}
     m_RemovedGameObjects: []
@@ -3332,11 +3593,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1416460848426225289, guid: 85369a9781b918c4ead63c7d15fa69bb, type: 3}
   m_PrefabInstance: {fileID: 379906855}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &380473603 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4924953202807501470, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-  m_PrefabInstance: {fileID: 1853110487}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &386034126 stripped
 Transform:
@@ -3403,6 +3659,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3465,6 +3729,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Shelf Bock
       objectReference: {fileID: 0}
+    - target: {fileID: 5102091205254681286, guid: c08473f1da1ca4b48a074f54a5132ad4, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5102091205254681286, guid: c08473f1da1ca4b48a074f54a5132ad4, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3557,6 +3829,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.088375
@@ -3700,6 +3980,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.15
@@ -3810,6 +4098,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3886,6 +4182,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2282096544016097658, guid: 4dbd0528228a23f4a95a1957e5cd4c65, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 2282096544016097658, guid: 4dbd0528228a23f4a95a1957e5cd4c65, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3943,6 +4247,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4079,6 +4391,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4207,6 +4527,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: TNT (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8026335999032532957, guid: 0a2098ba26f33d64185197b29970795e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8026335999032532957, guid: 0a2098ba26f33d64185197b29970795e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6291220081502024004, guid: 29dd7f15afe1a5b45b2bca0175d399a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4269,6 +4597,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4336,6 +4672,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: TNT (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8026335999032532957, guid: 0a2098ba26f33d64185197b29970795e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8026335999032532957, guid: 0a2098ba26f33d64185197b29970795e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6291220081502024004, guid: 29dd7f15afe1a5b45b2bca0175d399a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4393,6 +4737,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Copy Machine (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7975907346510910273, guid: 913c0972fbc208d42b75ae3aa9fb2c7e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 7975907346510910273, guid: 913c0972fbc208d42b75ae3aa9fb2c7e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4446,6 +4798,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5583590368945227376, guid: 193fd0fec9cf5bc4aae27e68eeb693b0, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5583590368945227376, guid: 193fd0fec9cf5bc4aae27e68eeb693b0, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6091938964958427887, guid: 193fd0fec9cf5bc4aae27e68eeb693b0, type: 3}
       propertyPath: m_Name
       value: Rock Cair
@@ -4507,6 +4867,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4564,6 +4932,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4620,6 +4996,10 @@ PrefabInstance:
     - target: {fileID: 4348316895010196603, guid: e7896bb793d55804db89213acbcc230f, type: 3}
       propertyPath: m_Name
       value: LastBoss
+      objectReference: {fileID: 0}
+    - target: {fileID: 4348316895010196603, guid: e7896bb793d55804db89213acbcc230f, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 7106176363315284378, guid: e7896bb793d55804db89213acbcc230f, type: 3}
       propertyPath: m_Enabled
@@ -4717,6 +5097,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8146578151071767957, guid: 6ff4fc95858fa4743bada8ab12f4a179, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8146578151071767957, guid: 6ff4fc95858fa4743bada8ab12f4a179, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6210306137752328490, guid: 40dcad8b7d5242b4ea09ab418e40c0fd, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4782,6 +5170,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_2 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4804,6 +5200,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.45
@@ -4865,6 +5269,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 966972093}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (8)
@@ -4981,6 +5393,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4998,6 +5418,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.0992968
@@ -5115,6 +5543,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_1
       objectReference: {fileID: 0}
+    - target: {fileID: 8146578151071767957, guid: 6ff4fc95858fa4743bada8ab12f4a179, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8146578151071767957, guid: 6ff4fc95858fa4743bada8ab12f4a179, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6210306137752328490, guid: 40dcad8b7d5242b4ea09ab418e40c0fd, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5172,6 +5608,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: TNT (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8026335999032532957, guid: 0a2098ba26f33d64185197b29970795e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8026335999032532957, guid: 0a2098ba26f33d64185197b29970795e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6291220081502024004, guid: 29dd7f15afe1a5b45b2bca0175d399a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5185,6 +5629,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 966972093}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (3)
@@ -5294,6 +5746,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5417908887116902210, guid: 438fef3a81af38943b6b99ea6b3c0ea3, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5417908887116902210, guid: 438fef3a81af38943b6b99ea6b3c0ea3, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5364,6 +5824,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_2 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5572,6 +6040,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5637,6 +6113,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_2 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5654,6 +6138,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.088375
@@ -5764,6 +6256,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2282096544016097658, guid: 4dbd0528228a23f4a95a1957e5cd4c65, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 2282096544016097658, guid: 4dbd0528228a23f4a95a1957e5cd4c65, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5839,6 +6339,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_2 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5979,6 +6487,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8146578151071767957, guid: 6ff4fc95858fa4743bada8ab12f4a179, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8146578151071767957, guid: 6ff4fc95858fa4743bada8ab12f4a179, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6210306137752328490, guid: 40dcad8b7d5242b4ea09ab418e40c0fd, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5997,6 +6513,50 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1048188171}
     m_Modifications:
+    - target: {fileID: 67457860640908149, guid: 84d077e630367e84cac436b9427532a2, type: 3}
+      propertyPath: seAudioSourcePrefab
+      value: 
+      objectReference: {fileID: 1509028474}
+    - target: {fileID: 67457860640908149, guid: 84d077e630367e84cac436b9427532a2, type: 3}
+      propertyPath: seSoundDatas.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 67457860640908149, guid: 84d077e630367e84cac436b9427532a2, type: 3}
+      propertyPath: bgmSoundDatas.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 67457860640908149, guid: 84d077e630367e84cac436b9427532a2, type: 3}
+      propertyPath: seSoundDatas.Array.data[1].se
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 67457860640908149, guid: 84d077e630367e84cac436b9427532a2, type: 3}
+      propertyPath: bgmSoundDatas.Array.data[0].bgm
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 67457860640908149, guid: 84d077e630367e84cac436b9427532a2, type: 3}
+      propertyPath: seSoundDatas.Array.data[0].volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 67457860640908149, guid: 84d077e630367e84cac436b9427532a2, type: 3}
+      propertyPath: seSoundDatas.Array.data[1].volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 67457860640908149, guid: 84d077e630367e84cac436b9427532a2, type: 3}
+      propertyPath: bgmSoundDatas.Array.data[0].volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 67457860640908149, guid: 84d077e630367e84cac436b9427532a2, type: 3}
+      propertyPath: seSoundDatas.Array.data[0].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9cd708e923bb54747888d9ae33f5c74c, type: 3}
+    - target: {fileID: 67457860640908149, guid: 84d077e630367e84cac436b9427532a2, type: 3}
+      propertyPath: seSoundDatas.Array.data[1].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: a691f899280e83946afa637e9435efc3, type: 3}
+    - target: {fileID: 67457860640908149, guid: 84d077e630367e84cac436b9427532a2, type: 3}
+      propertyPath: bgmSoundDatas.Array.data[0].audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f2c526bb2d0ce9d419494036649c3b4c, type: 3}
     - target: {fileID: 5086819680659682953, guid: 84d077e630367e84cac436b9427532a2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.4333534
@@ -6059,6 +6619,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 966972093}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (3)
@@ -6174,6 +6742,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2282096544016097658, guid: 4dbd0528228a23f4a95a1957e5cd4c65, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 2282096544016097658, guid: 4dbd0528228a23f4a95a1957e5cd4c65, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6192,6 +6768,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 966972093}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (14)
@@ -6258,6 +6842,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block Hollow Square (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7853435397632674287, guid: d469ea5023751b846af32706f8acdd86, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 7853435397632674287, guid: d469ea5023751b846af32706f8acdd86, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7926471025791760419, guid: d469ea5023751b846af32706f8acdd86, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.6014309
@@ -6481,6 +7073,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DieVelocity: 25
   m_effect: {fileID: 0}
+  m_scoreTextPrefab: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
+  m_canvas: {fileID: 1743148415}
 --- !u!61 &733380063
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6578,6 +7172,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6735,7 +7337,7 @@ PrefabInstance:
     - target: {fileID: 6280466408892466161, guid: 2ff7fb619f1ae1b44b44424f5155d087, type: 3}
       propertyPath: _enemyText
       value: 
-      objectReference: {fileID: 79203770}
+      objectReference: {fileID: 1132217203}
     - target: {fileID: 6280466408892466161, guid: 2ff7fb619f1ae1b44b44424f5155d087, type: 3}
       propertyPath: _isTareget
       value: 0
@@ -6747,7 +7349,7 @@ PrefabInstance:
     - target: {fileID: 6280466408892466161, guid: 2ff7fb619f1ae1b44b44424f5155d087, type: 3}
       propertyPath: _finishButtom
       value: 
-      objectReference: {fileID: 1670995209}
+      objectReference: {fileID: 1132217202}
     - target: {fileID: 6280466408892466161, guid: 2ff7fb619f1ae1b44b44424f5155d087, type: 3}
       propertyPath: _itemAddForce
       value: 
@@ -6763,7 +7365,7 @@ PrefabInstance:
     - target: {fileID: 6280466408892466161, guid: 2ff7fb619f1ae1b44b44424f5155d087, type: 3}
       propertyPath: _gameOverButton
       value: 
-      objectReference: {fileID: 380473603}
+      objectReference: {fileID: 1132217201}
     - target: {fileID: 6280466408892466161, guid: 2ff7fb619f1ae1b44b44424f5155d087, type: 3}
       propertyPath: _pawerItemButton
       value: 
@@ -6944,6 +7546,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5417908887116902210, guid: 438fef3a81af38943b6b99ea6b3c0ea3, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5417908887116902210, guid: 438fef3a81af38943b6b99ea6b3c0ea3, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7152,6 +7762,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2049789512}
     m_Modifications:
+    - target: {fileID: 374100691960327443, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 374100691960327443, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6210306137752328490, guid: 40dcad8b7d5242b4ea09ab418e40c0fd, type: 3}
     - target: {fileID: 7324483376325809776, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.05
@@ -7399,6 +8017,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7456,6 +8082,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: TNT (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8026335999032532957, guid: 0a2098ba26f33d64185197b29970795e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8026335999032532957, guid: 0a2098ba26f33d64185197b29970795e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6291220081502024004, guid: 29dd7f15afe1a5b45b2bca0175d399a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7525,6 +8159,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2049789512}
     m_Modifications:
+    - target: {fileID: 374100691960327443, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 374100691960327443, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6210306137752328490, guid: 40dcad8b7d5242b4ea09ab418e40c0fd, type: 3}
     - target: {fileID: 7324483376325809776, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.05
@@ -7634,6 +8276,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf
@@ -7765,6 +8415,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice Square
       objectReference: {fileID: 0}
+    - target: {fileID: 5868242807919175422, guid: f8df6609edb128343afc8218f6ad0cf1, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5868242807919175422, guid: f8df6609edb128343afc8218f6ad0cf1, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7837,6 +8495,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Shelf Bock (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5102091205254681286, guid: c08473f1da1ca4b48a074f54a5132ad4, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5102091205254681286, guid: c08473f1da1ca4b48a074f54a5132ad4, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7854,6 +8520,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice Hollow Square  (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1894837645892507960, guid: 03d963b3ed53ab74e84c79fb93eea7e8, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 1894837645892507960, guid: 03d963b3ed53ab74e84c79fb93eea7e8, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 4444802596507005040, guid: 03d963b3ed53ab74e84c79fb93eea7e8, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.3
@@ -7919,6 +8593,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 966972093}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (19)
@@ -7985,6 +8667,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block Hollow Square (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7853435397632674287, guid: d469ea5023751b846af32706f8acdd86, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 7853435397632674287, guid: d469ea5023751b846af32706f8acdd86, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7926471025791760419, guid: d469ea5023751b846af32706f8acdd86, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.7943504
@@ -8243,6 +8933,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5417908887116902210, guid: 438fef3a81af38943b6b99ea6b3c0ea3, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5417908887116902210, guid: 438fef3a81af38943b6b99ea6b3c0ea3, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8286,6 +8984,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 966972093}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (4)
@@ -8575,6 +9281,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8819,6 +9533,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2049789512}
     m_Modifications:
+    - target: {fileID: 374100691960327443, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 374100691960327443, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6210306137752328490, guid: 40dcad8b7d5242b4ea09ab418e40c0fd, type: 3}
     - target: {fileID: 7324483376325809776, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.05
@@ -8942,6 +9664,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PC  (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6280477867118030084, guid: c7c4c100d4ca3a04fb726a0a8a683d96, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 6280477867118030084, guid: c7c4c100d4ca3a04fb726a0a8a683d96, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9046,6 +9776,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice Hollow Square  (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1894837645892507960, guid: 03d963b3ed53ab74e84c79fb93eea7e8, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 1894837645892507960, guid: 03d963b3ed53ab74e84c79fb93eea7e8, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 4444802596507005040, guid: 03d963b3ed53ab74e84c79fb93eea7e8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.3785686
@@ -9192,6 +9930,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_2 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9253,6 +9999,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2282096544016097658, guid: 4dbd0528228a23f4a95a1957e5cd4c65, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 2282096544016097658, guid: 4dbd0528228a23f4a95a1957e5cd4c65, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9395,6 +10149,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9413,6 +10175,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 966972093}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (5)
@@ -9484,6 +10254,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block Hollow Square (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7853435397632674287, guid: d469ea5023751b846af32706f8acdd86, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 7853435397632674287, guid: d469ea5023751b846af32706f8acdd86, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7926471025791760419, guid: d469ea5023751b846af32706f8acdd86, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.59835047
@@ -9715,6 +10493,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9732,6 +10518,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'Ice Hollow Square '
       objectReference: {fileID: 0}
+    - target: {fileID: 1894837645892507960, guid: 03d963b3ed53ab74e84c79fb93eea7e8, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 1894837645892507960, guid: 03d963b3ed53ab74e84c79fb93eea7e8, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 4444802596507005040, guid: 03d963b3ed53ab74e84c79fb93eea7e8, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.3
@@ -9807,6 +10601,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 966972093}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (7)
@@ -9856,6 +10658,156 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+--- !u!1001 &1132217199
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1896296595}
+    m_Modifications:
+    - target: {fileID: 842850897045936448, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_Name
+      value: TextCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 1371451760148051137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1767816657}
+    - target: {fileID: 1371451760148051137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GetResult
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335297629625991520, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1767816657}
+    - target: {fileID: 7335297629625991520, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GetGameOver
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+--- !u!224 &1132217200 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5042635436951283137, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+  m_PrefabInstance: {fileID: 1132217199}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1132217201 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4079251174218534877, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+  m_PrefabInstance: {fileID: 1132217199}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1132217202 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3983822117211749138, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+  m_PrefabInstance: {fileID: 1132217199}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1132217203 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2548390249270721122, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+  m_PrefabInstance: {fileID: 1132217199}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1132217204 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1588761030277507998, guid: c69d1de0e85439f4daf060507cb6f24f, type: 3}
+  m_PrefabInstance: {fileID: 1132217199}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1136539953
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9920,6 +10872,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8146578151071767957, guid: 6ff4fc95858fa4743bada8ab12f4a179, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8146578151071767957, guid: 6ff4fc95858fa4743bada8ab12f4a179, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6210306137752328490, guid: 40dcad8b7d5242b4ea09ab418e40c0fd, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10062,6 +11022,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_2 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10134,6 +11102,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10329,6 +11305,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10394,6 +11378,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5417908887116902210, guid: 438fef3a81af38943b6b99ea6b3c0ea3, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5417908887116902210, guid: 438fef3a81af38943b6b99ea6b3c0ea3, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10451,6 +11443,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice Square (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5868242807919175422, guid: f8df6609edb128343afc8218f6ad0cf1, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5868242807919175422, guid: f8df6609edb128343afc8218f6ad0cf1, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10508,6 +11508,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: TNT
       objectReference: {fileID: 0}
+    - target: {fileID: 8026335999032532957, guid: 0a2098ba26f33d64185197b29970795e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8026335999032532957, guid: 0a2098ba26f33d64185197b29970795e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6291220081502024004, guid: 29dd7f15afe1a5b45b2bca0175d399a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10535,6 +11543,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block Hollow Square
       objectReference: {fileID: 0}
+    - target: {fileID: 7853435397632674287, guid: d469ea5023751b846af32706f8acdd86, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 7853435397632674287, guid: d469ea5023751b846af32706f8acdd86, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7926471025791760419, guid: d469ea5023751b846af32706f8acdd86, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.6143505
@@ -10720,6 +11736,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood Dsck
       objectReference: {fileID: 0}
+    - target: {fileID: 2306074133112956917, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 2306074133112956917, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7620005547238329043, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.5870891
@@ -10830,6 +11854,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_2 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10847,6 +11879,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block Hollow Square (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7853435397632674287, guid: d469ea5023751b846af32706f8acdd86, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 7853435397632674287, guid: d469ea5023751b846af32706f8acdd86, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7926471025791760419, guid: d469ea5023751b846af32706f8acdd86, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.8335686
@@ -10944,6 +11984,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11001,6 +12049,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Copy Machine (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7975907346510910273, guid: 913c0972fbc208d42b75ae3aa9fb2c7e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 7975907346510910273, guid: 913c0972fbc208d42b75ae3aa9fb2c7e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11058,6 +12114,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf
@@ -11115,6 +12179,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf
@@ -11146,6 +12218,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.15
@@ -11321,6 +12401,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11526,6 +12614,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11793,6 +12889,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12025,6 +13129,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.15
@@ -12163,6 +13275,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.15
@@ -12224,6 +13344,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1409652812}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf
@@ -12285,6 +13413,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice Hollow Square  (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1894837645892507960, guid: 03d963b3ed53ab74e84c79fb93eea7e8, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 1894837645892507960, guid: 03d963b3ed53ab74e84c79fb93eea7e8, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 4444802596507005040, guid: 03d963b3ed53ab74e84c79fb93eea7e8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.5994301
@@ -12353,6 +13489,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1999507170}
     m_Modifications:
+    - target: {fileID: 3466774027505899889, guid: e0b153170e9f4e1489b5c3154ddcf2ec, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3466774027505899889, guid: e0b153170e9f4e1489b5c3154ddcf2ec, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5305838936785993830, guid: e0b153170e9f4e1489b5c3154ddcf2ec, type: 3}
       propertyPath: m_Name
       value: Block Circle (1)
@@ -12434,6 +13578,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.15
@@ -12495,6 +13647,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 966972093}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (9)
@@ -12552,6 +13712,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 966972093}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf
@@ -12687,6 +13855,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DieVelocity: 20
   m_effect: {fileID: 7205103241747219319, guid: 5202121be96537f4b86ef9136510f6a7, type: 3}
+  m_scoreTextPrefab: {fileID: 6210306137752328490, guid: 40dcad8b7d5242b4ea09ab418e40c0fd, type: 3}
+  m_canvas: {fileID: 1743148415}
 --- !u!1001 &1341528746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12739,6 +13909,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: TNT
       objectReference: {fileID: 0}
+    - target: {fileID: 8026335999032532957, guid: 0a2098ba26f33d64185197b29970795e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8026335999032532957, guid: 0a2098ba26f33d64185197b29970795e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6291220081502024004, guid: 29dd7f15afe1a5b45b2bca0175d399a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12756,6 +13934,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block Hollow Square (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7853435397632674287, guid: d469ea5023751b846af32706f8acdd86, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 7853435397632674287, guid: d469ea5023751b846af32706f8acdd86, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7926471025791760419, guid: d469ea5023751b846af32706f8acdd86, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.398569
@@ -12853,6 +14039,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12923,6 +14117,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_2 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13180,6 +14382,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13298,6 +14508,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Copy Machine
       objectReference: {fileID: 0}
+    - target: {fileID: 7975907346510910273, guid: 913c0972fbc208d42b75ae3aa9fb2c7e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 7975907346510910273, guid: 913c0972fbc208d42b75ae3aa9fb2c7e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13355,6 +14573,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13443,6 +14669,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.15
@@ -13571,6 +14805,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 966972093}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (12)
@@ -13706,6 +14948,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2282096544016097658, guid: 4dbd0528228a23f4a95a1957e5cd4c65, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 2282096544016097658, guid: 4dbd0528228a23f4a95a1957e5cd4c65, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13728,6 +14978,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.15
@@ -13803,6 +15061,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block Hollow Square (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7853435397632674287, guid: d469ea5023751b846af32706f8acdd86, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 7853435397632674287, guid: d469ea5023751b846af32706f8acdd86, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7926471025791760419, guid: d469ea5023751b846af32706f8acdd86, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.398569
@@ -13856,6 +15122,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 966972093}
     m_Modifications:
+    - target: {fileID: 2154988478141561146, guid: 87b9e1558c3604b4a83823cc4122a3a9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 2154988478141561146, guid: 87b9e1558c3604b4a83823cc4122a3a9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 4933939739338081540, guid: 87b9e1558c3604b4a83823cc4122a3a9, type: 3}
       propertyPath: m_Name
       value: Wood Hollow Square
@@ -13957,6 +15231,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Copy Machine
       objectReference: {fileID: 0}
+    - target: {fileID: 7975907346510910273, guid: 913c0972fbc208d42b75ae3aa9fb2c7e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 7975907346510910273, guid: 913c0972fbc208d42b75ae3aa9fb2c7e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14010,6 +15292,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5557126936650829766, guid: 528413b1948310e47b05c7e648af937e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6825704262873586689, guid: 528413b1948310e47b05c7e648af937e, type: 3}
       propertyPath: m_Name
       value: Wood Shelf (1)
@@ -14162,6 +15452,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5153888440256958170, guid: 193fd0fec9cf5bc4aae27e68eeb693b0, type: 3}
   m_PrefabInstance: {fileID: 1615943606}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1509028474 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8978817241540356824, guid: 84d077e630367e84cac436b9427532a2, type: 3}
+  m_PrefabInstance: {fileID: 701400872}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1511979934
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14174,6 +15469,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.15
@@ -14279,6 +15582,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14301,6 +15612,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.15
@@ -14550,6 +15869,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2068534739}
     m_Modifications:
+    - target: {fileID: 374100691960327443, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 374100691960327443, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6210306137752328490, guid: 40dcad8b7d5242b4ea09ab418e40c0fd, type: 3}
     - target: {fileID: 7324483376325809776, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.06
@@ -14663,6 +15990,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PC  (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6280477867118030084, guid: c7c4c100d4ca3a04fb726a0a8a683d96, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 6280477867118030084, guid: c7c4c100d4ca3a04fb726a0a8a683d96, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14743,6 +16078,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_2
       objectReference: {fileID: 0}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14820,6 +16163,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_1
       objectReference: {fileID: 0}
+    - target: {fileID: 8146578151071767957, guid: 6ff4fc95858fa4743bada8ab12f4a179, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8146578151071767957, guid: 6ff4fc95858fa4743bada8ab12f4a179, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6210306137752328490, guid: 40dcad8b7d5242b4ea09ab418e40c0fd, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14934,6 +16285,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DieVelocity: 500
   m_effect: {fileID: 3969429051180598289, guid: 2a4d4edb2aeddda48aa1bdf777ae6d04, type: 3}
+  m_scoreTextPrefab: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
+  m_canvas: {fileID: 0}
 --- !u!4 &1603582044 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5222712307204788158, guid: 6ff4fc95858fa4743bada8ab12f4a179, type: 3}
@@ -14951,6 +16304,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice Hollow Square  (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1894837645892507960, guid: 03d963b3ed53ab74e84c79fb93eea7e8, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 1894837645892507960, guid: 03d963b3ed53ab74e84c79fb93eea7e8, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 4444802596507005040, guid: 03d963b3ed53ab74e84c79fb93eea7e8, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.3
@@ -15061,6 +16422,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5583590368945227376, guid: 193fd0fec9cf5bc4aae27e68eeb693b0, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5583590368945227376, guid: 193fd0fec9cf5bc4aae27e68eeb693b0, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6091938964958427887, guid: 193fd0fec9cf5bc4aae27e68eeb693b0, type: 3}
       propertyPath: m_Name
       value: Rock Cair
@@ -15083,6 +16452,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 966972093}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (16)
@@ -15189,6 +16566,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15316,6 +16701,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_2 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15489,6 +16882,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DieVelocity: 25
   m_effect: {fileID: 0}
+  m_scoreTextPrefab: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
+  m_canvas: {fileID: 1743148415}
 --- !u!61 &1638243165
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15586,6 +16981,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15705,6 +17108,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15718,6 +17129,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 966972093}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (6)
@@ -15820,9 +17239,17 @@ PrefabInstance:
       value: TNT
       objectReference: {fileID: 0}
     - target: {fileID: 8026335999032532957, guid: 0a2098ba26f33d64185197b29970795e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8026335999032532957, guid: 0a2098ba26f33d64185197b29970795e, type: 3}
       propertyPath: DieVelocity
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 8026335999032532957, guid: 0a2098ba26f33d64185197b29970795e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6291220081502024004, guid: 29dd7f15afe1a5b45b2bca0175d399a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15846,6 +17273,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 966972093}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (15)
@@ -15910,11 +17345,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1190817942605872455, guid: c388c51430730d541b9b8d458351273d, type: 3}
   m_PrefabInstance: {fileID: 971231251}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1670995209 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1429206488950941739, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-  m_PrefabInstance: {fileID: 1853110487}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1673070026 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7926471025791760419, guid: d469ea5023751b846af32706f8acdd86, type: 3}
@@ -15977,6 +17407,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15994,6 +17432,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.15
@@ -16059,6 +17505,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice Hollow Square  (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1894837645892507960, guid: 03d963b3ed53ab74e84c79fb93eea7e8, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 1894837645892507960, guid: 03d963b3ed53ab74e84c79fb93eea7e8, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 4444802596507005040, guid: 03d963b3ed53ab74e84c79fb93eea7e8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.84256935
@@ -16117,6 +17571,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2068534739}
     m_Modifications:
+    - target: {fileID: 374100691960327443, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 374100691960327443, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6210306137752328490, guid: 40dcad8b7d5242b4ea09ab418e40c0fd, type: 3}
     - target: {fileID: 7324483376325809776, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.06
@@ -16235,6 +17697,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16305,6 +17775,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_2 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16371,6 +17849,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 5583590368945227376, guid: 193fd0fec9cf5bc4aae27e68eeb693b0, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5583590368945227376, guid: 193fd0fec9cf5bc4aae27e68eeb693b0, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6091938964958427887, guid: 193fd0fec9cf5bc4aae27e68eeb693b0, type: 3}
       propertyPath: m_Name
       value: Rock Cair
@@ -16432,6 +17918,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'PC '
       objectReference: {fileID: 0}
+    - target: {fileID: 6280477867118030084, guid: c7c4c100d4ca3a04fb726a0a8a683d96, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 6280477867118030084, guid: c7c4c100d4ca3a04fb726a0a8a683d96, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16497,6 +17991,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_2 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16696,6 +18198,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.15
@@ -16761,6 +18271,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block Hollow Square (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7853435397632674287, guid: d469ea5023751b846af32706f8acdd86, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 7853435397632674287, guid: d469ea5023751b846af32706f8acdd86, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7926471025791760419, guid: d469ea5023751b846af32706f8acdd86, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.8163505
@@ -16811,6 +18329,107 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8096431095734683165, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
   m_PrefabInstance: {fileID: 562414061}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1743148414
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1743148418}
+  - component: {fileID: 1743148415}
+  - component: {fileID: 1743148417}
+  - component: {fileID: 1743148416}
+  m_Layer: 0
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!223 &1743148415
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743148414}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!114 &1743148416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743148414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1743148417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743148414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!224 &1743148418
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743148414}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1896296595}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!4 &1753904185 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4114030546865311220, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
@@ -16838,6 +18457,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.088375
@@ -16981,6 +18608,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ice Hollow Square  (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1894837645892507960, guid: 03d963b3ed53ab74e84c79fb93eea7e8, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 1894837645892507960, guid: 03d963b3ed53ab74e84c79fb93eea7e8, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 4444802596507005040, guid: 03d963b3ed53ab74e84c79fb93eea7e8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.3785686
@@ -17078,6 +18713,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Shelf Bock (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5102091205254681286, guid: c08473f1da1ca4b48a074f54a5132ad4, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5102091205254681286, guid: c08473f1da1ca4b48a074f54a5132ad4, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17238,6 +18881,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.15
@@ -17356,6 +19007,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5417908887116902210, guid: 438fef3a81af38943b6b99ea6b3c0ea3, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5417908887116902210, guid: 438fef3a81af38943b6b99ea6b3c0ea3, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17374,6 +19033,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 966972093}
     m_Modifications:
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5618863376649162868, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7492122463291746704, guid: 51cbe4b48c01ae54f99eb745a5fcc96d, type: 3}
       propertyPath: m_Name
       value: Rock Shelf (10)
@@ -17440,6 +19107,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.15
@@ -17553,6 +19228,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5417908887116902210, guid: 438fef3a81af38943b6b99ea6b3c0ea3, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5417908887116902210, guid: 438fef3a81af38943b6b99ea6b3c0ea3, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17610,6 +19293,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Copy Machine (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7975907346510910273, guid: 913c0972fbc208d42b75ae3aa9fb2c7e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 7975907346510910273, guid: 913c0972fbc208d42b75ae3aa9fb2c7e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17667,6 +19358,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17739,215 +19438,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
   m_PrefabInstance: {fileID: 1278059329}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1853110487
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1896296595}
-    m_Modifications:
-    - target: {fileID: 306484867517866523, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_Colors.m_NormalColor.a
-      value: 0.74509805
-      objectReference: {fileID: 0}
-    - target: {fileID: 306484867517866523, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 306484867517866523, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 306484867517866523, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1767816657}
-    - target: {fileID: 306484867517866523, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 306484867517866523, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: GetResult
-      objectReference: {fileID: 0}
-    - target: {fileID: 306484867517866523, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: SceneChenge, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 306484867517866523, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4787381076981094761, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 500
-      objectReference: {fileID: 0}
-    - target: {fileID: 4787381076981094761, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 4787381076981094761, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4787381076981094761, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385722818140054363, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_Name
-      value: Text Canvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 6703655868180069870, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_Colors.m_NormalColor.a
-      value: 0.74509805
-      objectReference: {fileID: 0}
-    - target: {fileID: 6703655868180069870, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6703655868180069870, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6703655868180069870, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1767816657}
-    - target: {fileID: 6703655868180069870, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6703655868180069870, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: GetGameOver
-      objectReference: {fileID: 0}
-    - target: {fileID: 6703655868180069870, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: SceneChenge, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6703655868180069870, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 8451032694022075260, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 500
-      objectReference: {fileID: 0}
-    - target: {fileID: 8451032694022075260, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 8451032694022075260, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8451032694022075260, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
---- !u!224 &1853110488 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 2309964092951294448, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-  m_PrefabInstance: {fileID: 1853110487}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1853110491 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7232168239740689171, guid: 1a23461c92facf746a7460a202ab55fc, type: 3}
-  m_PrefabInstance: {fileID: 1853110487}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1857191916
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18127,6 +19617,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood Dsck
       objectReference: {fileID: 0}
+    - target: {fileID: 2306074133112956917, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 2306074133112956917, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7620005547238329043, guid: d53bc6fb52bc9044bae0d45c7350c1e8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.977089
@@ -18237,6 +19735,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5583590368945227376, guid: 193fd0fec9cf5bc4aae27e68eeb693b0, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5583590368945227376, guid: 193fd0fec9cf5bc4aae27e68eeb693b0, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 6091938964958427887, guid: 193fd0fec9cf5bc4aae27e68eeb693b0, type: 3}
       propertyPath: m_Name
       value: Rock Cair
@@ -18270,6 +19776,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.15
@@ -18425,8 +19939,9 @@ Transform:
   m_Children:
   - {fileID: 2106925166}
   - {fileID: 1107906727}
-  - {fileID: 1853110488}
+  - {fileID: 1132217200}
   - {fileID: 1275589134}
+  - {fileID: 1743148418}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1900089902 stripped
@@ -18486,6 +20001,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18519,6 +20042,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1999507170}
     m_Modifications:
+    - target: {fileID: 3466774027505899889, guid: e0b153170e9f4e1489b5c3154ddcf2ec, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3466774027505899889, guid: e0b153170e9f4e1489b5c3154ddcf2ec, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5305838936785993830, guid: e0b153170e9f4e1489b5c3154ddcf2ec, type: 3}
       propertyPath: m_Name
       value: Block Circle
@@ -18650,6 +20181,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block Hollow Square
       objectReference: {fileID: 0}
+    - target: {fileID: 7853435397632674287, guid: d469ea5023751b846af32706f8acdd86, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 7853435397632674287, guid: d469ea5023751b846af32706f8acdd86, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7926471025791760419, guid: d469ea5023751b846af32706f8acdd86, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.054430008
@@ -18755,6 +20294,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_2 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18886,6 +20433,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2282096544016097658, guid: 4dbd0528228a23f4a95a1957e5cd4c65, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 2282096544016097658, guid: 4dbd0528228a23f4a95a1957e5cd4c65, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18955,6 +20510,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8146578151071767957, guid: 6ff4fc95858fa4743bada8ab12f4a179, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8146578151071767957, guid: 6ff4fc95858fa4743bada8ab12f4a179, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6210306137752328490, guid: 40dcad8b7d5242b4ea09ab418e40c0fd, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18997,6 +20560,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.15
@@ -19114,6 +20685,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8146578151071767957, guid: 6ff4fc95858fa4743bada8ab12f4a179, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8146578151071767957, guid: 6ff4fc95858fa4743bada8ab12f4a179, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6210306137752328490, guid: 40dcad8b7d5242b4ea09ab418e40c0fd, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19205,6 +20784,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block Hollow Square (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7853435397632674287, guid: d469ea5023751b846af32706f8acdd86, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 7853435397632674287, guid: d469ea5023751b846af32706f8acdd86, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7926471025791760419, guid: d469ea5023751b846af32706f8acdd86, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.056430817
@@ -19310,6 +20897,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5417908887116902210, guid: 438fef3a81af38943b6b99ea6b3c0ea3, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5417908887116902210, guid: 438fef3a81af38943b6b99ea6b3c0ea3, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19380,6 +20975,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5417908887116902210, guid: 438fef3a81af38943b6b99ea6b3c0ea3, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 5417908887116902210, guid: 438fef3a81af38943b6b99ea6b3c0ea3, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19685,6 +21288,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block_2 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3533311617363511853, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 5774111261918068828, guid: 3ffaa789b75c14d4199d741e429042d9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.15
@@ -19790,6 +21401,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19808,6 +21427,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2049789512}
     m_Modifications:
+    - target: {fileID: 374100691960327443, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 374100691960327443, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6210306137752328490, guid: 40dcad8b7d5242b4ea09ab418e40c0fd, type: 3}
     - target: {fileID: 7324483376325809776, guid: a991f4eac44c1f745b2bb551bd67190a, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.05
@@ -20049,6 +21676,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wood_2 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8285311063264694046, guid: 924a12f183d24fa41a94850e06c1b920, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20118,6 +21753,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_1
       objectReference: {fileID: 0}
+    - target: {fileID: 8146578151071767957, guid: 6ff4fc95858fa4743bada8ab12f4a179, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8146578151071767957, guid: 6ff4fc95858fa4743bada8ab12f4a179, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6210306137752328490, guid: 40dcad8b7d5242b4ea09ab418e40c0fd, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20252,6 +21895,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 3658658801981586641, guid: c388c51430730d541b9b8d458351273d, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20385,6 +22036,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock Dsck (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 2192979148647353235, guid: 72581716ad48955489832bc22ed17e00, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20402,6 +22061,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block Hollow Square (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7853435397632674287, guid: d469ea5023751b846af32706f8acdd86, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 7853435397632674287, guid: d469ea5023751b846af32706f8acdd86, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 7926471025791760419, guid: d469ea5023751b846af32706f8acdd86, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.601431
@@ -20455,6 +22122,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 966972093}
     m_Modifications:
+    - target: {fileID: 2154988478141561146, guid: 87b9e1558c3604b4a83823cc4122a3a9, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 2154988478141561146, guid: 87b9e1558c3604b4a83823cc4122a3a9, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     - target: {fileID: 4933939739338081540, guid: 87b9e1558c3604b4a83823cc4122a3a9, type: 3}
       propertyPath: m_Name
       value: Wood Hollow Square (1)
@@ -20556,6 +22231,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: TNT (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8026335999032532957, guid: 0a2098ba26f33d64185197b29970795e, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 8026335999032532957, guid: 0a2098ba26f33d64185197b29970795e, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 6291220081502024004, guid: 29dd7f15afe1a5b45b2bca0175d399a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20680,6 +22363,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2282096544016097658, guid: 4dbd0528228a23f4a95a1957e5cd4c65, type: 3}
+      propertyPath: m_canvas
+      value: 
+      objectReference: {fileID: 1743148415}
+    - target: {fileID: 2282096544016097658, guid: 4dbd0528228a23f4a95a1957e5cd4c65, type: 3}
+      propertyPath: m_scoreTextPrefab
+      value: 
+      objectReference: {fileID: 4379363817428826697, guid: b7141b0535e73d840a8575df5b4ce3a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

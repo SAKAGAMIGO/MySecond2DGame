@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-    [SerializeField, Tooltip("BGM")] AudioSource bgmAudioSource;
-    [SerializeField, Tooltip("SE")] AudioSource seAudioSource;
+    [SerializeField, Tooltip("BGM")] private AudioSource bgmAudioSource;
+    [SerializeField, Tooltip("SE")] private AudioSource seAudioSourcePrefab;
 
-    [SerializeField] List<BGMSoundData> bgmSoundDatas;
-    [SerializeField] List<SESoundData> seSoundDatas;
+    [SerializeField] private List<BGMSoundData> bgmSoundDatas;
+    [SerializeField] private List<SESoundData> seSoundDatas;
 
-    public float m_masterVolume = 1;
-    public float m_bgmMasterVolume = 1;
-    public float m_seMasterVolume = 1;
+    [Range(0, 1)] public float m_masterVolume = 1;
+    [Range(0, 1)] public float m_bgmMasterVolume = 1;
+    [Range(0, 1)] public float m_seMasterVolume = 1;
 
     public static SoundManager Instance { get; private set; }
 
@@ -31,23 +31,47 @@ public class SoundManager : MonoBehaviour
 
     public void PlayBGM(BGMSoundData.BGM bgm)
     {
-        BGMSoundData data = bgmSoundDatas.Find(data => data.bgm == bgm);
+        BGMSoundData data = bgmSoundDatas.Find(d => d.bgm == bgm);
+        if (data == null)
+        {
+            Debug.LogWarning($"BGM '{bgm}' not found!");
+            return;
+        }
+
         bgmAudioSource.clip = data.audioClip;
         bgmAudioSource.volume = data.volume * m_bgmMasterVolume * m_masterVolume;
+        bgmAudioSource.loop = true;
         bgmAudioSource.Play();
+    }
+
+    public void StopBGM()
+    {
+        if (bgmAudioSource.isPlaying)
+        {
+            bgmAudioSource.Stop();
+        }
     }
 
     public void PlaySE(SESoundData.SE se)
     {
-        if (seAudioSource == null)
+        SESoundData data = seSoundDatas.Find(d => d.se == se);
+        if (data == null)
         {
-            Debug.LogWarning("SE AudioSource is missing. Re-assigning AudioSource.");
-            seAudioSource = gameObject.AddComponent<AudioSource>();
+            Debug.LogWarning($"SE '{se}' not found!");
+            return;
         }
 
-        SESoundData data = seSoundDatas.Find(data => data.se == se);
+        AudioSource seAudioSource = Instantiate(seAudioSourcePrefab, transform);
+        seAudioSource.clip = data.audioClip;
         seAudioSource.volume = data.volume * m_seMasterVolume * m_masterVolume;
-        seAudioSource.PlayOneShot(data.audioClip);
+        seAudioSource.Play();
+
+        Destroy(seAudioSource.gameObject, data.audioClip.length);
+    }
+
+    public void UpdateVolume()
+    {
+        bgmAudioSource.volume = m_bgmMasterVolume * m_masterVolume;
     }
 }
 
@@ -60,13 +84,12 @@ public class BGMSoundData
         StageSelect,
         Stage,
         Result,
-        GameOver,// これがラベルになる
+        GameOver, // これがラベルになる
     }
 
     public BGM bgm;
     public AudioClip audioClip;
-    [Range(0, 1)]
-    public float volume = 1;
+    [Range(0, 1)] public float volume = 1;
 }
 
 [System.Serializable]
@@ -91,13 +114,12 @@ public class SESoundData
         Enemy,
         EnemyBroken,
         Boss,
-        Cherge,
+        Charge,
         Item,
-        Button,// これがラベルになる
+        Button, // これがラベルになる
     }
 
     public SE se;
     public AudioClip audioClip;
-    [Range(0, 1)]
-    public float volume = 1;
+    [Range(0, 1)] public float volume = 1;
 }
