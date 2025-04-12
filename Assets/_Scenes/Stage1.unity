@@ -1704,14 +1704,8 @@ Transform:
   - {fileID: 7866613314992948209}
   - {fileID: 643367235}
   - {fileID: 1837147420}
-  - {fileID: 565115699}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &565115699 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2898222760233707093, guid: c47ce57cf6196ef418e19a7d03d818f7, type: 3}
-  m_PrefabInstance: {fileID: 7390139265019765832}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &569718213 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1304441841540037385, guid: 7cd68a8664a7247448f14bee2a5b54ba, type: 3}
@@ -8090,6 +8084,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 562258793}
     m_Modifications:
     - target: {fileID: 67457860640908149, guid: 84d077e630367e84cac436b9427532a2, type: 3}
+      propertyPath: seAudioSourcePrefab
+      value: 
+      objectReference: {fileID: 4327425985319590510}
+    - target: {fileID: 67457860640908149, guid: 84d077e630367e84cac436b9427532a2, type: 3}
       propertyPath: seSoundDatas.Array.size
       value: 7
       objectReference: {fileID: 0}
@@ -8185,6 +8183,11 @@ PrefabInstance:
 --- !u!4 &4327425985319590509 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5086819680659682953, guid: 84d077e630367e84cac436b9427532a2, type: 3}
+  m_PrefabInstance: {fileID: 4327425985319590508}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &4327425985319590510 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8978817241540356824, guid: 84d077e630367e84cac436b9427532a2, type: 3}
   m_PrefabInstance: {fileID: 4327425985319590508}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4725636796506830702
@@ -8851,63 +8854,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1190817942605872455, guid: c388c51430730d541b9b8d458351273d, type: 3}
   m_PrefabInstance: {fileID: 6744470279981836658}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &7390139265019765832
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 562258793}
-    m_Modifications:
-    - target: {fileID: 2898222760233707093, guid: c47ce57cf6196ef418e19a7d03d818f7, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 4.612598
-      objectReference: {fileID: 0}
-    - target: {fileID: 2898222760233707093, guid: c47ce57cf6196ef418e19a7d03d818f7, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.2590146
-      objectReference: {fileID: 0}
-    - target: {fileID: 2898222760233707093, guid: c47ce57cf6196ef418e19a7d03d818f7, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 4634.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 2898222760233707093, guid: c47ce57cf6196ef418e19a7d03d818f7, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2898222760233707093, guid: c47ce57cf6196ef418e19a7d03d818f7, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2898222760233707093, guid: c47ce57cf6196ef418e19a7d03d818f7, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2898222760233707093, guid: c47ce57cf6196ef418e19a7d03d818f7, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2898222760233707093, guid: c47ce57cf6196ef418e19a7d03d818f7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2898222760233707093, guid: c47ce57cf6196ef418e19a7d03d818f7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2898222760233707093, guid: c47ce57cf6196ef418e19a7d03d818f7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3950786186373330802, guid: c47ce57cf6196ef418e19a7d03d818f7, type: 3}
-      propertyPath: m_Name
-      value: ScoreTextController
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c47ce57cf6196ef418e19a7d03d818f7, type: 3}
 --- !u!1001 &7866613314992948208
 PrefabInstance:
   m_ObjectHideFlags: 0

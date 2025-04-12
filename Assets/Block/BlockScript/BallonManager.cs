@@ -40,6 +40,6 @@ public class BallonManager : MonoBehaviour
 
     public void OnDestroy()
     {
-        SceneChenge.AddScore(100);
+        ScoreDisplay.AddScore(100);
     }
 }

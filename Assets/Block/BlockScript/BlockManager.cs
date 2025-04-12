@@ -12,11 +12,6 @@ public class BlockManager : MonoBehaviour
     [SerializeField] private GameObject m_scoreTextPrefab = default; // スコアテキストのプレハブ
     [SerializeField] private Canvas m_canvas = default;             // スコアテキストを表示するCanvas
 
-    void Start()
-    {
-
-    }
-
     /// <summary>衝突イベント</summary>
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -35,7 +30,7 @@ public class BlockManager : MonoBehaviour
 
     public void OnDestroy()
     {
-        SceneChenge.AddScore(500);
+        ScoreDisplay.AddScore(500);
         ShowScoreText(500); // スコアテキストを表示
     }
 

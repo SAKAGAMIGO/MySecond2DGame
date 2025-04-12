@@ -25,7 +25,7 @@ public class EnemyManager : MonoBehaviour
 
         if (collision.relativeVelocity.sqrMagnitude > DieVelocity)
         {
-            SceneChenge.AddScore(1000);
+            ScoreDisplay.AddScore(1000);
             ShowScoreText(1000); // スコアテキストを表示
             Hit();
             Destroy(this.gameObject);

@@ -37,7 +37,7 @@ public class TNT : MonoBehaviour
         SoundManager.Instance.PlaySE(SESoundData.SE.TNT);
         Detonate();
         Instantiate(explosion, transform.position, transform.rotation);
-        SceneChenge.AddScore(800);
+        ScoreDisplay.AddScore(800);
 
         ShowScoreText(800); // スコアテキストを表示
     }

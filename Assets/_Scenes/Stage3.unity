@@ -1026,6 +1026,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 610052447}
     m_Modifications:
     - target: {fileID: 67457860640908149, guid: 84d077e630367e84cac436b9427532a2, type: 3}
+      propertyPath: seAudioSourcePrefab
+      value: 
+      objectReference: {fileID: 255197958}
+    - target: {fileID: 67457860640908149, guid: 84d077e630367e84cac436b9427532a2, type: 3}
       propertyPath: seSoundDatas.Array.size
       value: 8
       objectReference: {fileID: 0}
@@ -1105,6 +1109,11 @@ PrefabInstance:
 --- !u!4 &255197957 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5086819680659682953, guid: 84d077e630367e84cac436b9427532a2, type: 3}
+  m_PrefabInstance: {fileID: 255197956}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &255197958 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8978817241540356824, guid: 84d077e630367e84cac436b9427532a2, type: 3}
   m_PrefabInstance: {fileID: 255197956}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &280042801
