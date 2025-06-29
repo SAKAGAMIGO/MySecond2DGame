@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 3984875021595209314}
   - component: {fileID: 8834371281212467622}
   - component: {fileID: 388888138850190025}
-  - component: {fileID: 2966993554776554208}
   - component: {fileID: 2010093006895919143}
   - component: {fileID: 9222070962246876973}
   - component: {fileID: 884432168028554317}
@@ -107,18 +106,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DieVelocity: 25
   m_effect: {fileID: 5899740577122158404, guid: c12c2b4567ffc334b883ff6893b3341b, type: 3}
---- !u!114 &2966993554776554208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4625847121005675240}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5b270ca9295720489e4e9650a9a9fa7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_scoreTextPrefab: {fileID: 0}
+  m_canvas: {fileID: 0}
 --- !u!50 &2010093006895919143
 Rigidbody2D:
   serializedVersion: 4

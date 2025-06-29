@@ -22,7 +22,6 @@ public class PlayerExplosion : Player
             Destroy(gameObject);
         }
         Instantiate(Explosion, transform.position, transform.rotation);
-        SoundManager.Instance.PlaySE(SESoundData.SE.Bomb);
         _animator.Play("Angry");
 
     }

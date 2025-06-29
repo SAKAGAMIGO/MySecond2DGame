@@ -95,7 +95,6 @@ GameObject:
   - component: {fileID: 8096431095734683165}
   - component: {fileID: 8937531592568290713}
   - component: {fileID: 5618863376649162868}
-  - component: {fileID: 3024891129322361639}
   - component: {fileID: 263741256815701239}
   - component: {fileID: 7532592611481659215}
   m_Layer: 3
@@ -187,18 +186,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DieVelocity: 75
   m_effect: {fileID: 3969429051180598289, guid: 2a4d4edb2aeddda48aa1bdf777ae6d04, type: 3}
---- !u!114 &3024891129322361639
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7492122463291746704}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 970fe12a42c0aec43b4adedf66f5a8a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_scoreTextPrefab: {fileID: 0}
+  m_canvas: {fileID: 0}
 --- !u!61 &263741256815701239
 BoxCollider2D:
   m_ObjectHideFlags: 0

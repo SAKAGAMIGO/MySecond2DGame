@@ -34,7 +34,6 @@ public class TNT : MonoBehaviour
 
     private void OnDestroy()
     {
-        SoundManager.Instance.PlaySE(SESoundData.SE.TNT);
         Detonate();
         Instantiate(explosion, transform.position, transform.rotation);
         ScoreDisplay.AddScore(800);

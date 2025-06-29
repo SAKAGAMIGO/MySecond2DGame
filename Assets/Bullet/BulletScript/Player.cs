@@ -98,13 +98,6 @@ public class Player : MonoBehaviour
     //マウスクリックしながら移動する関数
     public void OnMouseDrag()
     {
-        if (!_isSound)
-        {
-            SoundManager.Instance.PlaySE(SESoundData.SE.Set);
-            Debug.Log("set");
-            _isSound = true;
-        }
-
         //Animationを再生
         _animator.Play("Set");
 
@@ -138,11 +131,6 @@ public class Player : MonoBehaviour
     //マウスを離した時の関数
     public void OnMouseUp()
     {
-        //SoundManagerメソッド実行
-        SoundManager.Instance.PlaySE(SESoundData.SE.Shoot);
-        Debug.Log("shoot");
-        _isSound = false;
-
         //アニメーションを再生    
         _animator.Play("Shoot");
 
