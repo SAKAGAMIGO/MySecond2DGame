@@ -14,32 +14,21 @@ public class ScoreDisplay : MonoBehaviour
 
     private const float _scoreChangeDuration = 0.5f;
 
+    //public static int Score => instance?._score ?? 0;
+    //public static int ResultScore => instance?._resultScore ?? 0;
+
     private void Awake()
     {
         if (instance == null)
         {
             instance = this;
             DontDestroyOnLoad(gameObject); // オブジェクトを保持
-            Debug.Log("ScoreDisplay is now alive and marked as DontDestroyOnLoad");
         }
         else
         {
-            Debug.Log("Duplicate ScoreDisplay destroyed");
             Destroy(gameObject); // 重複するオブジェクトを破棄
         }
-
-        // _scoreText がまだ設定されていない場合に、シーンから探して設定する
-        if (_scoreText == null)
-        {
-            _scoreText = GameObject.Find("TextCanvas")?.
-                transform.Find("ScoreText")?.GetComponent<Text>();
-            if (_scoreText == null)
-            {
-                Debug.LogWarning("ScoreText is not found in the scene!");
-            }
-        }
     }
-
 
     /// <summary>スコアテキストを更新</summary>
     public static void UpdateScoreText(int score)
